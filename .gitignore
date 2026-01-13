@@ -1,0 +1,13 @@
+.idea/
+.venv/
+__pycache__/
+*.iml
+*.zip
+*.mp4
+*.cache
+results/
+data/gen/
+out/
+*.pt
+.DS_Store
+data/
