@@ -11,3 +11,5 @@ out/
 *.pt
 .DS_Store
 data/
+#Cassaforte
+.env

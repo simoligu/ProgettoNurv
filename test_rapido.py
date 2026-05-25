@@ -1,11 +1,16 @@
 import requests
+from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+
+print(f"Sto per usare il token: {TELEGRAM_TOKEN}")      #DEBUG
+
+
 
 # URL del tuo controller Java
 URL = "http://localhost:8080/api/alerts"
 
 test_alert = {
     "project": "ProgettoNurv",
-    "label": "PERSONA",
+    "label": "PERSONA_SUI_BINARI",
     "severity": "CRITICA",      # Questo deve far apparire il badge ROSSO
     "details": "Test logica dinamica - Verifica Colori",
     "conf": 0.98,
