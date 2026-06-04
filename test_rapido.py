@@ -16,7 +16,7 @@ test_alert = {
     "conf": 0.98,
     "frame_idx": 1,
     "time_s": 0.0,
-    "source_video": "test.mp4"
+    "source_video": "PROVA"
 }
 
 print(f"Inviando test a {URL}...")
