@@ -17,7 +17,7 @@ import json
 class AnomalyDetectionPipeline:
     def __init__(self, reference_video: str, query_video: str, out_dir: str = 'out',
                  sample_step: int = 10, use_classifier: bool = False, classifier: Optional[object] = None,
-                 project_name: str = "ProgettoNurv", alert_endpoint: str = "http://localhost:8080/api/alerts"):
+                 project_name: str = "ProgettoNurv", alert_endpoint: str = "http://localhost:8080/api/alerts",tratta_id:Optional[int] = None):
         self.reference_video = reference_video
         self.query_video = query_video
         self.out_dir = out_dir
@@ -27,6 +27,7 @@ class AnomalyDetectionPipeline:
         self.project_name = project_name
         self.alert_endpoint = alert_endpoint
         self.structural_detector = StructuralDetector(expected_rail_width_px=150)
+        self.tratta_id = tratta_id
 
         VideoIO.ensure_dir(out_dir)
 
@@ -209,5 +210,6 @@ class AnomalyDetectionPipeline:
             "project": self.project_name, "frame_idx": int(idx), "time_s": round(t, 2),
             "bbox": {"x": int(x), "y": int(y), "w": int(ww), "h": int(hh)},
             "area": int(area), "label": label, "conf": float(conf), "severity": severity,
-            "details": details, "source_video": os.path.basename(query_video)
+            "details": details, "source_video": os.path.basename(query_video),
+            "trattaId": self.tratta_id
         }

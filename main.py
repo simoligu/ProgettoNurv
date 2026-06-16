@@ -4,10 +4,15 @@ import torch
 import os
 from ultralytics import YOLO
 import requests
+import argparse
 
 if __name__ == '__main__':
-    reference_video = 'data/reference.mp4'
-    query_video = 'data/query.mp4'
+    parser = argparse.ArgumentParser(description="Pipeline NURV di rilevamento anomalie")
+    parser.add_argument('--tratta', type=int, required=True, help="ID della tratta sul sito a cui appartengono gli alert")
+    args = parser.parse_args()
+
+    reference_video = 'data/videos/reference.mp4'
+    query_video = 'data/videos/query.mp4'
     out_dir = 'out'
 
     # Imposta a True solo dopo aver addestrato il tuo classifier.pth
@@ -38,7 +43,8 @@ if __name__ == '__main__':
         sample_step=8,
         use_classifier=USE_CLASSIFIER,
         classifier=classifier,
-        alert_endpoint=ALERT_ENDPOINT
+        alert_endpoint=ALERT_ENDPOINT,
+        tratta_id=args.tratta
     )
 
     print("--- Avvio Pipeline di Rilevamento Anomalie ---")
