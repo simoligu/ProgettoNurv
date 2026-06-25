@@ -13,3 +13,4 @@ out/
 data/
 #Cassaforte
 .env
+.bat
