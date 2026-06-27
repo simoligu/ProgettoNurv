@@ -7,7 +7,7 @@ BASE = Path("data/rs19_val")
 IMAGES_DIR = BASE / "jpgs" / "rs19_val"
 LABELS_DIR = BASE / "labels"
 
-NOME = "rs00000"
+NOME = "rs00002"
 
 COLORI = {0: (0, 0, 255), 1: (255, 0, 0), 2: (0, 255, 0)}
 NOMI = {0: "rotaie", 1: "pali", 2: "vegetazione"}

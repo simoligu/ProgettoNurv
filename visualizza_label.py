@@ -8,7 +8,7 @@ IMAGES_DIR = BASE / "jpgs" / "rs19_val"
 LABELS_DIR = BASE / "labels"
 
 # quale immagine verificare (cambia il nome per vederne altre)
-NOME = "rs00000"
+NOME = "rs00001"
 
 # colori per classe (BGR): 0=rotaie rosso, 1=pali blu, 2=vegetazione verde
 COLORI = {0: (0, 0, 255), 1: (255, 0, 0), 2: (0, 255, 0)}
