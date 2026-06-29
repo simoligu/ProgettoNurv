@@ -114,7 +114,10 @@ def main():
         if mask_densa is None:
             saltate += 1
             continue
-        h, w = mask_densa.shape
+        # robustezza: se per qualche motivo la maschera ha piu canali, riducila a 1
+        if mask_densa.ndim == 3:
+            mask_densa = mask_densa[:, :, 0]
+        h, w = mask_densa.shape[:2]
 
         gt = gt_semantica(mask_densa)
 
