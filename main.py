@@ -1,21 +1,25 @@
 from pipeline import AnomalyDetectionPipeline
-from classifier import SimpleClassifier
 import torch
 import os
 from ultralytics import YOLO
-import requests
 import argparse
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Pipeline NURV di rilevamento anomalie")
-    parser.add_argument('--tratta', type=int, required=True, help="ID della tratta sul sito a cui appartengono gli alert")
+    parser.add_argument('--tratta', type=int, required=True,
+                        help="ID della tratta sul sito a cui appartengono gli alert")
+    parser.add_argument('--deeplab', type=str, default='runs_seg/deeplab_hires/best.pt',
+                        help="Percorso ai pesi DeepLabV3+ (default: runs_seg/deeplab_hires/best.pt)")
+    parser.add_argument('--imgsz', type=int, default=896,
+                        help="Risoluzione di inferenza DeepLab (default: 896)")
+    parser.add_argument('--seg_step', type=int, default=30,
+                        help="Analisi strutturale ogni N frame (default: 30)")
     args = parser.parse_args()
 
     reference_video = 'data/videos/reference.mp4'
     query_video = 'data/videos/query.mp4'
     out_dir = 'out'
 
-    # Imposta a True solo dopo aver addestrato il tuo classifier.pth
     USE_CLASSIFIER = True
 
     # Selezione del device
@@ -26,8 +30,6 @@ if __name__ == '__main__':
     classifier = None
     if USE_CLASSIFIER:
         try:
-            # Carichiamo il modello YOLOv8 ufficiale
-            # Scaricherà automaticamente il file .pt al primo avvio
             classifier = YOLO('yolov8n.pt')
             print(f"[INFO] Modello YOLOv8 caricato correttamente.")
         except Exception as e:
@@ -44,7 +46,11 @@ if __name__ == '__main__':
         use_classifier=USE_CLASSIFIER,
         classifier=classifier,
         alert_endpoint=ALERT_ENDPOINT,
-        tratta_id=args.tratta
+        tratta_id=args.tratta,
+        # --- DeepLab ---
+        deeplab_weights=args.deeplab,
+        deeplab_imgsz=args.imgsz,
+        seg_step=args.seg_step,
     )
 
     print("--- Avvio Pipeline di Rilevamento Anomalie ---")
