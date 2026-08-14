@@ -14,6 +14,10 @@ if __name__ == '__main__':
                         help="Risoluzione di inferenza DeepLab (default: 896)")
     parser.add_argument('--seg_step', type=int, default=30,
                         help="Analisi strutturale ogni N frame (default: 30)")
+    parser.add_argument('--gauge_tolerance', type=float, default=0.15,
+                        help="Tolleranza percentuale sullo scartamento (default: 0.15 = 15%%). "
+                             "Abbassala (es. 0.05) per un test di sanita': verifica che il "
+                             "meccanismo di alert torni sensibile con soglia piu' stretta.")
     args = parser.parse_args()
 
     reference_video = 'data/videos/reference.mp4'
@@ -51,6 +55,7 @@ if __name__ == '__main__':
         deeplab_weights=args.deeplab,
         deeplab_imgsz=args.imgsz,
         seg_step=args.seg_step,
+        gauge_tolerance=args.gauge_tolerance,
     )
 
     print("--- Avvio Pipeline di Rilevamento Anomalie ---")

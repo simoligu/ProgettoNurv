@@ -2,7 +2,7 @@
 """
 DeepLabAnalyzer — Analisi infrastruttura ferroviaria basata su DeepLabV3+.
 
-Sostituisce la visione classica (Hough per rotaie, gradienti per pali,
+Sostituisce la visione classica di De Paolis (Hough per rotaie, gradienti per pali,
 HSV per vegetazione) con segmentazione semantica + post-processing geometrico.
 
 Classe unica che:
@@ -48,9 +48,16 @@ class DeepLabAnalyzer:
                  # --- parametri anomalie ---
                  expected_gauge_px: int = 150,
                  gauge_tolerance: float = 0.15,
+                 gauge_cv_threshold: float = 0.35,
+                 gauge_roi_top_frac: float = 0.70,
+                 gauge_roi_bottom_frac: float = 0.92,
                  max_tilt_deg: float = 8.0,
                  veg_proximity_px: int = 80,
-                 veg_density_threshold: float = 0.03):
+                 veg_density_threshold: float = 0.03,
+                 veg_roi_top_frac: float = 0.55,
+                 veg_min_component_area: int = 500,
+                 veg_min_dim: int = 40,
+                 veg_max_clusters: int = 3):
         """
         Args:
             weights_path: percorso al best.pt del modello DeepLabV3+
@@ -59,9 +66,38 @@ class DeepLabAnalyzer:
             device: "cuda", "cpu", o None per auto-detect
             expected_gauge_px: larghezza attesa tra le rotaie in pixel (da calibrare per il video)
             gauge_tolerance: tolleranza percentuale sullo scartamento (0.15 = 15%)
+            gauge_cv_threshold: soglia del coefficiente di variazione (std/mediana) tra
+                             le righe scansionate, oltre la quale la misura e' scartata
+                             come inaffidabile (probabile scambio/deviatoio nella scena).
+                             Default 0.35 (35%), alzato da un precedente 0.20 dopo
+                             diagnosi empirica: con la fascia di scansione ampia (60-90%
+                             dell'altezza) una certa dispersione tra righe e' FISIOLOGICA
+                             per via della prospettiva (righe piu' vicine alla camera
+                             misurano rotaie piu' larghe in pixel), non solo rumore/scambi.
+            gauge_roi_top_frac: inizio (frazione dall'alto) della fascia di scansione per
+                             lo scartamento. Default 0.70 (era 0.60): ristretta rispetto
+                             alla versione originale per ridurre la variazione prospettica
+                             intrinseca tra le righe scansionate, diagnosticata come causa
+                             principale del filtro di robustezza troppo aggressivo.
+            gauge_roi_bottom_frac: fine (frazione dall'alto) della fascia di scansione.
+                             Default 0.92 (era 0.90).
             max_tilt_deg: inclinazione massima accettabile per un palo (gradi)
             veg_proximity_px: distanza in pixel dai binari entro cui la vegetazione e' "invasiva"
             veg_density_threshold: densita' minima di vegetazione nella zona critica per generare alert
+            veg_roi_top_frac: frazione superiore dell'immagine ESCLUSA dall'analisi vegetazione
+                             (default 0.55 = analizza solo il 45% inferiore). Evita falsi
+                             positivi vicino al punto di fuga, dove la prospettiva fa
+                             sembrare "vicina ai binari" vegetazione in realta' lontana.
+            veg_min_component_area: area minima (pixel) di un cluster di vegetazione
+                             per generare un alert dedicato. Cluster piu' piccoli sono
+                             ignorati (probabile rumore di segmentazione, non vegetazione
+                             reale abbastanza compatta da essere un problema).
+            veg_min_dim: larghezza/altezza minima (pixel) del bbox di un cluster.
+                             Scarta macchie piccole e compatte (spesso artefatti vicino
+                             ai bordi del frame, motion blur o ombre) anche se l'area
+                             tecnicamente supera veg_min_component_area.
+            veg_max_clusters: numero massimo di alert vegetazione generati per frame,
+                             per non intasare la dashboard se ci sono molti cluster.
         """
         # device
         if device is None:
@@ -75,9 +111,16 @@ class DeepLabAnalyzer:
         self.imgsz = imgsz
         self.expected_gauge_px = expected_gauge_px
         self.gauge_tolerance = gauge_tolerance
+        self.gauge_cv_threshold = gauge_cv_threshold
+        self.gauge_roi_top_frac = gauge_roi_top_frac
+        self.gauge_roi_bottom_frac = gauge_roi_bottom_frac
         self.max_tilt_deg = max_tilt_deg
         self.veg_proximity_px = veg_proximity_px
         self.veg_density_threshold = veg_density_threshold
+        self.veg_roi_top_frac = veg_roi_top_frac
+        self.veg_min_component_area = veg_min_component_area
+        self.veg_min_dim = veg_min_dim
+        self.veg_max_clusters = veg_max_clusters
 
         # carica modello
         self.model = self._load_model(weights_path, backbone)
@@ -164,46 +207,70 @@ class DeepLabAnalyzer:
         e ben segmentate), scansiona righe orizzontali e trova i "run" di pixel-rotaia.
         Se ci sono almeno due run separati, misura la distanza tra le loro bordi interni.
         La mediana su piu' righe da' una stima robusta.
+
+        Robustezza contro scambi/deviatoi: se la dispersione delle misure sulle righe
+        campionate e' troppo alta, e' probabile che nella scena ci sia uno scambio
+        ferroviario (piu' di due rotaie visibili, l'algoritmo puo' scegliere una coppia
+        sbagliata riga per riga) — in quel caso l'alert viene scartato invece di
+        rischiare un falso positivo, perche' la misura non e' affidabile.
         """
         anomalies = []
         rail_mask = (class_map == CL_ROTAIE).astype(np.uint8)
 
-        # lavora nella fascia inferiore (60%-90% dell'altezza)
-        y_start = int(h * 0.60)
-        y_end = int(h * 0.90)
+        # fascia di scansione (configurabile): ristretta di default rispetto alla
+        # prima versione per ridurre la variazione prospettica intrinseca tra le
+        # righe scansionate (vedi nota nel costruttore)
+        y_start = int(h * self.gauge_roi_top_frac)
+        y_end = int(h * self.gauge_roi_bottom_frac)
 
         # campiona alcune righe in questa fascia
         rows_to_check = np.linspace(y_start, y_end, num=20, dtype=int)
         distances = []
+        x_positions = []  # per costruire un bbox realistico attorno alle rotaie trovate
 
         for y in rows_to_check:
             row = rail_mask[y, :]
             runs = self._find_runs(row)
             if len(runs) >= 2:
-                # prendi le due run piu' larghe (le due rotaie principali)
                 runs_sorted = sorted(runs, key=lambda r: r[1] - r[0], reverse=True)
-                r1, r2 = sorted(runs_sorted[:2], key=lambda r: r[0])  # ordina per posizione x
-                # distanza tra bordo destro della rotaia sinistra e bordo sinistro della destra
+                r1, r2 = sorted(runs_sorted[:2], key=lambda r: r[0])
                 gap = r2[0] - r1[1]
-                if gap > 10:  # filtro minimo per evitare run adiacenti
+                if gap > 10:
                     distances.append(gap)
+                    x_positions.append((r1[0], r2[1]))
 
-        if not distances:
+        if not distances or len(distances) < 5:
+            # troppo poche righe con due rotaie rilevate: misura inaffidabile
             return anomalies
 
         gauge = float(np.median(distances))
+
+        # controllo robustezza: dispersione alta -> probabile scambio/deviatoio nella
+        # scena, la misura riga-per-riga non e' coerente. Coefficiente di variazione
+        # (std/mediana) oltre il 20% e' un segnale di misura inaffidabile.
+        std_dev = float(np.std(distances))
+        coeff_variation = std_dev / gauge if gauge > 0 else 0
+        if coeff_variation > self.gauge_cv_threshold:
+            return anomalies
+
         deviation = abs(gauge - self.expected_gauge_px)
         tolerance_px = self.expected_gauge_px * self.gauge_tolerance
 
         if deviation > tolerance_px:
             severity = "CRITICA" if deviation > tolerance_px * 2 else "ALTA"
+
+            # bbox realistico: attorno all'intervallo x delle rotaie effettivamente
+            # trovate, non l'intera fascia di scansione
+            x_min = min(p[0] for p in x_positions)
+            x_max = max(p[1] for p in x_positions)
+
             anomalies.append({
                 "label": "SCARTAMENTO_ANOMALO",
                 "severity": severity,
                 "conf": min(deviation / (self.expected_gauge_px * 0.5), 1.0),
                 "details": f"Scartamento: {gauge:.0f}px (atteso: {self.expected_gauge_px}px, "
                            f"deviazione: {deviation:.0f}px, tolleranza: {tolerance_px:.0f}px)",
-                "bbox": (0, y_start, w, y_end - y_start),
+                "bbox": (x_min, y_start, x_max - x_min, y_end - y_start),
             })
 
         return anomalies
@@ -316,15 +383,29 @@ class DeepLabAnalyzer:
         la distanza di ogni pixel dai binari. Poi conta quanti pixel di vegetazione
         cadono entro la soglia di prossimita'. Se la densita' supera la soglia -> alert.
 
-        Molto piu' robusto dell'approccio HSV perche':
+        Molto piu' robusto dell'approccio HSV di De Paolis perche':
         - DeepLab sa cos'e' davvero vegetazione (non qualsiasi cosa verde)
         - la prossimita' e' misurata rispetto ai binari segmentati, non a linee di Hough
+
+        IMPORTANTE — correzione prospettica: l'analisi e' limitata alla fascia
+        INFERIORE dell'immagine (roi_top_frac in poi). Vicino al punto di fuga
+        (verso l'orizzonte) i binari convergono e sono vicinissimi in pixel: alberi
+        fisicamente lontani decine di metri risulterebbero "vicini ai binari" solo
+        per un artefatto prospettico. Limitando l'analisi alla fascia bassa (dove la
+        scala pixel/metro e' relativamente stabile) si evitano questi falsi positivi.
         """
         anomalies = []
-        rail_mask = (class_map == CL_ROTAIE).astype(np.uint8)
-        veg_mask = (class_map == CL_VEGETAZIONE).astype(np.uint8)
 
-        # se non ci sono rotaie o vegetazione, niente da analizzare
+        # fascia inferiore dell'immagine: esclude la zona vicino al punto di fuga
+        # dove la prospettiva rende inaffidabile la prossimita' in pixel
+        y_roi_start = int(h * self.veg_roi_top_frac)
+        rail_mask_full = (class_map == CL_ROTAIE).astype(np.uint8)
+        veg_mask_full = (class_map == CL_VEGETAZIONE).astype(np.uint8)
+
+        rail_mask = rail_mask_full[y_roi_start:, :]
+        veg_mask = veg_mask_full[y_roi_start:, :]
+
+        # se non ci sono rotaie o vegetazione nella ROI, niente da analizzare
         if rail_mask.sum() == 0 or veg_mask.sum() == 0:
             return anomalies
 
@@ -346,9 +427,6 @@ class DeepLabAnalyzer:
         density = n_veg_near / zone_area
 
         if density > self.veg_density_threshold:
-            # calcola la copertura percentuale per il messaggio
-            coverage_pct = density * 100
-
             if density > self.veg_density_threshold * 3:
                 severity = "CRITICA"
             elif density > self.veg_density_threshold * 1.5:
@@ -356,24 +434,67 @@ class DeepLabAnalyzer:
             else:
                 severity = "MEDIO"
 
-            # bbox: area dove c'e' vegetazione vicina ai binari
-            ys, xs = np.where(veg_near)
-            if len(xs) > 0:
-                bx, by = int(xs.min()), int(ys.min())
-                bw_v = int(xs.max() - xs.min())
-                bh_v = int(ys.max() - ys.min())
-            else:
-                bx, by, bw_v, bh_v = 0, 0, w, h
+            # invece di un unico bbox che unisce TUTTA la vegetazione vicina (che se
+            # ci sono cespugli sia a sinistra sia a destra dei binari produce un
+            # rettangolo fuorviante esteso su tutta la larghezza, includendo anche
+            # lo spazio vuoto sopra i binari in mezzo), si generano piu' anomalie —
+            # una per ogni cluster contiguo (componente connessa) abbastanza grande.
+            # Ogni cluster diventa un alert a se', con il proprio bbox aderente.
+            veg_near_u8 = veg_near.astype(np.uint8) * 255
+            num_labels, labels, stats, _ = cv2.connectedComponentsWithStats(
+                veg_near_u8, connectivity=8
+            )
 
-            anomalies.append({
-                "label": "VEGETAZIONE_INVASIVA",
-                "severity": severity,
-                "conf": min(density / (self.veg_density_threshold * 5), 1.0),
-                "details": f"Vegetazione entro {self.veg_proximity_px}px dai binari: "
-                           f"{coverage_pct:.1f}% della zona critica "
-                           f"(soglia: {self.veg_density_threshold * 100:.1f}%)",
-                "bbox": (bx, by, bw_v, bh_v),
-            })
+            # centro approssimativo dei binari (per etichettare "sinistra"/"destra")
+            rail_cols = np.where(rail_mask.any(axis=0))[0]
+            rail_center_x = int(np.mean(rail_cols)) if len(rail_cols) > 0 else w // 2
+
+            veg_near_local_h = veg_near.shape[0]  # altezza della ROI ritagliata
+
+            cluster_stats = []
+            for i in range(1, num_labels):  # salta lo sfondo (label 0)
+                area = int(stats[i, cv2.CC_STAT_AREA])
+                cw = int(stats[i, cv2.CC_STAT_WIDTH])
+                ch = int(stats[i, cv2.CC_STAT_HEIGHT])
+                top = int(stats[i, cv2.CC_STAT_TOP])
+                # oltre all'area minima, richiede dimensioni minime in entrambi gli assi:
+                # scarta macchie piccole/compatte (spesso rumore di segmentazione vicino
+                # ai bordi del frame, dove motion blur e ombre confondono il modello)
+                if area < self.veg_min_component_area or cw < self.veg_min_dim or ch < self.veg_min_dim:
+                    continue
+                # scarta cluster che toccano il bordo INFERIORE della ROI (il fondo
+                # dell'immagine, punto piu' vicino alla camera): un blob tagliato dal
+                # bordo ha dimensioni non affidabili (potrebbe proseguire oltre il
+                # frame) ed e' spesso un artefatto di segmentazione, non vegetazione
+                # reale — pattern osservato empiricamente su piu' frame di test.
+                if (top + ch) >= veg_near_local_h - 2:
+                    continue
+                cluster_stats.append((area, i))
+            cluster_stats.sort(reverse=True)  # dal piu' grande
+
+            # limita il numero di alert per frame per non intasare la dashboard
+            for area, i in cluster_stats[:self.veg_max_clusters]:
+                bx = int(stats[i, cv2.CC_STAT_LEFT])
+                by = int(stats[i, cv2.CC_STAT_TOP]) + y_roi_start
+                bw_v = int(stats[i, cv2.CC_STAT_WIDTH])
+                bh_v = int(stats[i, cv2.CC_STAT_HEIGHT])
+
+                lato = "sinistra" if (bx + bw_v / 2) < rail_center_x else "destra"
+                cluster_density = area / (bw_v * bh_v) if (bw_v * bh_v) > 0 else 0.0
+
+                anomalies.append({
+                    "label": "VEGETAZIONE_INVASIVA",
+                    "severity": severity,
+                    "conf": min(cluster_density * 2, 1.0),
+                    "details": f"Vegetazione entro {self.veg_proximity_px}px dai binari, lato {lato} "
+                               f"({area}px nel cluster). Densita' complessiva nella ROI: "
+                               f"{density*100:.1f}% (soglia: {self.veg_density_threshold*100:.1f}%)",
+                    "bbox": (bx, by, bw_v, bh_v),
+                })
+
+            # se nessun cluster supera la soglia minima di area (vegetazione sparsa,
+            # non concentrata), non generare comunque nessun alert: la densita' globale
+            # da sola non basta, serve un cluster abbastanza compatto da essere reale
 
         return anomalies
 
@@ -391,8 +512,10 @@ class DeepLabAnalyzer:
         h, w = class_map.shape
         rail_mask = (class_map == CL_ROTAIE).astype(np.uint8)
 
-        y_start = int(h * 0.60)
-        y_end = int(h * 0.90)
+        # stessa fascia usata in _analyze_gauge, per coerenza tra calibrazione
+        # (su reference) e misura a runtime (su query)
+        y_start = int(h * self.gauge_roi_top_frac)
+        y_end = int(h * self.gauge_roi_bottom_frac)
         rows_to_check = np.linspace(y_start, y_end, num=20, dtype=int)
         distances = []
 
