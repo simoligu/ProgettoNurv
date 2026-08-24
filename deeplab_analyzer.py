@@ -181,17 +181,35 @@ class DeepLabAnalyzer:
     # ANALISI COMPLETA
     # ------------------------------------------------------------------
 
-    def analyze(self, frame_bgr: np.ndarray) -> List[Dict[str, Any]]:
+    def analyze(self, frame_bgr: np.ndarray,
+                tilt_estimator: Optional[Any] = None) -> List[Dict[str, Any]]:
         """
         Esegue segmentazione + analisi anomalie su un frame.
         Ritorna lista di anomalie, ognuna con: label, severity, conf, details, bbox.
+
+        Args:
+            tilt_estimator: funzione opzionale con firma
+                (frame_bgr, bbox) -> Optional[float] (gradi, o None se il crop
+                non e' valido), usata per stimare l'inclinazione dei pali con
+                un metodo piu' preciso di minAreaRect (es. PoleTiltAnalyzer.
+                predict_angle — passato come funzione per non introdurre una
+                dipendenza diretta da pole_tilt_analyzer.py in questo modulo).
+                Se fornita, TUTTI i componenti "a forma di palo" individuati
+                nella maschera (stesso filtro geometrico di area/verticalita'
+                di sempre) vengono valutati dalla funzione — non solo quelli
+                che minAreaRect avrebbe gia' segnalato oltre soglia. Questo
+                evita che un falso negativo del metodo geometrico (che sui
+                pixel di una segmentazione reale puo' sottostimare l'angolo)
+                nasconda il palo alla stima piu' accurata. Se None (default),
+                comportamento INVARIATO rispetto a prima: solo minAreaRect.
         """
         class_map = self.segment(frame_bgr)
         h, w = class_map.shape
 
         anomalies = []
         anomalies.extend(self._analyze_gauge(class_map, h, w))
-        anomalies.extend(self._analyze_poles(class_map, h, w))
+        anomalies.extend(self._analyze_poles(class_map, h, w, frame_bgr=frame_bgr,
+                                             tilt_estimator=tilt_estimator))
         anomalies.extend(self._analyze_vegetation(class_map, h, w))
         return anomalies
 
@@ -299,13 +317,25 @@ class DeepLabAnalyzer:
     # 2. PALI INCLINATI
     # ------------------------------------------------------------------
 
-    def _analyze_poles(self, class_map: np.ndarray, h: int, w: int) -> List[Dict[str, Any]]:
+    def _analyze_poles(self, class_map: np.ndarray, h: int, w: int,
+                        frame_bgr: Optional[np.ndarray] = None,
+                        tilt_estimator: Optional[Any] = None) -> List[Dict[str, Any]]:
         """
         Rileva pali inclinati analizzando le componenti connesse della classe 'pali'.
 
         Per ogni componente abbastanza grande e verticale, calcola l'angolo rispetto
-        alla verticale usando minAreaRect di OpenCV. Se l'inclinazione supera la soglia,
-        genera un alert.
+        alla verticale usando minAreaRect di OpenCV — usato SEMPRE per individuare i
+        componenti "a forma di palo" (filtro geometrico di area/verticalita', non e'
+        un rilevamento che il tilt_estimator possa fare al posto suo: la CNN valuta
+        un crop, non trova essa stessa dove sono i pali nel frame).
+
+        Se tilt_estimator e' fornito, l'ANGOLO usato per la soglia/severity di OGNI
+        componente candidato (non solo quelli gia' oltre soglia secondo minAreaRect)
+        viene sostituito dalla sua stima — cosi' un falso negativo del metodo
+        geometrico (sottostima dell'angolo, comune su maschere di segmentazione
+        rumorose) non impedisce alla stima piu' accurata di intervenire. Se il
+        tilt_estimator non riesce a produrre una stima per un dato crop (None), si
+        ricade sulla stima geometrica per quel singolo componente.
         """
         anomalies = []
         pole_mask = (class_map == CL_PALI).astype(np.uint8) * 255
@@ -348,15 +378,27 @@ class DeepLabAnalyzer:
                 rect_w, rect_h = rect_h, rect_w
                 angle = angle + 90
 
-            tilt = abs(angle) if abs(angle) <= 45 else abs(90 - abs(angle))
+            tilt_geometrico = abs(angle) if abs(angle) <= 45 else abs(90 - abs(angle))
 
-            if tilt > self.max_tilt_deg:
-                bx = stats[i, cv2.CC_STAT_LEFT]
-                by = stats[i, cv2.CC_STAT_TOP]
+            bx = stats[i, cv2.CC_STAT_LEFT]
+            by = stats[i, cv2.CC_STAT_TOP]
 
-                if tilt >= self.max_tilt_deg * 2:
+            # --- stima finale: CNN se disponibile e crop valido, altrimenti
+            # fallback sulla stima geometrica per QUESTO specifico componente ---
+            tilt_finale = tilt_geometrico
+            fonte = "geometrico (minAreaRect)"
+            if tilt_estimator is not None and frame_bgr is not None:
+                angolo_cnn = tilt_estimator(frame_bgr, (bx, by, bw, bh))
+                if angolo_cnn is not None:
+                    tilt_finale = abs(angolo_cnn)
+                    fonte = "CNN"
+                else:
+                    fonte = "geometrico (fallback, crop CNN non valido)"
+
+            if tilt_finale > self.max_tilt_deg:
+                if tilt_finale >= self.max_tilt_deg * 2:
                     severity = "CRITICA"
-                elif tilt >= self.max_tilt_deg:
+                elif tilt_finale >= self.max_tilt_deg:
                     severity = "ALTA"
                 else:
                     severity = "MEDIO"
@@ -364,8 +406,9 @@ class DeepLabAnalyzer:
                 anomalies.append({
                     "label": "PALO_INCLINATO",
                     "severity": severity,
-                    "conf": min(tilt / (self.max_tilt_deg * 3), 1.0),
-                    "details": f"Inclinazione: {tilt:.1f} gradi (soglia: {self.max_tilt_deg} gradi)",
+                    "conf": min(tilt_finale / (self.max_tilt_deg * 3), 1.0),
+                    "details": f"Inclinazione: {tilt_finale:.1f} gradi (soglia: {self.max_tilt_deg} "
+                               f"gradi) [stima: {fonte}]",
                     "bbox": (bx, by, bw, bh),
                 })
 

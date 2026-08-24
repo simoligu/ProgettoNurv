@@ -47,15 +47,6 @@ class AnomalyDetectionPipeline:
                  pole_tilt_angolo_max: float = 22.0,
                  # --- Mappa di sincronizzazione (vedi sync_videos_dtw.py) ---
                  sync_map_csv: Optional[str] = None,
-                 # --- Soglie del modulo di background-subtraction (De Paolis) ---
-                 # Default storici (90/8000) tenuti come default per retrocompatibilita'
-                 # — calibrazione empirica su questo progetto (vedi
-                 # calibra_soglie_change_detector.py) suggerisce diff_thresh=150,
-                 # min_area=60000 per silenziare il rumore di fondo tra due riprese
-                 # indipendenti, ma va sempre validata su un caso con anomalia nota
-                 # prima di adottarla in produzione.
-                 diff_thresh: int = 90,
-                 min_area: int = 8000,
                  # --- Coordinate GPS sovraimpresse (opzionale, da definire col collega) ---
                  coord_region: Optional[Tuple[int, int, int, int]] = None):
         """
@@ -98,8 +89,6 @@ class AnomalyDetectionPipeline:
         self.tratta_id = tratta_id
         self.seg_step = seg_step
         self.coord_region = coord_region
-        self.diff_thresh = diff_thresh
-        self.min_area = min_area
 
         # --- DeepLab analyzer: sostituisce la visione classica (Hough/HSV) di De Paolis.
         #     E' un modulo INDIPENDENTE dal reference video: analizza ogni frame del
@@ -238,74 +227,6 @@ class AnomalyDetectionPipeline:
         self._ultimo_indice_ref_letto = indice
         self._ultimo_frame_ref_letto = frame
         return frame
-
-    @staticmethod
-    def _omografia_plausibile(H: np.ndarray, w: int, h: int,
-                              margine_frazione: float = 0.5) -> bool:
-        """
-        Il solo controllo sul determinante (np.abs(det(H)) > 0.1) non basta a
-        scartare omografie geometricamente assurde: una matrice puo' avere un
-        determinante 'ok' e comunque schiacciare/ruotare il frame in un
-        angolino minuscolo dell'immagine, su sfondo nero — un risultato PEGGIORE
-        del semplice fallback (resize senza allineamento), non migliore.
-        Verificato empiricamente su questo progetto (diagnostica_change_detector_sync,
-        frame query#412: omografia 'valida' per il vecchio controllo, ma il warp
-        risultante era un rettangolo deformato e rimpicciolito su sfondo nero).
-
-        Controllo aggiuntivo: dove finiscono i 4 angoli dell'immagine originale
-        dopo la trasformazione? Se cadono in una zona ragionevole (entro un
-        margine attorno al frame di destinazione) l'omografia e' plausibile.
-        Se finiscono compressi in una piccola area o proiettati molto lontano,
-        e' un'omografia degenere anche se il determinante sembrava a posto.
-        """
-        angoli = np.array([[0, 0], [w, 0], [w, h], [0, h]], dtype=np.float32).reshape(-1, 1, 2)
-        try:
-            angoli_trasformati = cv2.perspectiveTransform(angoli, H).reshape(-1, 2)
-        except Exception:
-            return False
-
-        # 1) i 4 angoli trasformati devono restare in un'area ragionevolmente
-        #    vicina al frame di destinazione (non proiettati molto fuori)
-        margine_x = w * margine_frazione
-        margine_y = h * margine_frazione
-        if np.any(angoli_trasformati[:, 0] < -margine_x) or np.any(angoli_trasformati[:, 0] > w + margine_x):
-            return False
-        if np.any(angoli_trasformati[:, 1] < -margine_y) or np.any(angoli_trasformati[:, 1] > h + margine_y):
-            return False
-
-        # 2) l'area del quadrilatero trasformato non deve essere ne' troppo
-        #    piccola (immagine schiacciata in un angolo) ne' abnormemente grande
-        area_trasformata = cv2.contourArea(angoli_trasformati.astype(np.float32))
-        area_originale = w * h
-        if area_originale <= 0:
-            return False
-        rapporto = area_trasformata / area_originale
-        if rapporto < 0.3 or rapporto > 3.0:
-            return False
-
-        return True
-
-    @staticmethod
-    def _normalizza_luminanza(sorgente_gray: np.ndarray, target_gray: np.ndarray) -> np.ndarray:
-        """
-        Il CLAHE normalizza il CONTRASTO locale ma non corregge un semplice
-        scarto di luminosita' MEDIA globale tra le due immagini — verificato
-        empiricamente su questo progetto: differenza di luminanza media
-        reference/query di ~53-54 punti (su 255), persistente anche col frame
-        reference corretto (non e' un problema di sincronizzazione: le due
-        riprese sembrano girate in condizioni di luce diverse).
-
-        Trasla (e opzionalmente scala leggermente) sorgente_gray in modo che la
-        sua media di luminosita' coincida con quella di target_gray, PRIMA del
-        calcolo della differenza — riduce la diff sistematica dovuta solo alla
-        differenza di esposizione, lasciando emergere le differenze strutturali
-        vere (quello che il modulo dovrebbe davvero rilevare).
-        """
-        media_sorgente = float(sorgente_gray.mean())
-        media_target = float(target_gray.mean())
-        scarto = media_target - media_sorgente
-        risultato = sorgente_gray.astype(np.float32) + scarto
-        return np.clip(risultato, 0, 255).astype(np.uint8)
 
     @staticmethod
     def _frame_with_box(frame: np.ndarray, bbox: Tuple[int, int, int, int],
@@ -484,13 +405,7 @@ class AnomalyDetectionPipeline:
                 try:
                     qf_gray_eq = clahe_obj.apply(qf_gray)
                     H = aligner.compute_homography(riferimento_gray_eq, qf_gray_eq)
-                    # controllo di validita' RAFFORZATO: non basta un determinante
-                    # non-quasi-zero, serve anche che il warp risultante sia
-                    # geometricamente plausibile (vedi _omografia_plausibile — un
-                    # caso reale di omografia 'valida' ma degenere e' stato
-                    # osservato e documentato durante la diagnosi di questo bug)
-                    if H is not None and np.abs(np.linalg.det(H)) > 0.1 \
-                            and self._omografia_plausibile(H, w, h):
+                    if H is not None and np.abs(np.linalg.det(H)) > 0.1:
                         aligned = cv2.warpPerspective(qf, H, (w, h), flags=cv2.INTER_LINEAR,
                                                       borderMode=cv2.BORDER_CONSTANT, borderValue=(0, 0, 0))
                     else:
@@ -507,17 +422,8 @@ class AnomalyDetectionPipeline:
                 # singolo frame rispetto alla mediana, ma confronta il posto giusto
                 # invece di uno sbagliato, che e' il problema piu' grave da risolvere)
                 target_confronto = riferimento_gray_eq if self.sync_map is not None else ref_median_gray_eq
-
-                # normalizzazione della luminanza PRIMA della diff: il CLAHE da
-                # solo non basta a correggere lo scarto di luminosita' MEDIA tra
-                # le due riprese (~53 punti su 255, misurato empiricamente — vedi
-                # _normalizza_luminanza), che genera diff sistematica anche in
-                # assenza di vere anomalie strutturali.
-                aligned_gray_norm = self._normalizza_luminanza(aligned_gray_eq, target_confronto)
-
                 raw_pixel_boxes, mask = ChangeDetector.detect_changes_gray(
-                    target_confronto, aligned_gray_norm,
-                    diff_thresh=self.diff_thresh, min_area=self.min_area
+                    target_confronto, aligned_gray_eq, diff_thresh=90, min_area=8000
                 )
                 contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
