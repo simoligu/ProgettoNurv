@@ -118,11 +118,21 @@ class AdaptiveBackground:
         return None
 
 
-def mask_to_boxes(mask: np.ndarray, diff_thresh: int = 40, min_area: int = 500
+def mask_to_boxes(mask: np.ndarray, diff_thresh: int = 40, min_area: int = 500,
+                  min_compattezza: float = None
                   ) -> Tuple[List[Tuple[int, int, int, int, int]], np.ndarray]:
     """
     Estrae bounding boxes da una mask (binaria o diff image)
     Ritorna sempre (boxes, mask) con mask np.ndarray
+
+    min_compattezza: se fornito (0-1), filtra anche sulla COMPATTEZZA del blob
+    (area_contorno / area_bounding_box) — un rumore da disallineamento
+    omografico tende a formare linee sottili e allungate lungo i contorni
+    (bordi di edifici, binari), con compattezza bassa (bounding box molto
+    piu' grande dell'area reale occupata); un'anomalia strutturale vera
+    (frana, cedimento, accumulo) tende a essere piu' compatta/tondeggiante.
+    None (default) disattiva il filtro — comportamento invariato per chi
+    chiama questa funzione senza il nuovo parametro.
     """
     boxes: List[Tuple[int, int, int, int, int]] = []
 
@@ -148,8 +158,14 @@ def mask_to_boxes(mask: np.ndarray, diff_thresh: int = 40, min_area: int = 500
     contours, _ = cv2.findContours(th, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     for c in contours:
         area = cv2.contourArea(c)
-        if area >= min_area:
-            x, y, w, h = cv2.boundingRect(c)
-            boxes.append((x, y, w, h, int(area)))
+        if area < min_area:
+            continue
+        x, y, w, h = cv2.boundingRect(c)
+        if min_compattezza is not None:
+            area_bbox = w * h
+            compattezza = (area / area_bbox) if area_bbox > 0 else 0.0
+            if compattezza < min_compattezza:
+                continue
+        boxes.append((x, y, w, h, int(area)))
 
     return boxes, th

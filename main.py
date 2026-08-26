@@ -43,6 +43,13 @@ if __name__ == '__main__':
                         help="Area minima (in pixel) di un blob di differenza per generare un "
                              "alert ANOMALIA_STRUTTURALE (default storico: 8000). Il default qui "
                              "e' 60000, dalla stessa calibrazione empirica.")
+    parser.add_argument('--min_compattezza', type=float, default=None,
+                        help="Filtro di FORMA aggiuntivo (0-1): scarta i blob la cui area e' "
+                             "meno di questa frazione della loro bounding box — un rumore da "
+                             "disallineamento tende a formare linee sottili e allungate lungo i "
+                             "contorni (compattezza bassa), un'anomalia vera tende a essere piu' "
+                             "compatta. Default None (disattivato). Se attivato, valuta di "
+                             "abbassare anche --min_area di conseguenza (vedi calibrazione).")
     args = parser.parse_args()
 
     reference_video = 'data/videos/reference.mp4'
@@ -89,6 +96,7 @@ if __name__ == '__main__':
         # --- Soglie background-subtraction (calibrate empiricamente, vedi --help) ---
         diff_thresh=args.diff_thresh,
         min_area=args.min_area,
+        min_compattezza=args.min_compattezza,
     )
 
     print("--- Avvio Pipeline di Rilevamento Anomalie ---")

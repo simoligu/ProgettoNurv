@@ -56,6 +56,24 @@ class AnomalyDetectionPipeline:
                  # prima di adottarla in produzione.
                  diff_thresh: int = 90,
                  min_area: int = 8000,
+                 # Filtro di FORMA aggiuntivo (compattezza = area/area_bbox):
+                 # un rumore da disallineamento omografico tende a formare linee
+                 # sottili e allungate lungo i contorni (bordi edifici/binari), con
+                 # compattezza bassa; un'anomalia strutturale vera (frana, cedimento)
+                 # tende a essere piu' compatta. None (default) disattiva il filtro,
+                 # comportamento invariato.
+                 min_compattezza: Optional[float] = None,
+                 # Filtro di PERSISTENZA spaziale/temporale (TemporalTracker, vedi
+                 # temporal_tracker.py) per ANOMALIA_STRUTTURALE: un candidato viene
+                 # aggiunto a candidate_detections (quindi al CSV/video/alert) solo se
+                 # ricompare in posizione simile per almeno temporal_min_occorrenze
+                 # controlli — il rumore isolato (che salta di posizione frame per
+                 # frame) non supera il filtro, un'anomalia vera (che resta li') si.
+                 # False (default) disattiva completamente, comportamento invariato.
+                 usa_temporal_tracker: bool = False,
+                 temporal_iou_threshold: float = 0.25,
+                 temporal_min_occorrenze: int = 2,
+                 temporal_finestra_frame: int = 450,
                  # --- Coordinate GPS sovraimpresse (opzionale, da definire col collega) ---
                  coord_region: Optional[Tuple[int, int, int, int]] = None):
         """
@@ -100,6 +118,20 @@ class AnomalyDetectionPipeline:
         self.coord_region = coord_region
         self.diff_thresh = diff_thresh
         self.min_area = min_area
+        self.min_compattezza = min_compattezza
+
+        # --- TemporalTracker: filtro di persistenza per ANOMALIA_STRUTTURALE ---
+        self.tracker_strutturale = None
+        if usa_temporal_tracker:
+            from temporal_tracker import TemporalTracker
+            self.tracker_strutturale = TemporalTracker(
+                iou_threshold=temporal_iou_threshold,
+                min_occorrenze=temporal_min_occorrenze,
+                finestra_frame=temporal_finestra_frame,
+            )
+            print(f"[INFO] TemporalTracker attivo per ANOMALIA_STRUTTURALE "
+                  f"(iou={temporal_iou_threshold}, min_occorrenze={temporal_min_occorrenze}, "
+                  f"finestra={temporal_finestra_frame} frame).")
 
         # --- DeepLab analyzer: sostituisce la visione classica (Hough/HSV) di De Paolis.
         #     E' un modulo INDIPENDENTE dal reference video: analizza ogni frame del
@@ -469,7 +501,6 @@ class AnomalyDetectionPipeline:
                 saltato_per_mancanza_corrispondenza = True
                 aligned = cv2.resize(qf, (w, h))  # placeholder, serve solo per il video annotato
                 raw_pixel_boxes, mask = [], np.zeros((h, w), dtype=np.uint8)
-                contours = []
             else:
                 if self.sync_map is not None:
                     # confronto contro il frame reference CORRETTO per questo istante
@@ -517,9 +548,9 @@ class AnomalyDetectionPipeline:
 
                 raw_pixel_boxes, mask = ChangeDetector.detect_changes_gray(
                     target_confronto, aligned_gray_norm,
-                    diff_thresh=self.diff_thresh, min_area=self.min_area
+                    diff_thresh=self.diff_thresh, min_area=self.min_area,
+                    min_compattezza=self.min_compattezza
                 )
-                contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
             candidate_detections = []
 
@@ -551,8 +582,12 @@ class AnomalyDetectionPipeline:
 
             # 2. Anomalie geometriche via background subtraction (De Paolis, invariato
             #    salvo i due fix di allineamento/illuminazione — limite noto sopra)
-            for cnt in contours:
-                cx, cy, cww, chh = cv2.boundingRect(cnt)
+            # NOTA: itera su raw_pixel_boxes (l'output di ChangeDetector.detect_changes_gray,
+            # che RISPETTA diff_thresh/min_area/min_compattezza) invece di ri-estrarre i
+            # contorni dalla maschera grezza con un filtro indipendente — bug corretto:
+            # la versione precedente ignorava completamente min_area/min_compattezza qui,
+            # rendendoli di fatto inerti sul modulo ANOMALIA_STRUTTURALE.
+            for (cx, cy, cww, chh, _area_raw) in raw_pixel_boxes:
                 if cy < (h * 0.25) or cww < 50 or chh < 50:
                     continue
                 if cww > (w * 0.5) or chh > (h * 0.5):
@@ -565,9 +600,32 @@ class AnomalyDetectionPipeline:
                         break
                 if not is_covered:
                     label_geo = "ANOMALIA_STRUTTURALE"
+
+                    # se il TemporalTracker e' attivo, il candidato deve CONFERMARSI
+                    # (ricomparire in posizione simile per almeno min_occorrenze
+                    # controlli) prima di essere considerato — un rumore isolato che
+                    # salta di posizione frame per frame non supera mai questo filtro
+                    if self.tracker_strutturale is not None:
+                        persistente, _occorrenze, puo_alertare_tracker = self.tracker_strutturale.aggiorna(
+                            label_geo, (int(cx), int(cy), int(cww), int(chh)), idx)
+                        if not persistente:
+                            continue  # non ancora confermato: scartato, non entra nel CSV/video
+                    else:
+                        puo_alertare_tracker = None  # ramo non usato quando il tracker e' disattivo
+
                     candidate_detections.append(
                         {'bbox': (int(cx), int(cy), int(cww), int(chh)), 'label': label_geo, 'conf': 0.85})
-                    if idx - last_alert_frame.get(label_geo, -100) > 90:
+
+                    # throttling dell'alert ESTERNO (dashboard): col tracker attivo, usa
+                    # il suo throttling PER TRACCIA (un alert alla prima conferma, non piu'
+                    # finche' la traccia resta la stessa); senza tracker, throttling
+                    # globale precedente invariato (un alert ogni 90 frame per etichetta)
+                    if self.tracker_strutturale is not None:
+                        deve_alertare = puo_alertare_tracker
+                    else:
+                        deve_alertare = idx - last_alert_frame.get(label_geo, -100) > 90
+
+                    if deve_alertare:
                         alert = self._create_alert_dict(idx, t_sec, cx, cy, cww, chh, cww * chh,
                                                         label_geo, 0.85, "ALTA",
                                                         "Rilevato cambiamento geometrico binari",
@@ -578,7 +636,8 @@ class AnomalyDetectionPipeline:
                         # subtraction su reference non sincronizzato) — allegare un'immagine
                         # da ~600KB a ciascuno intaserebbe DB e rete inutilmente.
                         self.dispatch_alert(alert, None)
-                        last_alert_frame[label_geo] = idx
+                        if self.tracker_strutturale is None:
+                            last_alert_frame[label_geo] = idx
 
             annotated = aligned.copy()
             for det in candidate_detections:

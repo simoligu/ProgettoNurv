@@ -27,7 +27,8 @@ class ChangeDetector:
             ref_gray: np.ndarray,
             query_gray: np.ndarray,
             diff_thresh: int = 40,
-            min_area: int = 500
+            min_area: int = 500,
+            min_compattezza: float = None
     ) -> Tuple[List[BBox], np.ndarray]:
         """
         Come detect_changes, ma accetta direttamente immagini in scala di grigi
@@ -36,7 +37,12 @@ class ChangeDetector:
         Usare questa variante quando reference e query sono girati in condizioni di
         luce diverse: passare ref_gray e query_gray gia' processati con CLAHE evita
         che la differenza assoluta rilevi falsi cambiamenti dovuti solo alla luce.
+
+        min_compattezza: vedi mask_to_boxes() in background.py — filtro aggiuntivo
+        sulla forma del blob (area/area_bounding_box), None disattiva (default,
+        comportamento invariato).
         """
         diff = cv2.absdiff(ref_gray, query_gray)
-        boxes, cleaned_mask = mask_to_boxes(diff, diff_thresh=diff_thresh, min_area=min_area)
+        boxes, cleaned_mask = mask_to_boxes(diff, diff_thresh=diff_thresh, min_area=min_area,
+                                            min_compattezza=min_compattezza)
         return boxes, cleaned_mask
