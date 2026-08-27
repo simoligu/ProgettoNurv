@@ -420,7 +420,7 @@ def _estrai_feature_finestra(percorso_video: str, frame_inizio: int, frame_fine:
     return features, indici
 
 
-def rileva_violazione_monotonia(righe_finali: List[list]) -> int:
+def rileva_violazione_monotonia(righe_finali: List[list], min_run_recupero: int = 5) -> int:
     """
     Criterio automatico più affidabile di rileva_esaurimento_automatico:
     invece di controllare "sei vicino all'estremo del reference" (euristica
@@ -434,27 +434,36 @@ def rileva_violazione_monotonia(righe_finali: List[list]) -> int:
     Due tipi di violazione, distinti automaticamente:
       1. CALO CHE SI RIPRENDE: il valore scende, ma entro poche righe la
          sequenza torna a raggiungere/superare il massimo gia' visto prima
-         del calo — tipico di un raccordo imperfetto fra un tratto raffinato
-         e i dati grezzi adiacenti (scoperto empiricamente: la fine di un
-         plateau raffinato puo' non incastrarsi perfettamente con cio' che
-         viene subito dopo). In questo caso si scarta SOLO il tratto
-         intermedio (dal calo fino al punto di recupero, escluso), non tutto
-         il resto del video.
-      2. CALO CHE NON SI RIPRENDE PIU': la sequenza non torna mai a
-         raggiungere il massimo precedente fino alla fine del video — segno
-         che da li' in poi il reference non ha piu' vero contenuto
-         corrispondente (es. la vera coda senza corrispondenza, dove il DTW
-         grezzo residuo "spalma" il disavanzo invece di fermarsi). In questo
-         caso si scarta tutto da quel punto fino alla fine.
+         del calo, e ci RESTA per almeno min_run_recupero righe consecutive
+         (non un singolo tocco isolato — vedi sotto) — tipico di un
+         raccordo imperfetto fra un tratto raffinato e i dati grezzi
+         adiacenti. In questo caso si scarta SOLO il tratto intermedio (dal
+         calo fino al punto di recupero, escluso), non tutto il resto.
+      2. CALO CHE NON SI RIPRENDE PIU' (in modo sostenuto): la sequenza non
+         torna mai a raggiungere il massimo precedente per un tratto
+         sufficientemente lungo — segno che da li' in poi il reference non
+         ha piu' vero contenuto corrispondente. Scarta tutto da quel punto.
+
+    IMPORTANTE — perche' serve min_run_recupero: il DTW grezzo e' vincolato
+    a terminare ESATTAMENTE sull'ultimo frame di entrambe le sequenze (vedi
+    dtw_allineamento) — quindi l'ULTIMISSIMA riga del video puo' mostrare un
+    valore che tocca il vero massimo per puro obbligo matematico di
+    completamento, non perche' rappresenti una vera corrispondenza. Scoperto
+    empiricamente su questo progetto: un'unica riga isolata alla fine del
+    video (circondata da righe scartate subito prima) toccava esattamente
+    il massimo, ingannando un controllo di "recupero" basato su un singolo
+    tocco. Richiedere che il recupero sia sostenuto per piu' righe di fila
+    scarta correttamente anche questi casi come "non recuperato".
 
     NOTA IMPORTANTE (limite noto): quando il calo si riprende (caso 1), lo
     script assume che il valore PIU' ALTO (raggiunto prima del calo) sia
     quello corretto, e scarta il tratto piu' basso intermedio — un'assunzione
     ragionevole ma non verificata algoritmicamente: in linea di principio
     potrebbe essere il tratto piu' basso quello giusto, e il raffinamento
-    precedente ad aver sovrastimato. Se dopo aver usato la mappa noti ancora
-    un tratto sospetto vicino a un punto dove questo criterio e' intervenuto,
-    vale la pena un controllo visivo mirato con estrai_frame.py.
+    precedente ad aver sovrastimato (gia' successo una volta su questo
+    progetto — verificato con un controllo visivo mirato). Se dopo aver
+    usato la mappa noti ancora un tratto sospetto vicino a un punto dove
+    questo criterio e' intervenuto, vale la pena lo stesso controllo.
 
     Ritorna il numero di righe scartate.
     """
@@ -472,13 +481,25 @@ def rileva_violazione_monotonia(righe_finali: List[list]) -> int:
             continue
 
         # violazione: fr < massimo_visto — cerca il primo punto successivo
-        # (se esiste) in cui la sequenza recupera (torna a >= massimo_visto)
+        # in cui la sequenza recupera E CI RESTA per almeno min_run_recupero
+        # righe consecutive (non un singolo tocco isolato, vedi sopra)
         punto_recupero = None
         for pos2 in range(pos + 1, len(indici_validi)):
             k2 = indici_validi[pos2]
-            if righe_finali[k2][1] >= massimo_visto:
+            if righe_finali[k2][1] < massimo_visto:
+                continue
+            # trovato un candidato: verifica che regga per min_run_recupero righe
+            sostenuto = True
+            for pos_check in range(pos2, min(pos2 + min_run_recupero, len(indici_validi))):
+                k_check = indici_validi[pos_check]
+                if righe_finali[k_check][1] < massimo_visto:
+                    sostenuto = False
+                    break
+            if sostenuto and (pos2 + min_run_recupero) <= len(indici_validi):
                 punto_recupero = pos2
                 break
+            # non sostenuto (o troppo vicino alla fine per verificarlo):
+            # continua a cercare oltre
 
         fine_scarto = punto_recupero if punto_recupero is not None else len(indici_validi)
         for pos3 in range(pos, fine_scarto):
