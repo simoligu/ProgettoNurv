@@ -639,7 +639,15 @@ class AnomalyDetectionPipeline:
                         if self.tracker_strutturale is None:
                             last_alert_frame[label_geo] = idx
 
-            annotated = aligned.copy()
+            # Il video annotato deve mostrare il frame ORIGINALE (ridimensionato
+            # se serve, ma NON distorto), non 'aligned' — che e' il frame
+            # trasformato via omografia per il confronto pixel-per-pixel interno
+            # col reference, mai pensato per essere visto da un umano. Bug reale
+            # scoperto empiricamente: usare 'aligned' produceva un video con un
+            # vistoso effetto di "avvolgimento"/distorsione prospettica, dato che
+            # la trasformazione applicata per l'allineamento interno puo'
+            # ruotare/deformare l'immagine in modo anche marcato.
+            annotated = cv2.resize(qf, (w, h)).copy()
             for det in candidate_detections:
                 dx, dy, dww, dhh = det['bbox']
                 cv2.rectangle(annotated, (dx, dy), (dx + dww, dy + dhh), (0, 0, 255), 2)
