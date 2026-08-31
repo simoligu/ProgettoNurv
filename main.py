@@ -50,6 +50,21 @@ if __name__ == '__main__':
                              "contorni (compattezza bassa), un'anomalia vera tende a essere piu' "
                              "compatta. Default None (disattivato). Se attivato, valuta di "
                              "abbassare anche --min_area di conseguenza (vedi calibrazione).")
+    # --- NUOVO: filtro di persistenza spaziale/temporale (TemporalTracker) ---
+    parser.add_argument('--temporal_tracker', action='store_true',
+                        help="Attiva il filtro di persistenza per ANOMALIA_STRUTTURALE: un "
+                             "candidato entra nel CSV/video/alert solo se ricompare in "
+                             "posizione simile per almeno --temporal_min_occorrenze controlli "
+                             "consecutivi. Default disattivato (comportamento invariato).")
+    parser.add_argument('--temporal_iou_threshold', type=float, default=0.25,
+                        help="Sovrapposizione minima (IoU) tra bbox consecutivi per "
+                             "considerarli la stessa anomalia (default: 0.25)")
+    parser.add_argument('--temporal_min_occorrenze', type=int, default=2,
+                        help="Quante volte l'anomalia deve ricomparire prima di essere "
+                             "confermata (default: 2)")
+    parser.add_argument('--temporal_finestra_frame', type=int, default=450,
+                        help="Quanti frame indietro si cerca ancora una corrispondenza prima "
+                             "che la traccia scada (default: 450)")
     args = parser.parse_args()
 
     reference_video = 'data/videos/reference.mp4'
@@ -97,6 +112,11 @@ if __name__ == '__main__':
         diff_thresh=args.diff_thresh,
         min_area=args.min_area,
         min_compattezza=args.min_compattezza,
+        # --- TemporalTracker (opzionale: disattivo se --temporal_tracker non passato) ---
+        usa_temporal_tracker=args.temporal_tracker,
+        temporal_iou_threshold=args.temporal_iou_threshold,
+        temporal_min_occorrenze=args.temporal_min_occorrenze,
+        temporal_finestra_frame=args.temporal_finestra_frame,
     )
 
     print("--- Avvio Pipeline di Rilevamento Anomalie ---")
