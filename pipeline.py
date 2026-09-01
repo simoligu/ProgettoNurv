@@ -243,29 +243,47 @@ class AnomalyDetectionPipeline:
 
         self.send_alert(alert)
 
-    def _leggi_frame_reference_per_indice(self, indice: int) -> Optional[np.ndarray]:
+    def _leggi_frame_reference_per_indice(self, indice: int,
+                                          soglia_salto_seek: int = 300) -> Optional[np.ndarray]:
         """
-        Legge il frame del video REFERENCE a un indice arbitrario (random access
-        via seek), usato dal modulo di sincronizzazione. Cache minimale: se
-        l'indice richiesto coincide con l'ultimo letto (capita spesso, dato che
-        indici query vicini spesso si arrotondano allo stesso indice reference),
-        evita una seek/read ridondante.
+        Legge il frame del video REFERENCE a un indice arbitrario, usato dal
+        modulo di sincronizzazione. Cache minimale: se l'indice richiesto
+        coincide con l'ultimo letto, evita una lettura ridondante.
 
-        NOTA SULLE PRESTAZIONI: la seek (cv2.CAP_PROP_POS_FRAMES) puo' essere
-        lenta su alcuni codec/formati, specialmente per salti ampi o all'indietro.
-        Se questo risulta un collo di bottiglia su video lunghi, una possibile
-        ottimizzazione futura e' leggere il reference in sequenza invece che a
-        salti (dato che la mappa e' monotona non decrescente sull'indice
-        reference, si potrebbe avanzare con .read() invece di seek() quando il
-        prossimo indice richiesto e' vicino al precedente).
+        OTTIMIZZAZIONE: la mappa di sincronizzazione e' monotona non
+        decrescente sull'indice reference (il treno non torna indietro),
+        quindi gli indici richiesti da chiamate successive sono quasi sempre
+        vicini tra loro (ancora piu' vicini ora che il chiamante processa 1
+        frame query ogni sample_step). Invece di un seek
+        (cv2.CAP_PROP_POS_FRAMES) ad ogni chiamata — costoso su molti codec
+        perche' richiede ridecodificare dall'ultimo keyframe in avanti — si
+        avanza con .read() sequenziale quando il salto e' piccolo, e si
+        ricorre al seek SOLO per salti ampi (prima chiamata, o un balzo
+        anomalo) o all'indietro (non atteso dalla monotonia, ma gestito
+        comunque per robustezza).
         """
         if indice == self._ultimo_indice_ref_letto:
             return self._ultimo_frame_ref_letto
 
-        self._ref_cap_lookup.set(cv2.CAP_PROP_POS_FRAMES, indice)
-        ok, frame = self._ref_cap_lookup.read()
-        if not ok:
-            return None
+        cursore = self._ultimo_indice_ref_letto
+        salto_avanti = (cursore is not None and indice > cursore
+                        and (indice - cursore) <= soglia_salto_seek)
+
+        if salto_avanti:
+            # avanza in sequenza scartando i frame intermedi — piu' veloce di
+            # un seek quando il salto e' piccolo (il decoder legge comunque
+            # in avanti frame per frame all'interno dello stesso GOP)
+            frame = None
+            for _ in range(indice - cursore):
+                ok, frame = self._ref_cap_lookup.read()
+                if not ok:
+                    return None
+        else:
+            # prima chiamata, salto ampio, o indietro: seek diretto
+            self._ref_cap_lookup.set(cv2.CAP_PROP_POS_FRAMES, indice)
+            ok, frame = self._ref_cap_lookup.read()
+            if not ok:
+                return None
 
         self._ultimo_indice_ref_letto = indice
         self._ultimo_frame_ref_letto = frame
@@ -486,40 +504,71 @@ class AnomalyDetectionPipeline:
             # restano comunque attivi su ogni frame, non dipendono dal reference.
             saltato_per_mancanza_corrispondenza = False
 
-            if self.sync_map is not None:
+            # --- STEP REALE: il blocco omografia + background-subtraction
+            # (De Paolis) e' il piu' costoso del loop (compute_homography,
+            # warpPerspective, ed eventuale lettura del reference se e' attivo
+            # sync_map) — prima veniva rieseguito su OGNI frame nonostante
+            # sample_step, vanificandolo. Ora gira solo ogni sample_step
+            # frame; i frame intermedi restano semplicemente senza detection
+            # per questo modulo (nessun box "tenuto" dal frame precedente —
+            # scelta esplicita: un box disallineato sul frame sbagliato e'
+            # peggio di nessun box). YOLO (sotto) resta invece su OGNI frame:
+            # e' un modulo di sicurezza (persona/animale sui binari), il suo
+            # costo e' basso, e un ritardo di rilevamento non e' accettabile
+            # quanto lo e' per l'analisi strutturale.
+            frame_da_processare = (idx % self.sample_step == 0)
+
+            if not frame_da_processare:
+                aligned = cv2.resize(qf, (w, h))  # placeholder, solo per il video annotato
+                raw_pixel_boxes, mask = [], np.zeros((h, w), dtype=np.uint8)
+            elif self.sync_map is not None:
                 indice_ref = self.sync_map.frame_reference_per(idx)
                 frame_reference_locale = (
                     self._leggi_frame_reference_per_indice(indice_ref)
                     if indice_ref is not None else None
                 )
-            else:
-                frame_reference_locale = None  # ramo non usato quando sync_map assente
 
-            if self.sync_map is not None and frame_reference_locale is None:
-                # nessuna corrispondenza valida per questo frame (o lettura fallita):
-                # salta il modulo di background-subtraction per questo frame
-                saltato_per_mancanza_corrispondenza = True
-                aligned = cv2.resize(qf, (w, h))  # placeholder, serve solo per il video annotato
-                raw_pixel_boxes, mask = [], np.zeros((h, w), dtype=np.uint8)
-            else:
-                if self.sync_map is not None:
+                if frame_reference_locale is None:
+                    # nessuna corrispondenza valida per questo frame (o lettura fallita):
+                    # salta il modulo di background-subtraction per questo frame
+                    saltato_per_mancanza_corrispondenza = True
+                    aligned = cv2.resize(qf, (w, h))  # placeholder, serve solo per il video annotato
+                    raw_pixel_boxes, mask = [], np.zeros((h, w), dtype=np.uint8)
+                else:
                     # confronto contro il frame reference CORRETTO per questo istante
                     frame_reference_resized = cv2.resize(frame_reference_locale, (w, h))
                     riferimento_gray_eq = clahe_obj.apply(
                         cv2.cvtColor(frame_reference_resized, cv2.COLOR_BGR2GRAY)
                     )
-                else:
-                    # comportamento ORIGINALE invariato: anchor fisso + background mediato
-                    riferimento_gray_eq = ref_anchor_gray
+
+                    try:
+                        qf_gray_eq = clahe_obj.apply(qf_gray)
+                        H = aligner.compute_homography(riferimento_gray_eq, qf_gray_eq)
+                        if H is not None and np.abs(np.linalg.det(H)) > 0.1 \
+                                and self._omografia_plausibile(H, w, h):
+                            aligned = cv2.warpPerspective(qf, H, (w, h), flags=cv2.INTER_LINEAR,
+                                                          borderMode=cv2.BORDER_CONSTANT, borderValue=(0, 0, 0))
+                        else:
+                            aligned = cv2.resize(qf, (w, h))
+                    except Exception:
+                        aligned = cv2.resize(qf, (w, h))
+
+                    aligned_gray_eq = clahe_obj.apply(cv2.cvtColor(aligned, cv2.COLOR_BGR2GRAY))
+                    target_confronto = riferimento_gray_eq
+                    aligned_gray_norm = self._normalizza_luminanza(aligned_gray_eq, target_confronto)
+
+                    raw_pixel_boxes, mask = ChangeDetector.detect_changes_gray(
+                        target_confronto, aligned_gray_norm,
+                        diff_thresh=self.diff_thresh, min_area=self.min_area,
+                        min_compattezza=self.min_compattezza
+                    )
+            else:
+                # comportamento ORIGINALE invariato: anchor fisso + background mediato
+                riferimento_gray_eq = ref_anchor_gray
 
                 try:
                     qf_gray_eq = clahe_obj.apply(qf_gray)
                     H = aligner.compute_homography(riferimento_gray_eq, qf_gray_eq)
-                    # controllo di validita' RAFFORZATO: non basta un determinante
-                    # non-quasi-zero, serve anche che il warp risultante sia
-                    # geometricamente plausibile (vedi _omografia_plausibile — un
-                    # caso reale di omografia 'valida' ma degenere e' stato
-                    # osservato e documentato durante la diagnosi di questo bug)
                     if H is not None and np.abs(np.linalg.det(H)) > 0.1 \
                             and self._omografia_plausibile(H, w, h):
                         aligned = cv2.warpPerspective(qf, H, (w, h), flags=cv2.INTER_LINEAR,
@@ -530,20 +579,7 @@ class AnomalyDetectionPipeline:
                     aligned = cv2.resize(qf, (w, h))
 
                 aligned_gray_eq = clahe_obj.apply(cv2.cvtColor(aligned, cv2.COLOR_BGR2GRAY))
-
-                # il TARGET del confronto pixel-per-pixel e' diverso a seconda del
-                # ramo: col reference locale si confronta contro QUEL frame preciso
-                # (non c'e' un 'background mediato' per un singolo frame — e' un
-                # confronto diretto, piu' sensibile a rumore/luce momentanei di un
-                # singolo frame rispetto alla mediana, ma confronta il posto giusto
-                # invece di uno sbagliato, che e' il problema piu' grave da risolvere)
-                target_confronto = riferimento_gray_eq if self.sync_map is not None else ref_median_gray_eq
-
-                # normalizzazione della luminanza PRIMA della diff: il CLAHE da
-                # solo non basta a correggere lo scarto di luminosita' MEDIA tra
-                # le due riprese (~53 punti su 255, misurato empiricamente — vedi
-                # _normalizza_luminanza), che genera diff sistematica anche in
-                # assenza di vere anomalie strutturali.
+                target_confronto = ref_median_gray_eq
                 aligned_gray_norm = self._normalizza_luminanza(aligned_gray_eq, target_confronto)
 
                 raw_pixel_boxes, mask = ChangeDetector.detect_changes_gray(
