@@ -729,7 +729,14 @@ def unisci_scarti(*liste_percorso: List[Tuple[int, Optional[int]]]) -> List[Tupl
 
 # ==================== MAIN ====================
 
-def main():
+def main(argv=None):
+    """
+    argv=None (default): comportamento invariato, legge da sys.argv (uso da
+    terminale). Se invece viene passata una lista di stringhe (es. da
+    main.py per l'invocazione automatica), quella lista sostituisce
+    sys.argv — permette di richiamare questo script come funzione senza
+    passare da un sottoprocesso.
+    """
     ap = argparse.ArgumentParser(description="Sincronizza temporalmente reference/query via DTW")
     ap.add_argument("--reference", required=True, help="Percorso al video reference")
     ap.add_argument("--query", required=True, help="Percorso al video query")
@@ -805,7 +812,7 @@ def main():
                           "grande viene rilevato, e' probabilmente un problema DIVERSO (piu' "
                           "serio) da quello che il raffinamento locale puo' risolvere da solo "
                           "— vedi il messaggio di avviso stampato in quel caso.")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
 
     print(f"Estraggo feature dal reference: {args.reference}")
     feat_ref, idx_ref, fps_ref = estrai_feature_video(args.reference, args.step, args.max_frame)

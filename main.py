@@ -4,6 +4,9 @@ import os
 from ultralytics import YOLO
 import argparse
 
+import sync_videos_dtw
+from sync_cache import mappa_e_valida, salva_metadati_mappa
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Pipeline NURV di rilevamento anomalie")
     parser.add_argument('--tratta', type=int, required=True,
@@ -27,11 +30,21 @@ if __name__ == '__main__':
                         help="Deve coincidere con ANGOLO_MAX usato in train_pole_tilt.py (default: 22.0)")
     # --- NUOVO: mappa di sincronizzazione reference/query ---
     parser.add_argument('--sync_map', type=str, default=None,
-                        help="Percorso al CSV prodotto da sync_videos_dtw.py. Se omesso, il modulo "
+                        help="Percorso alla mappa di sincronizzazione (CSV). Se omesso, il modulo "
                              "di background-subtraction usa l'unico background mediato fisso "
-                             "(comportamento originale). Se fornito, confronta ogni frame query "
-                             "col frame reference corretto e salta il modulo sui frame senza "
+                             "(comportamento originale, nessuna sincronizzazione). Se fornito: "
+                             "se il file esiste gia' ED e' stato generato dagli stessi identici "
+                             "video reference/query correnti (vedi sync_cache.py), viene riusato "
+                             "cosi' com'e'; altrimenti viene generato automaticamente chiamando "
+                             "sync_videos_dtw.py con i parametri calibrati di default, senza "
+                             "bisogno di lanciarlo a parte. Poi confronta ogni frame query col "
+                             "frame reference corretto e salta il modulo sui frame senza "
                              "corrispondenza valida.")
+    parser.add_argument('--forza_risincronizzazione', action='store_true',
+                        help="Rigenera sempre la mappa (ignora la cache basata sui metadati "
+                             "dei video), anche se --sync_map punta a un file gia' valido per "
+                             "i video correnti. Utile se hai cambiato i parametri di sync a mano "
+                             "e vuoi essere sicuro che vengano riapplicati.")
     # --- NUOVO: soglie del modulo di background-subtraction (De Paolis) ---
     parser.add_argument('--diff_thresh', type=int, default=150,
                         help="Soglia di differenza pixel per il modulo ANOMALIA_STRUTTURALE "
@@ -70,6 +83,29 @@ if __name__ == '__main__':
     reference_video = 'data/videos/reference.mp4'
     query_video = 'data/videos/query.mp4'
     out_dir = 'out'
+
+    # --- Auto-sync: genera/riusa la mappa solo se --sync_map e' stato passato
+    # (comportamento opt-in, invariato per chi non lo usa) ---
+    if args.sync_map is not None:
+        serve_rigenerare = args.forza_risincronizzazione or not mappa_e_valida(
+            args.sync_map, reference_video, query_video)
+
+        if serve_rigenerare:
+            print(f"[main] Genero la mappa di sincronizzazione in: {args.sync_map} "
+                  f"(reference={reference_video}, query={query_video})")
+            # Parametri calibrati empiricamente su questo progetto (vedi diario) —
+            # non esposti come flag di main.py per non duplicare la superficie CLI
+            # di sync_videos_dtw.py; usa quello script direttamente se ti serve
+            # toccarli per un caso particolare.
+            sync_videos_dtw.main([
+                "--reference", reference_video,
+                "--query", query_video,
+                "--output", args.sync_map,
+                "--step", "5",
+                "--fattore-margine-raffinamento", "4.0",
+                "--min-run-plateau-interno", "50",
+            ])
+            salva_metadati_mappa(args.sync_map, reference_video, query_video)
 
     USE_CLASSIFIER = True
 
