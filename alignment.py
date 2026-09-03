@@ -3,9 +3,16 @@ import numpy as np
 from typing import Optional, Tuple
 
 class FrameAligner:
-    def __init__(self, method='ORB', max_features=2000):
+    def __init__(self, method='ORB', max_features=2000, ransac_seed=42):
         self.method = method.upper()
         self.max_features = max_features
+        # Fissa il generatore di numeri casuali interno di OpenCV, usato da
+        # cv2.findHomography(..., cv2.RANSAC, ...) per scegliere i sottoinsiemi
+        # di punti su cui stimare la trasformazione. Senza questo, il risultato
+        # di compute_homography() puo' variare leggermente da un'esecuzione
+        # all'altra anche a parita' di input, perche' RANSAC e' un algoritmo
+        # stocastico — con il seed fisso, stesso input -> stesso output, sempre.
+        cv2.setRNGSeed(ransac_seed)
 
     def compute_homography(self, src_gray: np.ndarray, dst_gray: np.ndarray) -> Optional[np.ndarray]:
         """

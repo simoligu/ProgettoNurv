@@ -22,10 +22,13 @@ if __name__ == '__main__':
                              "Abbassala (es. 0.05) per un test di sanita': verifica che il "
                              "meccanismo di alert torni sensibile con soglia piu' stretta.")
     # --- NUOVO: raffinamento CNN dell'inclinazione dei pali ---
-    parser.add_argument('--pole_tilt_weights', type=str, default=None,
+    parser.add_argument('--pole_tilt_weights', type=str, default='weights/pole_tilt_best.pt',
                         help="Percorso al checkpoint .pt del regressore CNN per l'inclinazione "
-                             "pali (vedi train_pole_tilt.py). Se omesso, gli alert PALO_INCLINATO "
-                             "restano basati solo sulla stima geometrica DeepLab (minAreaRect).")
+                             "pali (vedi train_pole_tilt.py). Default: weights/pole_tilt_best.pt "
+                             "(coerente con --deeplab). Passa --pole_tilt_weights '' (stringa "
+                             "vuota) per disattivarlo esplicitamente e tornare alla sola stima "
+                             "geometrica DeepLab (minAreaRect) — utile se stai lavorando da una "
+                             "macchina priva dei pesi (es. lab senza accesso al desktop di casa).")
     parser.add_argument('--pole_tilt_angolo_max', type=float, default=22.0,
                         help="Deve coincidere con ANGOLO_MAX usato in train_pole_tilt.py (default: 22.0)")
     # --- NUOVO: mappa di sincronizzazione reference/query ---
