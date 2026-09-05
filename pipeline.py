@@ -454,6 +454,50 @@ class AnomalyDetectionPipeline:
                 print(f'   [WARN] Rotaie non rilevate nel reference — scartamento non calibrato, '
                       f'uso il valore corrente ({self.analyzer.expected_gauge_px}px).')
 
+            # --- CONTROLLO DI COMPATIBILITA' reference/query ---
+            # Verifica che i due video condividano la stessa scala pixel/rotaia e
+            # (a titolo informativo) lo stesso frame rate. Se differiscono troppo,
+            # ANOMALIA_STRUTTURALE puo' comunque funzionare (l'omografia compensa in
+            # parte differenze di scala/zoom), ma SCARTAMENTO_ANOMALO — che confronta
+            # un valore assoluto in pixel calibrato sul reference — diventa
+            # inaffidabile: ogni frame query sembrerebbe sistematicamente "anomalo"
+            # anche se il binario e' del tutto normale. Diagnosticato empiricamente:
+            # una coppia di video con fps diversi (59.94 vs 50) e' risultata avere
+            # scartamenti misurati diversi del 56% pur avendo la stessa risoluzione —
+            # segno di zoom/focale/distanza dai binari diversi tra le due riprese.
+            cap_ref_fps = cv2.VideoCapture(self.reference_video)
+            fps_ref = cap_ref_fps.get(cv2.CAP_PROP_FPS) or 0
+            cap_ref_fps.release()
+            cap_query_fps = cv2.VideoCapture(self.query_video)
+            fps_query = cap_query_fps.get(cv2.CAP_PROP_FPS) or 0
+            n_frame_query_tot = int(cap_query_fps.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+            cap_query_fps.release()
+
+            if fps_ref and fps_query and abs(fps_ref - fps_query) > 0.5:
+                print(f'   [ATTENZIONE] Frame rate diversi tra reference ({fps_ref:.2f} fps) e '
+                      f'query ({fps_query:.2f} fps) — possibile segnale che i due video '
+                      f'provengano da riprese/fonti diverse. Non blocca l\'esecuzione, ma '
+                      f'consiglia il controllo di scala qui sotto.')
+
+            if baseline_gauge is not None and n_frame_query_tot > 0:
+                idx_query_test = min(100, n_frame_query_tot // 2)
+                cap_query_frame = cv2.VideoCapture(self.query_video)
+                cap_query_frame.set(cv2.CAP_PROP_POS_FRAMES, idx_query_test)
+                ok, query_anchor = cap_query_frame.read()
+                cap_query_frame.release()
+                if ok:
+                    query_class_map = self.analyzer.segment(query_anchor)
+                    gauge_query_test = self.analyzer.measure_gauge(query_class_map)
+                    if gauge_query_test is not None:
+                        diff_pct = abs(baseline_gauge - gauge_query_test) / baseline_gauge * 100
+                        if diff_pct > 10:
+                            print(f'   [ATTENZIONE] Scartamento misurato su un frame query di prova '
+                                  f'({gauge_query_test:.0f}px) differisce del {diff_pct:.0f}% da quello '
+                                  f'calibrato sul reference ({baseline_gauge:.0f}px). SCARTAMENTO_ANOMALO '
+                                  f'sara\' verosimilmente inaffidabile su questa coppia di video — valuta '
+                                  f'se ignorare quegli alert specifici per questo run, o procurarti video '
+                                  f'con la stessa scala (stesso zoom/distanza dai binari).')
+
         # --- Setup per il modulo di De Paolis (YOLO ostacoli + background subtraction) ---
         # NOTA METODOLOGICA (limite noto, da documentare in tesi): questo modulo
         # confronta ogni frame query con un UNICO background mediato sul reference.

@@ -51,6 +51,7 @@ class DeepLabAnalyzer:
                  gauge_cv_threshold: float = 0.35,
                  gauge_roi_top_frac: float = 0.70,
                  gauge_roi_bottom_frac: float = 0.92,
+                 gauge_center_band_frac: float = 0.5,
                  max_tilt_deg: float = 8.0,
                  veg_proximity_px: int = 80,
                  veg_density_threshold: float = 0.03,
@@ -81,6 +82,21 @@ class DeepLabAnalyzer:
                              principale del filtro di robustezza troppo aggressivo.
             gauge_roi_bottom_frac: fine (frazione dall'alto) della fascia di scansione.
                              Default 0.92 (era 0.90).
+            gauge_center_band_frac: larghezza (frazione della larghezza frame) della
+                             fascia centrale entro cui deve cadere il punto medio di
+                             un run per essere considerato candidato al binario di
+                             percorrenza. Default 0.5 (50% centrale). Introdotto per
+                             evitare che, vicino a scambi/stazioni con piu' binari
+                             visibili, l'algoritmo scelga per errore un run largo ma
+                             appartenente a un binario secondario invece che al binario
+                             di percorrenza (che per costruzione, essendo la camera
+                             montata sul treno, converge verso il centro-basso del
+                             frame). Nelle curve strette, dove il binario di percorrenza
+                             stesso puo' uscire da questa fascia, le righe interessate
+                             vengono scartate — stesso meccanismo di sicurezza gia'
+                             usato quando una rotaia non e' visibile (vedi len(runs)<2
+                             sotto), quindi il fallback rimane "misura scartata" non
+                             "misura sbagliata".
             max_tilt_deg: inclinazione massima accettabile per un palo (gradi)
             veg_proximity_px: distanza in pixel dai binari entro cui la vegetazione e' "invasiva"
             veg_density_threshold: densita' minima di vegetazione nella zona critica per generare alert
@@ -114,6 +130,7 @@ class DeepLabAnalyzer:
         self.gauge_cv_threshold = gauge_cv_threshold
         self.gauge_roi_top_frac = gauge_roi_top_frac
         self.gauge_roi_bottom_frac = gauge_roi_bottom_frac
+        self.gauge_center_band_frac = gauge_center_band_frac
         self.max_tilt_deg = max_tilt_deg
         self.veg_proximity_px = veg_proximity_px
         self.veg_density_threshold = veg_density_threshold
@@ -217,6 +234,104 @@ class DeepLabAnalyzer:
     # 1. SCARTAMENTO (distanza tra le rotaie)
     # ------------------------------------------------------------------
 
+    def _seleziona_coppia_rotaie(self, row: np.ndarray, w: int) -> Optional[Tuple[Tuple[int, int], Tuple[int, int]]]:
+        """
+        Dati i pixel-rotaia di UNA riga, trova la coppia di run che rappresenta il
+        binario di percorrenza.
+
+        Criterio: tra i run il cui punto medio cade nella fascia centrale configurata
+        (gauge_center_band_frac — scarta a monte binari secondari palesemente fuori
+        asse), si considerano solo le coppie di run ADIACENTI (nessun altro run
+        segmentato in mezzo) — cosi' e' garantito che le due rotaie scelte
+        appartengano allo stesso binario fisico, non a due binari diversi. Tra le
+        coppie adiacenti possibili, si sceglie quella il cui punto medio e' piu'
+        vicino al centro dell'immagine.
+
+        NOTA STORICA: tre versioni precedenti si sono rivelate insufficienti.
+        (1) Richiedere esplicitamente "una rotaia a sinistra del centro, una a
+        destra" falliva in curva, quando l'intero binario di percorrenza si trova
+        spostato tutto da un lato in una data riga.
+        (2) Scegliere la coppia adiacente il cui punto medio e' piu' vicino al
+        centro immagine falliva a sua volta se una coppia "mista" (una rotaia vera
+        + una dello scambio) aveva per caso un punto medio piu' centrato della
+        vera coppia.
+        (3) Scegliere la coppia adiacente con il gap minimo risolveva (1) e (2),
+        ma introduce un punto debole simmetrico e opposto: se un giorno lo
+        scartamento del binario di percorrenza fosse DAVVERO anomalo (allargato)
+        proprio vicino a uno scambio, e le rotaie dello scambio avessero un gap
+        piu' piccolo (normale) di quello — ora anomalo — del binario principale,
+        il criterio "gap minimo" sceglierebbe per errore lo scambio, mascherando
+        l'anomalia vera.
+        Il criterio attuale evita questo: ancora la scelta alla POSIZIONE (quale
+        singola rotaia e' piu' vicina al centro immagine — verosimilmente una
+        rotaia vera del binario di percorrenza, dato che la camera e' montata sul
+        treno e guarda lungo la direzione di marcia) e solo DOPO usa il gap, per
+        trovare il partner di quella rotaia — non per decidere quale coppia
+        preferire nel complesso. Questo non introduce alcun bias verso uno
+        scartamento "normale", quindi resta sensibile anche ad anomalie vere di
+        allargamento in prossimita' di uno scambio.
+
+        LIMITE NOTO (non risolto, documentato invece che nascosto con soglie
+        ulteriori): nella zona di TRANSIZIONE di uno scambio — non solo la gola
+        stretta, ma il tratto in cui il binario si allarga gradualmente uscendo
+        dalla convergenza — la misura resta bassa ma coerente (dispersione
+        contenuta), risultando in falsi positivi che nessuna soglia su un singolo
+        frame puo' eliminare del tutto: il fenomeno e' continuo, non ha un confine
+        netto tra "gola" e "binario aperto". La soluzione strutturale prevista e'
+        usare le coordinate GPS (quando disponibili) per disattivare questo modulo
+        nei tratti noti di scambio, invece di continuare a inseguire il problema
+        con euristiche sui pixel che non hanno consapevolezza del contesto
+        ferroviario.
+
+        Usato sia da _analyze_gauge (misura a runtime) sia da measure_gauge
+        (calibrazione automatica), cosi' i due restano sempre consistenti tra loro
+        per costruzione.
+
+        Ritorna None se non trova una coppia valida (fallback sicuro, es. curva
+        stretta con una sola rotaia visibile, o nessun run nella fascia centrale).
+        """
+        runs = self._find_runs(row)
+
+        center_x = w / 2.0
+        half_band = (w * self.gauge_center_band_frac) / 2.0
+        banda_min, banda_max = center_x - half_band, center_x + half_band
+
+        runs_centrali = sorted(
+            (r for r in runs if banda_min <= (r[0] + r[1]) / 2.0 <= banda_max),
+            key=lambda r: r[0])
+
+        if len(runs_centrali) < 2:
+            return None
+
+        # 1. trova la singola rotaia (run) il cui punto medio e' piu' vicino al
+        # centro immagine — verosimilmente una rotaia vera del binario di
+        # percorrenza, non di un binario secondario
+        idx_ancora = min(
+            range(len(runs_centrali)),
+            key=lambda i: abs((runs_centrali[i][0] + runs_centrali[i][1]) / 2.0 - center_x))
+        ancora = runs_centrali[idx_ancora]
+
+        # 2. tra i suoi vicini adiacenti (sinistro e destro nella lista ordinata),
+        # scegli quello che forma il gap valido piu' piccolo — il partner fisico
+        # piu' plausibile della rotaia-ancora
+        candidati_vicini = []
+        if idx_ancora > 0:
+            candidati_vicini.append(runs_centrali[idx_ancora - 1])
+        if idx_ancora < len(runs_centrali) - 1:
+            candidati_vicini.append(runs_centrali[idx_ancora + 1])
+
+        migliore = None
+        migliore_gap = None
+        for vicino in candidati_vicini:
+            r1, r2 = sorted([ancora, vicino], key=lambda r: r[0])
+            gap = r2[0] - r1[1]
+            if gap <= 10:
+                continue
+            if migliore_gap is None or gap < migliore_gap:
+                migliore, migliore_gap = (r1, r2), gap
+
+        return migliore
+
     def _analyze_gauge(self, class_map: np.ndarray, h: int, w: int) -> List[Dict[str, Any]]:
         """
         Misura lo scartamento: distanza in pixel tra le due rotaie.
@@ -226,11 +341,14 @@ class DeepLabAnalyzer:
         Se ci sono almeno due run separati, misura la distanza tra le loro bordi interni.
         La mediana su piu' righe da' una stima robusta.
 
-        Robustezza contro scambi/deviatoi: se la dispersione delle misure sulle righe
-        campionate e' troppo alta, e' probabile che nella scena ci sia uno scambio
-        ferroviario (piu' di due rotaie visibili, l'algoritmo puo' scegliere una coppia
-        sbagliata riga per riga) — in quel caso l'alert viene scartato invece di
-        rischiare un falso positivo, perche' la misura non e' affidabile.
+        Robustezza contro scambi/deviatoi: due meccanismi si sommano.
+        1. Filtro di posizione: solo i run il cui punto medio cade nella fascia
+           centrale (gauge_center_band_frac) sono candidati — scarta a monte i
+           binari secondari fuori asse rispetto alla direzione di marcia.
+        2. Se la dispersione delle misure sulle righe campionate resta comunque
+           troppo alta, e' probabile che nella scena ci sia uno scambio ferroviario
+           anche dentro la fascia centrale — in quel caso l'alert viene scartato
+           invece di rischiare un falso positivo, perche' la misura non e' affidabile.
         """
         anomalies = []
         rail_mask = (class_map == CL_ROTAIE).astype(np.uint8)
@@ -248,14 +366,11 @@ class DeepLabAnalyzer:
 
         for y in rows_to_check:
             row = rail_mask[y, :]
-            runs = self._find_runs(row)
-            if len(runs) >= 2:
-                runs_sorted = sorted(runs, key=lambda r: r[1] - r[0], reverse=True)
-                r1, r2 = sorted(runs_sorted[:2], key=lambda r: r[0])
-                gap = r2[0] - r1[1]
-                if gap > 10:
-                    distances.append(gap)
-                    x_positions.append((r1[0], r2[1]))
+            coppia = self._seleziona_coppia_rotaie(row, w)
+            if coppia is not None:
+                r1, r2 = coppia
+                distances.append(r2[0] - r1[1])
+                x_positions.append((r1[0], r2[1]))
 
         if not distances or len(distances) < 5:
             # troppo poche righe con due rotaie rilevate: misura inaffidabile
@@ -555,8 +670,10 @@ class DeepLabAnalyzer:
         h, w = class_map.shape
         rail_mask = (class_map == CL_ROTAIE).astype(np.uint8)
 
-        # stessa fascia usata in _analyze_gauge, per coerenza tra calibrazione
-        # (su reference) e misura a runtime (su query)
+        # stessa fascia E stesso criterio di selezione usati in _analyze_gauge
+        # (tramite _seleziona_coppia_rotaie), per coerenza tra calibrazione
+        # (su reference) e misura a runtime (su query) — vedi quel metodo per
+        # il ragionamento completo sul criterio di selezione.
         y_start = int(h * self.gauge_roi_top_frac)
         y_end = int(h * self.gauge_roi_bottom_frac)
         rows_to_check = np.linspace(y_start, y_end, num=20, dtype=int)
@@ -564,13 +681,10 @@ class DeepLabAnalyzer:
 
         for y in rows_to_check:
             row = rail_mask[y, :]
-            runs = self._find_runs(row)
-            if len(runs) >= 2:
-                runs_sorted = sorted(runs, key=lambda r: r[1] - r[0], reverse=True)
-                r1, r2 = sorted(runs_sorted[:2], key=lambda r: r[0])
-                gap = r2[0] - r1[1]
-                if gap > 10:
-                    distances.append(gap)
+            coppia = self._seleziona_coppia_rotaie(row, w)
+            if coppia is not None:
+                r1, r2 = coppia
+                distances.append(r2[0] - r1[1])
 
         if distances:
             return float(np.median(distances))
