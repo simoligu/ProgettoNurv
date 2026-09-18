@@ -1,8 +1,7 @@
 immagine,angolo_vero,angolo_predetto,errore
-frame_verifica\Vallalta-pali-della-luce.jpg,34.0,-3.3305521607398987,-37.3305521607399
-frame_verifica\palo_0001_PolePivot_Asset2_3_angolo_+012.8.png,12.8,-6.495366871356964,-19.295366871356965
-frame_verifica\palo_0001_PolePivot_Asset2_3_angolo_+012.8.png,12.8,-12.69727087020874,-25.49727087020874
-frame_verifica\Vallalta-pali-della-luce_crop_training.jpg,34.0,-11.587860703468323,-45.58786070346832
-frame_verifica\frame_000510_crop_training.jpg,0.0,-0.9046678692102432,-0.9046678692102432
-frame_verifica\frame_000510_crop_training.jpg,3.2,-1.109392873942852,-4.309392873942852
-frame_verifica\frame_000510_crop_training.jpg,3.0,-1.1217650920152664,-4.121765092015266
+frame_verifica\frame_000510_crop_training.jpg,0.0,-0.2718265503644943,-0.2718265503644943
+frame_verifica\frame_000510_crop_training.jpg,3.2,-1.109395906329155,-4.309395906329155
+frame_verifica\frame_000510_crop_training.jpg,3.2,-1.4374273270368576,-4.637427327036858
+frame_verifica\frame_000000_crop_training.jpg,0.0,-1.827675774693489,-1.827675774693489
+frame_verifica\Vallalta-pali-della-luce_crop_training.jpg,34.0,-8.926733553409576,-42.926733553409576
+frame_verifica\palomassimo_crop_training.jpeg,0.9,1.0088298469781876,0.10882984697818754
