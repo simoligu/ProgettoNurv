@@ -1,0 +1,6752 @@
+[
+  {
+    "file": "palo_0000_PolePivot_Base6_angolo_-017.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -17.0,
+    "temperatura_luce_K": 5300.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 147924.31026581285,
+    "frazione_applicata": 0.8481672464040784,
+    "bbox_crop": [
+      1104,
+      200,
+      1893,
+      1045
+    ]
+  },
+  {
+    "file": "palo_0001_PolePivot_Base5_angolo_+018.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.5,
+    "temperatura_luce_K": 8793.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 168348.43299430955,
+    "frazione_applicata": 0.6730430933217222,
+    "bbox_crop": [
+      288,
+      256,
+      964,
+      995
+    ]
+  },
+  {
+    "file": "palo_0002_Electric_Pole5_angolo_+016.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.8,
+    "temperatura_luce_K": 6828.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 197096.34123792348,
+    "frazione_applicata": 0.847614284334057,
+    "bbox_crop": [
+      200,
+      191,
+      927,
+      979
+    ]
+  },
+  {
+    "file": "palo_0003_PolePivot_Base5_angolo_-021.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.4,
+    "temperatura_luce_K": 8707.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 157367.6236113828,
+    "frazione_applicata": 0.6943694068775299,
+    "bbox_crop": [
+      239,
+      230,
+      964,
+      1020
+    ]
+  },
+  {
+    "file": "palo_0004_Electric_Pole4_angolo_+015.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.6,
+    "temperatura_luce_K": 7551.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 211365.26876668344,
+    "frazione_applicata": 0.08021213695482798,
+    "bbox_crop": [
+      927,
+      219,
+      1603,
+      957
+    ]
+  },
+  {
+    "file": "palo_0005_PolePivot_Base5_angolo_-017.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.3,
+    "temperatura_luce_K": 4210.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 149637.03492584763,
+    "frazione_applicata": 0.7093833236599338,
+    "bbox_crop": [
+      201,
+      209,
+      964,
+      1039
+    ]
+  },
+  {
+    "file": "palo_0006_Electric_Pole4_angolo_-019.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -19.9,
+    "temperatura_luce_K": 6796.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 183371.91045183834,
+    "frazione_applicata": 0.20202945999048327,
+    "bbox_crop": [
+      921,
+      156,
+      1703,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0007_Electric_Pole4_angolo_-017.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.1,
+    "temperatura_luce_K": 4893.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 175822.73820668724,
+    "frazione_applicata": 0.2348808222206339,
+    "bbox_crop": [
+      919,
+      136,
+      1736,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0008_PolePivot_Base5_angolo_-019.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.2,
+    "temperatura_luce_K": 4492.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 168965.02260852768,
+    "frazione_applicata": 0.6718455874740643,
+    "bbox_crop": [
+      291,
+      257,
+      964,
+      993
+    ]
+  },
+  {
+    "file": "palo_0009_Electric_Pole5_angolo_+016.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.3,
+    "temperatura_luce_K": 5129.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 210590.46324984683,
+    "frazione_applicata": 0.837181257383099,
+    "bbox_crop": [
+      250,
+      219,
+      929,
+      957
+    ]
+  },
+  {
+    "file": "palo_0010_Electric_Pole5_angolo_-019.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.6,
+    "temperatura_luce_K": 6522.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 203893.39859500484,
+    "frazione_applicata": 0.8423591160073606,
+    "bbox_crop": [
+      226,
+      206,
+      928,
+      967
+    ]
+  },
+  {
+    "file": "palo_0011_Electric_Pole4_angolo_-017.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.6,
+    "temperatura_luce_K": 6385.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 179322.5151584409,
+    "frazione_applicata": 0.21965101468237835,
+    "bbox_crop": [
+      920,
+      146,
+      1720,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0012_PolePivot_Base6_angolo_+019.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 19.7,
+    "temperatura_luce_K": 5877.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 157577.3958179704,
+    "frazione_applicata": 0.838259107860472,
+    "bbox_crop": [
+      1096,
+      226,
+      1834,
+      1020
+    ]
+  },
+  {
+    "file": "palo_0013_Electric_Pole4_angolo_+019.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.2,
+    "temperatura_luce_K": 6395.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 175775.33743760752,
+    "frazione_applicata": 0.2350870938202818,
+    "bbox_crop": [
+      919,
+      136,
+      1736,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0014_Electric_Pole4_angolo_-019.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -19.1,
+    "temperatura_luce_K": 6733.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 193393.5509443205,
+    "frazione_applicata": 0.15841877907505697,
+    "bbox_crop": [
+      924,
+      181,
+      1664,
+      987
+    ]
+  },
+  {
+    "file": "palo_0015_Electric_Pole5_angolo_+016.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.1,
+    "temperatura_luce_K": 5636.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 198756.22768196056,
+    "frazione_applicata": 0.8463309374078275,
+    "bbox_crop": [
+      207,
+      195,
+      928,
+      976
+    ]
+  },
+  {
+    "file": "palo_0016_PolePivot_Base5_angolo_+017.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 17.8,
+    "temperatura_luce_K": 6428.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 152275.91958108798,
+    "frazione_applicata": 0.7042582295404816,
+    "bbox_crop": [
+      214,
+      216,
+      964,
+      1032
+    ]
+  },
+  {
+    "file": "palo_0017_Electric_Pole4_angolo_+019.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.7,
+    "temperatura_luce_K": 7812.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 206051.52228682156,
+    "frazione_applicata": 0.10333570663112646,
+    "bbox_crop": [
+      926,
+      208,
+      1620,
+      966
+    ]
+  },
+  {
+    "file": "palo_0018_PolePivot_Base5_angolo_+021.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.2,
+    "temperatura_luce_K": 5557.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 150982.73055073695,
+    "frazione_applicata": 0.7067697889152464,
+    "bbox_crop": [
+      208,
+      213,
+      964,
+      1036
+    ]
+  },
+  {
+    "file": "palo_0019_PolePivot_Base5_angolo_+016.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 16.5,
+    "temperatura_luce_K": 5875.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 149105.14574497176,
+    "frazione_applicata": 0.7104163290653402,
+    "bbox_crop": [
+      198,
+      207,
+      964,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0020_Electric_Pole5_angolo_-016.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -16.5,
+    "temperatura_luce_K": 8379.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 202183.93001026358,
+    "frazione_applicata": 0.843680797536597,
+    "bbox_crop": [
+      220,
+      202,
+      928,
+      970
+    ]
+  },
+  {
+    "file": "palo_0021_Electric_Pole4_angolo_-015.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.6,
+    "temperatura_luce_K": 5139.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 190317.73705788213,
+    "frazione_applicata": 0.17180364735658504,
+    "bbox_crop": [
+      923,
+      173,
+      1676,
+      993
+    ]
+  },
+  {
+    "file": "palo_0022_Electric_Pole4_angolo_+016.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 16.1,
+    "temperatura_luce_K": 3632.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 173775.72854649022,
+    "frazione_applicata": 0.2437886936603063,
+    "bbox_crop": [
+      919,
+      130,
+      1745,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0023_Electric_Pole4_angolo_+017.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.7,
+    "temperatura_luce_K": 5872.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 201329.19533467622,
+    "frazione_applicata": 0.12388562498459554,
+    "bbox_crop": [
+      925,
+      198,
+      1636,
+      973
+    ]
+  },
+  {
+    "file": "palo_0024_PolePivot_Base5_angolo_-016.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -16.9,
+    "temperatura_luce_K": 7189.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 133581.78727444095,
+    "frazione_applicata": 0.7405649272821966,
+    "bbox_crop": [
+      106,
+      159,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0025_PolePivot_Base5_angolo_-016.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -16.3,
+    "temperatura_luce_K": 4467.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 159346.9238561133,
+    "frazione_applicata": 0.6905253206933328,
+    "bbox_crop": [
+      249,
+      235,
+      964,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0026_Electric_Pole5_angolo_+016.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.9,
+    "temperatura_luce_K": 4929.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 182019.66214067535,
+    "frazione_applicata": 0.8592708707509837,
+    "bbox_crop": [
+      135,
+      155,
+      924,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0027_PolePivot_Base5_angolo_+018.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.8,
+    "temperatura_luce_K": 7133.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 149005.01400439587,
+    "frazione_applicata": 0.7106107993290469,
+    "bbox_crop": [
+      197,
+      207,
+      964,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0028_Electric_Pole5_angolo_-019.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.3,
+    "temperatura_luce_K": 3764.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 212977.85416191965,
+    "frazione_applicata": 0.835335437869527,
+    "bbox_crop": [
+      258,
+      224,
+      930,
+      953
+    ]
+  },
+  {
+    "file": "palo_0029_PolePivot_Base5_angolo_-017.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.4,
+    "temperatura_luce_K": 5798.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 140887.28314135424,
+    "frazione_applicata": 0.7263766019861859,
+    "bbox_crop": [
+      152,
+      183,
+      964,
+      1065
+    ]
+  },
+  {
+    "file": "palo_0030_PolePivot_Base5_angolo_+016.0.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 16.0,
+    "temperatura_luce_K": 6702.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 167270.21229734088,
+    "frazione_applicata": 0.6751371532278769,
+    "bbox_crop": [
+      284,
+      253,
+      964,
+      997
+    ]
+  },
+  {
+    "file": "palo_0031_PolePivot_Base6_angolo_-017.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -17.3,
+    "temperatura_luce_K": 8357.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 149033.1257340903,
+    "frazione_applicata": 0.8470291339094127,
+    "bbox_crop": [
+      1103,
+      203,
+      1886,
+      1042
+    ]
+  },
+  {
+    "file": "palo_0032_Electric_Pole4_angolo_-021.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -21.2,
+    "temperatura_luce_K": 6676.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 176045.78943203544,
+    "frazione_applicata": 0.2339101811540587,
+    "bbox_crop": [
+      919,
+      137,
+      1735,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0033_Electric_Pole5_angolo_-016.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -16.2,
+    "temperatura_luce_K": 7959.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 167418.89169829502,
+    "frazione_applicata": 0.8705595067508293,
+    "bbox_crop": [
+      60,
+      115,
+      921,
+      1039
+    ]
+  },
+  {
+    "file": "palo_0034_Electric_Pole5_angolo_-021.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.2,
+    "temperatura_luce_K": 7443.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 199613.90366043782,
+    "frazione_applicata": 0.8456678222684553,
+    "bbox_crop": [
+      210,
+      197,
+      928,
+      974
+    ]
+  },
+  {
+    "file": "palo_0035_Electric_Pole4_angolo_-020.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.3,
+    "temperatura_luce_K": 4572.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 206704.45368186905,
+    "frazione_applicata": 0.10049437713517806,
+    "bbox_crop": [
+      927,
+      210,
+      1618,
+      964
+    ]
+  },
+  {
+    "file": "palo_0036_Electric_Pole4_angolo_+020.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 20.1,
+    "temperatura_luce_K": 5146.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 188055.6264139423,
+    "frazione_applicata": 0.18164756318675823,
+    "bbox_crop": [
+      922,
+      168,
+      1684,
+      997
+    ]
+  },
+  {
+    "file": "palo_0037_PolePivot_Base5_angolo_-021.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.1,
+    "temperatura_luce_K": 5840.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 140949.1421261319,
+    "frazione_applicata": 0.7262564629272508,
+    "bbox_crop": [
+      152,
+      183,
+      964,
+      1064
+    ]
+  },
+  {
+    "file": "palo_0038_PolePivot_Base5_angolo_-017.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.5,
+    "temperatura_luce_K": 4911.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 140322.10427875674,
+    "frazione_applicata": 0.7274742607487186,
+    "bbox_crop": [
+      148,
+      181,
+      964,
+      1066
+    ]
+  },
+  {
+    "file": "palo_0039_Electric_Pole5_angolo_+019.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.9,
+    "temperatura_luce_K": 6341.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 175104.4578329866,
+    "frazione_applicata": 0.8646173847998229,
+    "bbox_crop": [
+      101,
+      137,
+      923,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0040_PolePivot_Base5_angolo_+019.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.3,
+    "temperatura_luce_K": 8739.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 167466.1656546803,
+    "frazione_applicata": 0.6747565835817604,
+    "bbox_crop": [
+      284,
+      254,
+      964,
+      996
+    ]
+  },
+  {
+    "file": "palo_0041_Electric_Pole4_angolo_-015.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.8,
+    "temperatura_luce_K": 5044.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 166145.54964922136,
+    "frazione_applicata": 0.27699256856142984,
+    "bbox_crop": [
+      916,
+      108,
+      1782,
+      1045
+    ]
+  },
+  {
+    "file": "palo_0042_Electric_Pole5_angolo_-019.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.4,
+    "temperatura_luce_K": 6400.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 168961.10704865603,
+    "frazione_applicata": 0.8693671376363156,
+    "bbox_crop": [
+      69,
+      119,
+      921,
+      1036
+    ]
+  },
+  {
+    "file": "palo_0043_Electric_Pole5_angolo_-015.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.4,
+    "temperatura_luce_K": 7502.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 172858.8557672114,
+    "frazione_applicata": 0.8663535797781,
+    "bbox_crop": [
+      90,
+      131,
+      922,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0044_PolePivot_Base6_angolo_-018.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -18.7,
+    "temperatura_luce_K": 7540.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 155043.28506350802,
+    "frazione_applicata": 0.8408601746700833,
+    "bbox_crop": [
+      1098,
+      220,
+      1849,
+      1026
+    ]
+  },
+  {
+    "file": "palo_0045_PolePivot_Base5_angolo_+017.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 17.7,
+    "temperatura_luce_K": 4390.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 138194.25447151673,
+    "frazione_applicata": 0.7316068515811778,
+    "bbox_crop": [
+      135,
+      174,
+      964,
+      1073
+    ]
+  },
+  {
+    "file": "palo_0046_PolePivot_Base5_angolo_-017.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.7,
+    "temperatura_luce_K": 8257.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 144598.3798323406,
+    "frazione_applicata": 0.7191691176461927,
+    "bbox_crop": [
+      173,
+      194,
+      964,
+      1054
+    ]
+  },
+  {
+    "file": "palo_0047_Electric_Pole4_angolo_-017.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.8,
+    "temperatura_luce_K": 4296.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 180520.90765136632,
+    "frazione_applicata": 0.21443602890638502,
+    "bbox_crop": [
+      921,
+      149,
+      1715,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0048_PolePivot_Base5_angolo_+021.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 5676.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 151421.52566100121,
+    "frazione_applicata": 0.7059175856047327,
+    "bbox_crop": [
+      210,
+      214,
+      964,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0049_Electric_Pole5_angolo_+017.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.3,
+    "temperatura_luce_K": 6309.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 198204.32268528684,
+    "frazione_applicata": 0.8467576446585532,
+    "bbox_crop": [
+      204,
+      194,
+      927,
+      977
+    ]
+  },
+  {
+    "file": "palo_0050_PolePivot_Base6_angolo_-021.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.0,
+    "temperatura_luce_K": 7118.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 143280.502427947,
+    "frazione_applicata": 0.8529337525309381,
+    "bbox_crop": [
+      1108,
+      186,
+      1920,
+      1059
+    ]
+  },
+  {
+    "file": "palo_0051_Electric_Pole5_angolo_-015.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.4,
+    "temperatura_luce_K": 8669.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 164070.56909156733,
+    "frazione_applicata": 0.8731482739166831,
+    "bbox_crop": [
+      41,
+      104,
+      920,
+      1047
+    ]
+  },
+  {
+    "file": "palo_0052_Electric_Pole4_angolo_-017.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.2,
+    "temperatura_luce_K": 4492.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 188854.48731230726,
+    "frazione_applicata": 0.17817119943567972,
+    "bbox_crop": [
+      923,
+      170,
+      1681,
+      995
+    ]
+  },
+  {
+    "file": "palo_0053_Electric_Pole4_angolo_-016.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.7,
+    "temperatura_luce_K": 4380.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 178797.05943091307,
+    "frazione_applicata": 0.22193761457444083,
+    "bbox_crop": [
+      920,
+      144,
+      1723,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0054_PolePivot_Base5_angolo_+019.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.6,
+    "temperatura_luce_K": 5228.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 135670.48923373857,
+    "frazione_applicata": 0.7365083672095056,
+    "bbox_crop": [
+      119,
+      166,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0055_PolePivot_Base6_angolo_-016.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.9,
+    "temperatura_luce_K": 5745.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 138934.51394880953,
+    "frazione_applicata": 0.857394570341735,
+    "bbox_crop": [
+      1112,
+      172,
+      1920,
+      1072
+    ]
+  },
+  {
+    "file": "palo_0056_PolePivot_Base6_angolo_+016.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.9,
+    "temperatura_luce_K": 7901.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 139044.60323297893,
+    "frazione_applicata": 0.8572815722880223,
+    "bbox_crop": [
+      1112,
+      172,
+      1920,
+      1072
+    ]
+  },
+  {
+    "file": "palo_0057_Electric_Pole5_angolo_-019.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.2,
+    "temperatura_luce_K": 6051.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 210168.03226605908,
+    "frazione_applicata": 0.8375078613544342,
+    "bbox_crop": [
+      249,
+      218,
+      929,
+      958
+    ]
+  },
+  {
+    "file": "palo_0058_Electric_Pole5_angolo_-021.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.9,
+    "temperatura_luce_K": 6083.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 187489.5018710261,
+    "frazione_applicata": 0.855041845307628,
+    "bbox_crop": [
+      160,
+      169,
+      925,
+      996
+    ]
+  },
+  {
+    "file": "palo_0059_PolePivot_Base5_angolo_+016.0.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 16.0,
+    "temperatura_luce_K": 4564.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 137978.20718281227,
+    "frazione_applicata": 0.7320264465364419,
+    "bbox_crop": [
+      134,
+      173,
+      964,
+      1074
+    ]
+  },
+  {
+    "file": "palo_0060_PolePivot_Base6_angolo_-018.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -18.2,
+    "temperatura_luce_K": 5834.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 130716.99485812747,
+    "frazione_applicata": 0.865829212011,
+    "bbox_crop": [
+      1121,
+      143,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0061_Electric_Pole4_angolo_-018.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.9,
+    "temperatura_luce_K": 7770.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 205808.97687721526,
+    "frazione_applicata": 0.10439117958226429,
+    "bbox_crop": [
+      926,
+      208,
+      1621,
+      966
+    ]
+  },
+  {
+    "file": "palo_0062_PolePivot_Base5_angolo_+018.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.7,
+    "temperatura_luce_K": 8598.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 149439.70343895757,
+    "frazione_applicata": 0.7097665698321509,
+    "bbox_crop": [
+      200,
+      208,
+      964,
+      1040
+    ]
+  },
+  {
+    "file": "palo_0063_Electric_Pole4_angolo_+019.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.1,
+    "temperatura_luce_K": 4432.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 208808.06241739562,
+    "frazione_applicata": 0.0913402062781441,
+    "bbox_crop": [
+      927,
+      214,
+      1611,
+      961
+    ]
+  },
+  {
+    "file": "palo_0064_Electric_Pole4_angolo_-017.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.1,
+    "temperatura_luce_K": 7622.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 200251.06462922852,
+    "frazione_applicata": 0.1285772734443137,
+    "bbox_crop": [
+      925,
+      196,
+      1639,
+      975
+    ]
+  },
+  {
+    "file": "palo_0065_Electric_Pole4_angolo_-021.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -21.7,
+    "temperatura_luce_K": 6376.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 173937.53172115496,
+    "frazione_applicata": 0.24308458272889744,
+    "bbox_crop": [
+      919,
+      131,
+      1744,
+      1026
+    ]
+  },
+  {
+    "file": "palo_0066_Electric_Pole4_angolo_+021.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 4109.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 214503.49392017015,
+    "frazione_applicata": 0.06655567662658723,
+    "bbox_crop": [
+      928,
+      225,
+      1594,
+      953
+    ]
+  },
+  {
+    "file": "palo_0067_PolePivot_Base5_angolo_+015.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.9,
+    "temperatura_luce_K": 6074.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 156489.3264570447,
+    "frazione_applicata": 0.6960751864658462,
+    "bbox_crop": [
+      235,
+      227,
+      964,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0068_PolePivot_Base6_angolo_+019.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 19.2,
+    "temperatura_luce_K": 3818.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 143189.1001638259,
+    "frazione_applicata": 0.8530275698177753,
+    "bbox_crop": [
+      1108,
+      186,
+      1920,
+      1059
+    ]
+  },
+  {
+    "file": "palo_0069_PolePivot_Base6_angolo_+018.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 5132.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 147578.75166618562,
+    "frazione_applicata": 0.8485219353231335,
+    "bbox_crop": [
+      1104,
+      199,
+      1895,
+      1046
+    ]
+  },
+  {
+    "file": "palo_0070_Electric_Pole5_angolo_+015.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 15.5,
+    "temperatura_luce_K": 8187.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 172491.68492425795,
+    "frazione_applicata": 0.8666374591810545,
+    "bbox_crop": [
+      88,
+      130,
+      922,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0071_Electric_Pole5_angolo_+018.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 18.3,
+    "temperatura_luce_K": 6684.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 176351.67277211184,
+    "frazione_applicata": 0.8636530962701925,
+    "bbox_crop": [
+      108,
+      140,
+      923,
+      1019
+    ]
+  },
+  {
+    "file": "palo_0072_Electric_Pole4_angolo_+021.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.6,
+    "temperatura_luce_K": 6166.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 161985.41795607455,
+    "frazione_applicata": 0.2950960094074745,
+    "bbox_crop": [
+      915,
+      94,
+      1804,
+      1055
+    ]
+  },
+  {
+    "file": "palo_0073_PolePivot_Base6_angolo_-017.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -17.0,
+    "temperatura_luce_K": 6946.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 149837.46662543458,
+    "frazione_applicata": 0.8462035407926143,
+    "bbox_crop": [
+      1102,
+      205,
+      1881,
+      1040
+    ]
+  },
+  {
+    "file": "palo_0074_Electric_Pole4_angolo_+018.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.6,
+    "temperatura_luce_K": 5152.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 171774.59345845642,
+    "frazione_applicata": 0.25249693497652326,
+    "bbox_crop": [
+      918,
+      125,
+      1754,
+      1031
+    ]
+  },
+  {
+    "file": "palo_0075_Electric_Pole4_angolo_-018.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.1,
+    "temperatura_luce_K": 4193.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 214784.64837474635,
+    "frazione_applicata": 0.06533219058997763,
+    "bbox_crop": [
+      928,
+      225,
+      1593,
+      952
+    ]
+  },
+  {
+    "file": "palo_0076_Electric_Pole4_angolo_-016.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.6,
+    "temperatura_luce_K": 3574.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 183518.24594301757,
+    "frazione_applicata": 0.20139265901790726,
+    "bbox_crop": [
+      921,
+      157,
+      1703,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0077_Electric_Pole4_angolo_+020.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 20.2,
+    "temperatura_luce_K": 7443.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 198291.83629965218,
+    "frazione_applicata": 0.1371031511771772,
+    "bbox_crop": [
+      925,
+      192,
+      1646,
+      978
+    ]
+  },
+  {
+    "file": "palo_0078_PolePivot_Base6_angolo_-020.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.8,
+    "temperatura_luce_K": 7880.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 142766.53808308186,
+    "frazione_applicata": 0.8534612967972643,
+    "bbox_crop": [
+      1109,
+      184,
+      1920,
+      1060
+    ]
+  },
+  {
+    "file": "palo_0079_PolePivot_Base6_angolo_+016.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.0,
+    "temperatura_luce_K": 6425.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 142106.637340805,
+    "frazione_applicata": 0.854138633379871,
+    "bbox_crop": [
+      1109,
+      182,
+      1920,
+      1062
+    ]
+  },
+  {
+    "file": "palo_0080_PolePivot_Base5_angolo_+020.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 20.1,
+    "temperatura_luce_K": 3973.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 159550.10851151793,
+    "frazione_applicata": 0.6901307068247391,
+    "bbox_crop": [
+      250,
+      235,
+      964,
+      1014
+    ]
+  },
+  {
+    "file": "palo_0081_PolePivot_Base5_angolo_-019.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.1,
+    "temperatura_luce_K": 6308.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 159183.74346114087,
+    "frazione_applicata": 0.6908422405257411,
+    "bbox_crop": [
+      248,
+      234,
+      964,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0082_Electric_Pole4_angolo_-017.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.2,
+    "temperatura_luce_K": 6506.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 193938.67887645165,
+    "frazione_applicata": 0.1560465726160355,
+    "bbox_crop": [
+      924,
+      182,
+      1662,
+      986
+    ]
+  },
+  {
+    "file": "palo_0083_Electric_Pole4_angolo_-020.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.9,
+    "temperatura_luce_K": 5889.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 200166.45141388147,
+    "frazione_applicata": 0.128945480619426,
+    "bbox_crop": [
+      925,
+      196,
+      1640,
+      975
+    ]
+  },
+  {
+    "file": "palo_0084_PolePivot_Base6_angolo_-018.6.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -18.6,
+    "temperatura_luce_K": 5341.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 157523.77446689276,
+    "frazione_applicata": 0.8383141459902494,
+    "bbox_crop": [
+      1096,
+      226,
+      1835,
+      1020
+    ]
+  },
+  {
+    "file": "palo_0085_Electric_Pole4_angolo_+021.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.1,
+    "temperatura_luce_K": 3799.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 205599.90819194715,
+    "frazione_applicata": 0.10530097351565015,
+    "bbox_crop": [
+      926,
+      207,
+      1621,
+      966
+    ]
+  },
+  {
+    "file": "palo_0086_Electric_Pole5_angolo_+019.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.5,
+    "temperatura_luce_K": 5829.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 160714.4342512131,
+    "frazione_applicata": 0.8757430811378959,
+    "bbox_crop": [
+      22,
+      94,
+      919,
+      1056
+    ]
+  },
+  {
+    "file": "palo_0087_PolePivot_Base5_angolo_-021.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.4,
+    "temperatura_luce_K": 4332.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 148281.8191576207,
+    "frazione_applicata": 0.712015347894315,
+    "bbox_crop": [
+      194,
+      205,
+      964,
+      1043
+    ]
+  },
+  {
+    "file": "palo_0088_PolePivot_Base5_angolo_+018.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 4978.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 149203.40251164057,
+    "frazione_applicata": 0.7102255002710425,
+    "bbox_crop": [
+      199,
+      208,
+      964,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0089_Electric_Pole5_angolo_+015.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 15.3,
+    "temperatura_luce_K": 3558.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 178293.73573155957,
+    "frazione_applicata": 0.8621515835983438,
+    "bbox_crop": [
+      117,
+      146,
+      924,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0090_PolePivot_Base6_angolo_+016.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.5,
+    "temperatura_luce_K": 5359.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 150785.6836743109,
+    "frazione_applicata": 0.8452302700348953,
+    "bbox_crop": [
+      1101,
+      208,
+      1875,
+      1037
+    ]
+  },
+  {
+    "file": "palo_0091_Electric_Pole4_angolo_-019.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -19.2,
+    "temperatura_luce_K": 8751.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 160128.9118016942,
+    "frazione_applicata": 0.3031748760937164,
+    "bbox_crop": [
+      915,
+      88,
+      1814,
+      1060
+    ]
+  },
+  {
+    "file": "palo_0092_Electric_Pole4_angolo_+021.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.5,
+    "temperatura_luce_K": 7836.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 210838.8735212201,
+    "frazione_applicata": 0.08250282530096453,
+    "bbox_crop": [
+      927,
+      218,
+      1605,
+      958
+    ]
+  },
+  {
+    "file": "palo_0093_PolePivot_Base5_angolo_+021.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 5970.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 136624.867521652,
+    "frazione_applicata": 0.7346548271006551,
+    "bbox_crop": [
+      126,
+      169,
+      964,
+      1078
+    ]
+  },
+  {
+    "file": "palo_0094_Electric_Pole4_angolo_+021.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 3812.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 161130.7165038367,
+    "frazione_applicata": 0.29881537175533135,
+    "bbox_crop": [
+      915,
+      92,
+      1808,
+      1058
+    ]
+  },
+  {
+    "file": "palo_0095_Electric_Pole4_angolo_-018.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.0,
+    "temperatura_luce_K": 8590.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 160124.0793138632,
+    "frazione_applicata": 0.30319590539375785,
+    "bbox_crop": [
+      915,
+      88,
+      1814,
+      1060
+    ]
+  },
+  {
+    "file": "palo_0096_Electric_Pole5_angolo_+020.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 20.6,
+    "temperatura_luce_K": 6470.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 212009.47596630728,
+    "frazione_applicata": 0.8360841428096941,
+    "bbox_crop": [
+      255,
+      222,
+      930,
+      955
+    ]
+  },
+  {
+    "file": "palo_0097_Electric_Pole5_angolo_-015.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.6,
+    "temperatura_luce_K": 4056.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 194835.75840341387,
+    "frazione_applicata": 0.8493620617453235,
+    "bbox_crop": [
+      191,
+      186,
+      927,
+      983
+    ]
+  },
+  {
+    "file": "palo_0098_Electric_Pole4_angolo_+016.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 16.8,
+    "temperatura_luce_K": 8446.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 167145.69176406943,
+    "frazione_applicata": 0.27264029922254873,
+    "bbox_crop": [
+      917,
+      111,
+      1777,
+      1042
+    ]
+  },
+  {
+    "file": "palo_0099_PolePivot_Base6_angolo_+021.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 21.3,
+    "temperatura_luce_K": 3780.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 132420.88283810922,
+    "frazione_applicata": 0.8640803040502008,
+    "bbox_crop": [
+      1119,
+      150,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0100_PolePivot_Base6_angolo_+021.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 21.9,
+    "temperatura_luce_K": 8524.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 151514.49804372079,
+    "frazione_applicata": 0.8444821989952606,
+    "bbox_crop": [
+      1101,
+      210,
+      1870,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0101_Electric_Pole5_angolo_+016.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.1,
+    "temperatura_luce_K": 8439.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 194147.34532840116,
+    "frazione_applicata": 0.8498943106873926,
+    "bbox_crop": [
+      188,
+      185,
+      927,
+      984
+    ]
+  },
+  {
+    "file": "palo_0102_Electric_Pole5_angolo_-020.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.5,
+    "temperatura_luce_K": 4649.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 213230.54092294685,
+    "frazione_applicata": 0.8351400722291676,
+    "bbox_crop": [
+      259,
+      224,
+      930,
+      953
+    ]
+  },
+  {
+    "file": "palo_0103_Electric_Pole5_angolo_-019.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.2,
+    "temperatura_luce_K": 4579.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 174021.44917577395,
+    "frazione_applicata": 0.8654547166765346,
+    "bbox_crop": [
+      96,
+      134,
+      923,
+      1024
+    ]
+  },
+  {
+    "file": "palo_0104_Electric_Pole4_angolo_+019.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.5,
+    "temperatura_luce_K": 4927.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 211625.7333227416,
+    "frazione_applicata": 0.07907868613382196,
+    "bbox_crop": [
+      927,
+      219,
+      1602,
+      957
+    ]
+  },
+  {
+    "file": "palo_0105_Electric_Pole5_angolo_-019.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.9,
+    "temperatura_luce_K": 4354.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 170117.78766513825,
+    "frazione_applicata": 0.8684728460303298,
+    "bbox_crop": [
+      75,
+      123,
+      922,
+      1033
+    ]
+  },
+  {
+    "file": "palo_0106_PolePivot_Base6_angolo_+015.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.7,
+    "temperatura_luce_K": 6471.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 132027.70027327628,
+    "frazione_applicata": 0.8644838752507507,
+    "bbox_crop": [
+      1119,
+      148,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0107_Electric_Pole5_angolo_+019.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.5,
+    "temperatura_luce_K": 5671.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 163262.33426638425,
+    "frazione_applicata": 0.8737731634579506,
+    "bbox_crop": [
+      37,
+      102,
+      920,
+      1049
+    ]
+  },
+  {
+    "file": "palo_0108_Electric_Pole4_angolo_-018.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.3,
+    "temperatura_luce_K": 4748.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 210545.67488234083,
+    "frazione_applicata": 0.08377872342309267,
+    "bbox_crop": [
+      927,
+      217,
+      1606,
+      959
+    ]
+  },
+  {
+    "file": "palo_0109_Electric_Pole4_angolo_+020.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 20.1,
+    "temperatura_luce_K": 6601.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 176366.33445337438,
+    "frazione_applicata": 0.2325152811219604,
+    "bbox_crop": [
+      919,
+      138,
+      1733,
+      1021
+    ]
+  },
+  {
+    "file": "palo_0110_Electric_Pole5_angolo_-019.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.3,
+    "temperatura_luce_K": 6451.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 207632.2801421158,
+    "frazione_applicata": 0.8394683868504,
+    "bbox_crop": [
+      240,
+      213,
+      929,
+      961
+    ]
+  },
+  {
+    "file": "palo_0111_PolePivot_Base5_angolo_+015.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.8,
+    "temperatura_luce_K": 3552.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 127053.81836710128,
+    "frazione_applicata": 0.7532431832235982,
+    "bbox_crop": [
+      60,
+      135,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0112_PolePivot_Base5_angolo_+017.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 17.2,
+    "temperatura_luce_K": 8257.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 161273.3210889515,
+    "frazione_applicata": 0.6867839797786619,
+    "bbox_crop": [
+      258,
+      239,
+      964,
+      1010
+    ]
+  },
+  {
+    "file": "palo_0113_PolePivot_Base6_angolo_-015.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -15.2,
+    "temperatura_luce_K": 4056.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 149500.26278349513,
+    "frazione_applicata": 0.8465496542052968,
+    "bbox_crop": [
+      1103,
+      204,
+      1883,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0114_PolePivot_Base5_angolo_-015.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -15.8,
+    "temperatura_luce_K": 7250.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 130504.17348033514,
+    "frazione_applicata": 0.7465420965862034,
+    "bbox_crop": [
+      85,
+      148,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0115_Electric_Pole4_angolo_-016.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.1,
+    "temperatura_luce_K": 5577.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 186741.35661868396,
+    "frazione_applicata": 0.1873668065302796,
+    "bbox_crop": [
+      922,
+      165,
+      1690,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0116_PolePivot_Base5_angolo_-017.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.8,
+    "temperatura_luce_K": 4950.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 158277.73995754495,
+    "frazione_applicata": 0.6926018298352858,
+    "bbox_crop": [
+      244,
+      232,
+      964,
+      1017
+    ]
+  },
+  {
+    "file": "palo_0117_PolePivot_Base6_angolo_+017.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 17.7,
+    "temperatura_luce_K": 5004.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 151001.3075615987,
+    "frazione_applicata": 0.8450089489519094,
+    "bbox_crop": [
+      1101,
+      209,
+      1873,
+      1037
+    ]
+  },
+  {
+    "file": "palo_0118_PolePivot_Base6_angolo_-017.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -17.5,
+    "temperatura_luce_K": 6814.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 153554.6435073538,
+    "frazione_applicata": 0.842388148984664,
+    "bbox_crop": [
+      1099,
+      216,
+      1858,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0119_Electric_Pole4_angolo_+020.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 20.3,
+    "temperatura_luce_K": 8717.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 176032.38876990884,
+    "frazione_applicata": 0.23396849615752524,
+    "bbox_crop": [
+      919,
+      137,
+      1735,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0120_PolePivot_Base6_angolo_-016.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.8,
+    "temperatura_luce_K": 6249.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 152207.1895105768,
+    "frazione_applicata": 0.8437712052943864,
+    "bbox_crop": [
+      1100,
+      212,
+      1866,
+      1034
+    ]
+  },
+  {
+    "file": "palo_0121_PolePivot_Base6_angolo_-016.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.2,
+    "temperatura_luce_K": 6326.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 145213.60918932236,
+    "frazione_applicata": 0.850949569389931,
+    "bbox_crop": [
+      1106,
+      192,
+      1911,
+      1053
+    ]
+  },
+  {
+    "file": "palo_0122_PolePivot_Base6_angolo_+020.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 20.3,
+    "temperatura_luce_K": 6923.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 130382.94637550568,
+    "frazione_applicata": 0.8661720866937338,
+    "bbox_crop": [
+      1121,
+      142,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0123_Electric_Pole5_angolo_+021.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 21.6,
+    "temperatura_luce_K": 8035.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 201381.74065928144,
+    "frazione_applicata": 0.8443010129986458,
+    "bbox_crop": [
+      217,
+      201,
+      928,
+      971
+    ]
+  },
+  {
+    "file": "palo_0124_Electric_Pole5_angolo_+016.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.2,
+    "temperatura_luce_K": 5058.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 196576.5549335574,
+    "frazione_applicata": 0.8480161589071044,
+    "bbox_crop": [
+      198,
+      190,
+      927,
+      980
+    ]
+  },
+  {
+    "file": "palo_0125_Electric_Pole4_angolo_-020.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.5,
+    "temperatura_luce_K": 3630.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 167100.67854034188,
+    "frazione_applicata": 0.2728361810583051,
+    "bbox_crop": [
+      917,
+      111,
+      1777,
+      1042
+    ]
+  },
+  {
+    "file": "palo_0126_Electric_Pole5_angolo_-019.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.4,
+    "temperatura_luce_K": 8652.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 199417.72492098386,
+    "frazione_applicata": 0.8458194985371387,
+    "bbox_crop": [
+      209,
+      196,
+      928,
+      975
+    ]
+  },
+  {
+    "file": "palo_0127_PolePivot_Base5_angolo_+019.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.8,
+    "temperatura_luce_K": 3659.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 131209.61747774298,
+    "frazione_applicata": 0.7451720227273334,
+    "bbox_crop": [
+      90,
+      150,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0128_PolePivot_Base6_angolo_-016.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.1,
+    "temperatura_luce_K": 4174.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 135898.87780311616,
+    "frazione_applicata": 0.8605104138030816,
+    "bbox_crop": [
+      1115,
+      162,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0129_PolePivot_Base6_angolo_-019.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 5422.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 161030.24479355957,
+    "frazione_applicata": 0.8347150280079279,
+    "bbox_crop": [
+      1093,
+      235,
+      1815,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0130_Electric_Pole5_angolo_+016.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.0,
+    "temperatura_luce_K": 7729.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 209199.62082580288,
+    "frazione_applicata": 0.8382565919978123,
+    "bbox_crop": [
+      245,
+      217,
+      929,
+      959
+    ]
+  },
+  {
+    "file": "palo_0131_Electric_Pole4_angolo_-015.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.8,
+    "temperatura_luce_K": 8529.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 200382.718251123,
+    "frazione_applicata": 0.12800436284149297,
+    "bbox_crop": [
+      925,
+      196,
+      1639,
+      975
+    ]
+  },
+  {
+    "file": "palo_0132_Electric_Pole4_angolo_+016.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 16.2,
+    "temperatura_luce_K": 8805.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 169452.7848098986,
+    "frazione_applicata": 0.26260063568249936,
+    "bbox_crop": [
+      917,
+      118,
+      1766,
+      1037
+    ]
+  },
+  {
+    "file": "palo_0133_Electric_Pole4_angolo_-018.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.0,
+    "temperatura_luce_K": 3945.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 186613.4558871401,
+    "frazione_applicata": 0.18792338586441093,
+    "bbox_crop": [
+      922,
+      164,
+      1690,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0134_PolePivot_Base6_angolo_-018.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -18.0,
+    "temperatura_luce_K": 7792.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 129008.5898103723,
+    "frazione_applicata": 0.8675827563891467,
+    "bbox_crop": [
+      1123,
+      137,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0135_PolePivot_Base6_angolo_-021.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.2,
+    "temperatura_luce_K": 6111.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 138624.04525551642,
+    "frazione_applicata": 0.8577132422119862,
+    "bbox_crop": [
+      1112,
+      171,
+      1920,
+      1073
+    ]
+  },
+  {
+    "file": "palo_0136_Electric_Pole5_angolo_+017.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.4,
+    "temperatura_luce_K": 6415.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 191143.8506790105,
+    "frazione_applicata": 0.8522164729293276,
+    "bbox_crop": [
+      176,
+      178,
+      926,
+      989
+    ]
+  },
+  {
+    "file": "palo_0137_Electric_Pole4_angolo_-015.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.2,
+    "temperatura_luce_K": 4343.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 206561.8068918163,
+    "frazione_applicata": 0.10111512616815999,
+    "bbox_crop": [
+      927,
+      209,
+      1618,
+      965
+    ]
+  },
+  {
+    "file": "palo_0138_Electric_Pole5_angolo_+015.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 15.3,
+    "temperatura_luce_K": 7214.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 175014.7114599354,
+    "frazione_applicata": 0.8646867725175245,
+    "bbox_crop": [
+      101,
+      137,
+      923,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0139_PolePivot_Base5_angolo_-019.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.4,
+    "temperatura_luce_K": 8251.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 154972.0014432368,
+    "frazione_applicata": 0.6990220502062231,
+    "bbox_crop": [
+      228,
+      223,
+      964,
+      1025
+    ]
+  },
+  {
+    "file": "palo_0140_Electric_Pole5_angolo_+017.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.8,
+    "temperatura_luce_K": 6215.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 182178.5965284289,
+    "frazione_applicata": 0.8591479900812076,
+    "bbox_crop": [
+      136,
+      156,
+      924,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0141_PolePivot_Base5_angolo_-021.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.1,
+    "temperatura_luce_K": 6908.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 156042.46231049174,
+    "frazione_applicata": 0.6969430610071394,
+    "bbox_crop": [
+      233,
+      226,
+      964,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0142_PolePivot_Base5_angolo_-020.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.9,
+    "temperatura_luce_K": 5996.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 159885.87761614905,
+    "frazione_applicata": 0.6894785948575786,
+    "bbox_crop": [
+      251,
+      236,
+      964,
+      1014
+    ]
+  },
+  {
+    "file": "palo_0143_PolePivot_Base6_angolo_+015.6.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.6,
+    "temperatura_luce_K": 8843.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 144587.1392928379,
+    "frazione_applicata": 0.8515925918198296,
+    "bbox_crop": [
+      1107,
+      190,
+      1915,
+      1055
+    ]
+  },
+  {
+    "file": "palo_0144_Electric_Pole4_angolo_+017.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.5,
+    "temperatura_luce_K": 7276.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 179323.62714417573,
+    "frazione_applicata": 0.2196461757086493,
+    "bbox_crop": [
+      920,
+      146,
+      1720,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0145_PolePivot_Base5_angolo_+018.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.5,
+    "temperatura_luce_K": 4679.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 158944.4809277512,
+    "frazione_applicata": 0.6913069228302311,
+    "bbox_crop": [
+      247,
+      234,
+      964,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0146_Electric_Pole4_angolo_+019.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.6,
+    "temperatura_luce_K": 7981.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 170792.9433746866,
+    "frazione_applicata": 0.2567687334516333,
+    "bbox_crop": [
+      918,
+      122,
+      1759,
+      1034
+    ]
+  },
+  {
+    "file": "palo_0147_Electric_Pole4_angolo_-015.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.4,
+    "temperatura_luce_K": 8919.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 215001.8968687767,
+    "frazione_applicata": 0.06438680098439142,
+    "bbox_crop": [
+      928,
+      226,
+      1592,
+      952
+    ]
+  },
+  {
+    "file": "palo_0148_Electric_Pole5_angolo_-017.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -17.2,
+    "temperatura_luce_K": 6146.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 167283.70762584844,
+    "frazione_applicata": 0.870664024782453,
+    "bbox_crop": [
+      60,
+      114,
+      921,
+      1040
+    ]
+  },
+  {
+    "file": "palo_0149_Electric_Pole5_angolo_+019.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.6,
+    "temperatura_luce_K": 7126.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 204068.42024881378,
+    "frazione_applicata": 0.842223797412377,
+    "bbox_crop": [
+      227,
+      206,
+      928,
+      967
+    ]
+  },
+  {
+    "file": "palo_0150_PolePivot_Base6_angolo_-017.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -17.8,
+    "temperatura_luce_K": 7605.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 150407.98562835093,
+    "frazione_applicata": 0.845617947585954,
+    "bbox_crop": [
+      1102,
+      207,
+      1877,
+      1038
+    ]
+  },
+  {
+    "file": "palo_0151_PolePivot_Base5_angolo_+021.0.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.0,
+    "temperatura_luce_K": 3767.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 169733.49084836215,
+    "frazione_applicata": 0.670353111458055,
+    "bbox_crop": [
+      294,
+      259,
+      964,
+      992
+    ]
+  },
+  {
+    "file": "palo_0152_Electric_Pole4_angolo_-017.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.5,
+    "temperatura_luce_K": 7979.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 189620.68898891367,
+    "frazione_applicata": 0.17483695721651282,
+    "bbox_crop": [
+      923,
+      172,
+      1678,
+      994
+    ]
+  },
+  {
+    "file": "palo_0153_Electric_Pole4_angolo_-020.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.7,
+    "temperatura_luce_K": 8739.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 197619.61835258256,
+    "frazione_applicata": 0.14002840901468072,
+    "bbox_crop": [
+      925,
+      190,
+      1649,
+      980
+    ]
+  },
+  {
+    "file": "palo_0154_Electric_Pole4_angolo_-015.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.8,
+    "temperatura_luce_K": 4728.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 178807.04898534532,
+    "frazione_applicata": 0.22189414352085846,
+    "bbox_crop": [
+      920,
+      144,
+      1723,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0155_Electric_Pole5_angolo_+019.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.1,
+    "temperatura_luce_K": 6063.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 182847.75211861235,
+    "frazione_applicata": 0.8586306301299191,
+    "bbox_crop": [
+      139,
+      158,
+      925,
+      1005
+    ]
+  },
+  {
+    "file": "palo_0156_PolePivot_Base6_angolo_+018.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.7,
+    "temperatura_luce_K": 7152.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 128816.17005560467,
+    "frazione_applicata": 0.8677802602420301,
+    "bbox_crop": [
+      1123,
+      136,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0157_PolePivot_Base5_angolo_+015.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.6,
+    "temperatura_luce_K": 7758.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 139245.4677272265,
+    "frazione_applicata": 0.7295652440162432,
+    "bbox_crop": [
+      142,
+      178,
+      964,
+      1070
+    ]
+  },
+  {
+    "file": "palo_0158_Electric_Pole4_angolo_+017.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.0,
+    "temperatura_luce_K": 3604.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 204633.37413934365,
+    "frazione_applicata": 0.10950699230006034,
+    "bbox_crop": [
+      926,
+      205,
+      1625,
+      968
+    ]
+  },
+  {
+    "file": "palo_0159_PolePivot_Base6_angolo_-021.4.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.4,
+    "temperatura_luce_K": 4618.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 135254.1916831095,
+    "frazione_applicata": 0.8611721337639845,
+    "bbox_crop": [
+      1116,
+      160,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0160_Electric_Pole5_angolo_+016.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.5,
+    "temperatura_luce_K": 8062.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 190618.5391977516,
+    "frazione_applicata": 0.8526226193119362,
+    "bbox_crop": [
+      173,
+      177,
+      926,
+      990
+    ]
+  },
+  {
+    "file": "palo_0161_PolePivot_Base5_angolo_-017.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.4,
+    "temperatura_luce_K": 8608.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 166677.58381348773,
+    "frazione_applicata": 0.6762881231088773,
+    "bbox_crop": [
+      281,
+      252,
+      964,
+      998
+    ]
+  },
+  {
+    "file": "palo_0162_PolePivot_Base6_angolo_+018.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.2,
+    "temperatura_luce_K": 7014.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 156331.87380435583,
+    "frazione_applicata": 0.8395375389489902,
+    "bbox_crop": [
+      1097,
+      223,
+      1841,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0163_Electric_Pole4_angolo_-018.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.6,
+    "temperatura_luce_K": 6996.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 163016.78386975982,
+    "frazione_applicata": 0.2906078649961362,
+    "bbox_crop": [
+      915,
+      98,
+      1798,
+      1053
+    ]
+  },
+  {
+    "file": "palo_0164_Electric_Pole5_angolo_-021.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.9,
+    "temperatura_luce_K": 6298.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 182546.82835595752,
+    "frazione_applicata": 0.8588632903743714,
+    "bbox_crop": [
+      137,
+      157,
+      924,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0165_PolePivot_Base5_angolo_-021.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.2,
+    "temperatura_luce_K": 7808.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 161693.1153012493,
+    "frazione_applicata": 0.6859686789489894,
+    "bbox_crop": [
+      259,
+      240,
+      964,
+      1009
+    ]
+  },
+  {
+    "file": "palo_0166_PolePivot_Base5_angolo_-019.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.3,
+    "temperatura_luce_K": 4248.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 158082.55378874208,
+    "frazione_applicata": 0.6929809094907544,
+    "bbox_crop": [
+      243,
+      231,
+      964,
+      1018
+    ]
+  },
+  {
+    "file": "palo_0167_Electric_Pole5_angolo_+019.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.0,
+    "temperatura_luce_K": 6971.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 206893.21529005942,
+    "frazione_applicata": 0.8400397973884993,
+    "bbox_crop": [
+      237,
+      212,
+      929,
+      963
+    ]
+  },
+  {
+    "file": "palo_0168_PolePivot_Base6_angolo_-018.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -18.7,
+    "temperatura_luce_K": 8517.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 138473.99107737653,
+    "frazione_applicata": 0.8578672611086409,
+    "bbox_crop": [
+      1113,
+      171,
+      1920,
+      1073
+    ]
+  },
+  {
+    "file": "palo_0169_Electric_Pole5_angolo_-021.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.8,
+    "temperatura_luce_K": 7119.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 214796.93929744686,
+    "frazione_applicata": 0.8339290059261762,
+    "bbox_crop": [
+      264,
+      227,
+      930,
+      951
+    ]
+  },
+  {
+    "file": "palo_0170_PolePivot_Base5_angolo_+018.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.8,
+    "temperatura_luce_K": 5173.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 151306.14970652154,
+    "frazione_applicata": 0.7061416623276981,
+    "bbox_crop": [
+      209,
+      213,
+      964,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0171_PolePivot_Base5_angolo_-019.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 8019.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 151482.9597353431,
+    "frazione_applicata": 0.7057982717830702,
+    "bbox_crop": [
+      210,
+      214,
+      964,
+      1034
+    ]
+  },
+  {
+    "file": "palo_0172_PolePivot_Base5_angolo_+017.0.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 17.0,
+    "temperatura_luce_K": 3589.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 162564.20443133896,
+    "frazione_applicata": 0.6842768983820456,
+    "bbox_crop": [
+      263,
+      242,
+      964,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0173_Electric_Pole4_angolo_+018.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.4,
+    "temperatura_luce_K": 7224.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 187394.37810253422,
+    "frazione_applicata": 0.1845250849993112,
+    "bbox_crop": [
+      922,
+      166,
+      1687,
+      998
+    ]
+  },
+  {
+    "file": "palo_0174_PolePivot_Base5_angolo_+020.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 20.6,
+    "temperatura_luce_K": 6966.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 157564.68051168413,
+    "frazione_applicata": 0.6939866939920212,
+    "bbox_crop": [
+      240,
+      230,
+      964,
+      1019
+    ]
+  },
+  {
+    "file": "palo_0175_Electric_Pole5_angolo_-015.7.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.7,
+    "temperatura_luce_K": 6944.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 186732.63085034819,
+    "frazione_applicata": 0.855627022746379,
+    "bbox_crop": [
+      156,
+      167,
+      925,
+      998
+    ]
+  },
+  {
+    "file": "palo_0176_Electric_Pole4_angolo_-020.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.6,
+    "temperatura_luce_K": 7035.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 186366.03122920953,
+    "frazione_applicata": 0.18900009160093312,
+    "bbox_crop": [
+      922,
+      164,
+      1691,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0177_PolePivot_Base5_angolo_+019.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.9,
+    "temperatura_luce_K": 4262.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 145979.83397332096,
+    "frazione_applicata": 0.7164861347124097,
+    "bbox_crop": [
+      181,
+      198,
+      964,
+      1050
+    ]
+  },
+  {
+    "file": "palo_0178_Electric_Pole5_angolo_-018.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -18.9,
+    "temperatura_luce_K": 7018.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 197257.57218627466,
+    "frazione_applicata": 0.8474896280705381,
+    "bbox_crop": [
+      201,
+      192,
+      927,
+      978
+    ]
+  },
+  {
+    "file": "palo_0179_PolePivot_Base5_angolo_-015.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -15.2,
+    "temperatura_luce_K": 8071.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 156941.01024293745,
+    "frazione_applicata": 0.6951979514907085,
+    "bbox_crop": [
+      237,
+      228,
+      964,
+      1021
+    ]
+  },
+  {
+    "file": "palo_0180_PolePivot_Base5_angolo_-020.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.7,
+    "temperatura_luce_K": 8209.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 161537.21304711542,
+    "frazione_applicata": 0.6862714635835068,
+    "bbox_crop": [
+      259,
+      240,
+      964,
+      1010
+    ]
+  },
+  {
+    "file": "palo_0181_PolePivot_Base5_angolo_+021.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.1,
+    "temperatura_luce_K": 7633.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 155422.23277677005,
+    "frazione_applicata": 0.6981476361027865,
+    "bbox_crop": [
+      230,
+      225,
+      964,
+      1024
+    ]
+  },
+  {
+    "file": "palo_0182_PolePivot_Base6_angolo_+019.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 19.5,
+    "temperatura_luce_K": 4686.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 148009.48354452522,
+    "frazione_applicata": 0.8480798226843634,
+    "bbox_crop": [
+      1104,
+      200,
+      1892,
+      1045
+    ]
+  },
+  {
+    "file": "palo_0183_Electric_Pole4_angolo_+017.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.9,
+    "temperatura_luce_K": 8632.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 191315.968257401,
+    "frazione_applicata": 0.16745969365412505,
+    "bbox_crop": [
+      923,
+      176,
+      1672,
+      991
+    ]
+  },
+  {
+    "file": "palo_0184_PolePivot_Base6_angolo_+021.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 21.7,
+    "temperatura_luce_K": 4560.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 150126.00671901097,
+    "frazione_applicata": 0.8459073769176447,
+    "bbox_crop": [
+      1102,
+      206,
+      1879,
+      1039
+    ]
+  },
+  {
+    "file": "palo_0185_Electric_Pole4_angolo_+016.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 16.3,
+    "temperatura_luce_K": 6553.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 202561.67301961003,
+    "frazione_applicata": 0.11852231235196298,
+    "bbox_crop": [
+      926,
+      201,
+      1632,
+      971
+    ]
+  },
+  {
+    "file": "palo_0186_Electric_Pole4_angolo_-018.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.6,
+    "temperatura_luce_K": 5432.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 185096.56044083938,
+    "frazione_applicata": 0.19452438530560112,
+    "bbox_crop": [
+      922,
+      161,
+      1696,
+      1003
+    ]
+  },
+  {
+    "file": "palo_0187_PolePivot_Base5_angolo_-019.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 4654.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 165709.45008556437,
+    "frazione_applicata": 0.6781683782636339,
+    "bbox_crop": [
+      277,
+      250,
+      964,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0188_Electric_Pole4_angolo_+018.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.4,
+    "temperatura_luce_K": 7463.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 202658.68937528372,
+    "frazione_applicata": 0.11810013104002737,
+    "bbox_crop": [
+      926,
+      201,
+      1631,
+      971
+    ]
+  },
+  {
+    "file": "palo_0189_PolePivot_Base6_angolo_-021.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.3,
+    "temperatura_luce_K": 7649.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 130479.1614061262,
+    "frazione_applicata": 0.8660733294778971,
+    "bbox_crop": [
+      1121,
+      142,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0190_Electric_Pole5_angolo_-019.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 4127.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 188788.69307741342,
+    "frazione_applicata": 0.8540373711477893,
+    "bbox_crop": [
+      165,
+      172,
+      926,
+      994
+    ]
+  },
+  {
+    "file": "palo_0191_Electric_Pole4_angolo_+015.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.2,
+    "temperatura_luce_K": 7240.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 213711.93527171007,
+    "frazione_applicata": 0.07000026353526101,
+    "bbox_crop": [
+      928,
+      223,
+      1596,
+      954
+    ]
+  },
+  {
+    "file": "palo_0192_Electric_Pole5_angolo_+015.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 15.5,
+    "temperatura_luce_K": 7565.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 191137.10749590228,
+    "frazione_applicata": 0.8522216864445931,
+    "bbox_crop": [
+      176,
+      178,
+      926,
+      989
+    ]
+  },
+  {
+    "file": "palo_0193_PolePivot_Base6_angolo_+019.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 19.8,
+    "temperatura_luce_K": 4176.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 132772.220346117,
+    "frazione_applicata": 0.8637196835329477,
+    "bbox_crop": [
+      1118,
+      151,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0194_Electric_Pole4_angolo_-020.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.2,
+    "temperatura_luce_K": 5064.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 165200.64861388033,
+    "frazione_applicata": 0.28110444800669887,
+    "bbox_crop": [
+      916,
+      105,
+      1787,
+      1047
+    ]
+  },
+  {
+    "file": "palo_0195_Electric_Pole4_angolo_+016.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 16.6,
+    "temperatura_luce_K": 5358.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 173629.35121177172,
+    "frazione_applicata": 0.24442567672135784,
+    "bbox_crop": [
+      919,
+      130,
+      1746,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0196_Electric_Pole5_angolo_-019.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.4,
+    "temperatura_luce_K": 6788.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 180633.75593377146,
+    "frazione_applicata": 0.8603423889123989,
+    "bbox_crop": [
+      128,
+      152,
+      924,
+      1010
+    ]
+  },
+  {
+    "file": "palo_0197_PolePivot_Base6_angolo_-016.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.2,
+    "temperatura_luce_K": 5873.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 127145.47420410278,
+    "frazione_applicata": 0.869495099074802,
+    "bbox_crop": [
+      1125,
+      130,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0198_PolePivot_Base6_angolo_-020.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.5,
+    "temperatura_luce_K": 4988.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 130734.52738604692,
+    "frazione_applicata": 0.8658112162401445,
+    "bbox_crop": [
+      1121,
+      143,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0199_PolePivot_Base5_angolo_-018.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -18.6,
+    "temperatura_luce_K": 8821.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 142567.23344348147,
+    "frazione_applicata": 0.7231138965104817,
+    "bbox_crop": [
+      162,
+      188,
+      964,
+      1060
+    ]
+  },
+  {
+    "file": "palo_0200_Electric_Pole4_angolo_-016.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.0,
+    "temperatura_luce_K": 6968.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 214513.89957327285,
+    "frazione_applicata": 0.06651039485684918,
+    "bbox_crop": [
+      928,
+      225,
+      1594,
+      953
+    ]
+  },
+  {
+    "file": "palo_0201_Electric_Pole4_angolo_+021.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.5,
+    "temperatura_luce_K": 6673.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 171707.037770977,
+    "frazione_applicata": 0.2527909137450589,
+    "bbox_crop": [
+      918,
+      124,
+      1755,
+      1031
+    ]
+  },
+  {
+    "file": "palo_0202_PolePivot_Base5_angolo_+019.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.1,
+    "temperatura_luce_K": 4897.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 143041.30162027563,
+    "frazione_applicata": 0.7221931878238469,
+    "bbox_crop": [
+      164,
+      190,
+      964,
+      1058
+    ]
+  },
+  {
+    "file": "palo_0203_PolePivot_Base5_angolo_+019.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.2,
+    "temperatura_luce_K": 4697.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 158399.24279525934,
+    "frazione_applicata": 0.6923658538225297,
+    "bbox_crop": [
+      244,
+      232,
+      964,
+      1017
+    ]
+  },
+  {
+    "file": "palo_0204_PolePivot_Base5_angolo_-017.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.1,
+    "temperatura_luce_K": 4758.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 153174.03768643635,
+    "frazione_applicata": 0.7025139548101882,
+    "bbox_crop": [
+      219,
+      219,
+      964,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0205_PolePivot_Base5_angolo_+016.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 16.5,
+    "temperatura_luce_K": 3690.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 168290.37041367634,
+    "frazione_applicata": 0.6731558592169546,
+    "bbox_crop": [
+      288,
+      256,
+      964,
+      995
+    ]
+  },
+  {
+    "file": "palo_0206_Electric_Pole4_angolo_+019.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.5,
+    "temperatura_luce_K": 4319.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 175265.85460713034,
+    "frazione_applicata": 0.2373041852404436,
+    "bbox_crop": [
+      919,
+      135,
+      1738,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0207_PolePivot_Base6_angolo_+016.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.8,
+    "temperatura_luce_K": 4408.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 165746.45137557795,
+    "frazione_applicata": 0.8298742102235601,
+    "bbox_crop": [
+      1090,
+      246,
+      1790,
+      1001
+    ]
+  },
+  {
+    "file": "palo_0208_PolePivot_Base6_angolo_-020.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.2,
+    "temperatura_luce_K": 6769.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 145644.15595262204,
+    "frazione_applicata": 0.8505076467572946,
+    "bbox_crop": [
+      1106,
+      193,
+      1908,
+      1052
+    ]
+  },
+  {
+    "file": "palo_0209_Electric_Pole4_angolo_-017.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.7,
+    "temperatura_luce_K": 6786.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 206889.59654012567,
+    "frazione_applicata": 0.09968870004855179,
+    "bbox_crop": [
+      927,
+      210,
+      1617,
+      964
+    ]
+  },
+  {
+    "file": "palo_0210_PolePivot_Base6_angolo_-020.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.0,
+    "temperatura_luce_K": 6271.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 127924.61007190183,
+    "frazione_applicata": 0.8686953769465007,
+    "bbox_crop": [
+      1124,
+      133,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0211_PolePivot_Base5_angolo_+018.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.6,
+    "temperatura_luce_K": 3912.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 145715.9716438354,
+    "frazione_applicata": 0.7169985933644035,
+    "bbox_crop": [
+      180,
+      198,
+      964,
+      1050
+    ]
+  },
+  {
+    "file": "palo_0212_PolePivot_Base6_angolo_-016.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.3,
+    "temperatura_luce_K": 3852.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 170039.3178398654,
+    "frazione_applicata": 0.8254679180128944,
+    "bbox_crop": [
+      1087,
+      256,
+      1769,
+      992
+    ]
+  },
+  {
+    "file": "palo_0213_Electric_Pole5_angolo_+017.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.0,
+    "temperatura_luce_K": 8402.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 161073.6086300581,
+    "frazione_applicata": 0.8754653842287327,
+    "bbox_crop": [
+      24,
+      95,
+      920,
+      1055
+    ]
+  },
+  {
+    "file": "palo_0214_PolePivot_Base6_angolo_-019.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -19.3,
+    "temperatura_luce_K": 5411.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 140852.071670024,
+    "frazione_applicata": 0.8554263470762831,
+    "bbox_crop": [
+      1110,
+      178,
+      1920,
+      1066
+    ]
+  },
+  {
+    "file": "palo_0215_Electric_Pole5_angolo_-020.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.0,
+    "temperatura_luce_K": 4616.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 169143.5281850945,
+    "frazione_applicata": 0.8692260981058292,
+    "bbox_crop": [
+      70,
+      120,
+      922,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0216_PolePivot_Base6_angolo_+017.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 17.1,
+    "temperatura_luce_K": 3947.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 170961.70565081426,
+    "frazione_applicata": 0.824521158950993,
+    "bbox_crop": [
+      1086,
+      258,
+      1764,
+      990
+    ]
+  },
+  {
+    "file": "palo_0217_PolePivot_Base5_angolo_+018.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.5,
+    "temperatura_luce_K": 8245.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 158214.43696802203,
+    "frazione_applicata": 0.6927247733594385,
+    "bbox_crop": [
+      243,
+      232,
+      964,
+      1018
+    ]
+  },
+  {
+    "file": "palo_0218_PolePivot_Base6_angolo_-017.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -17.1,
+    "temperatura_luce_K": 5625.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 151438.20192657868,
+    "frazione_applicata": 0.8445605110018101,
+    "bbox_crop": [
+      1101,
+      210,
+      1871,
+      1036
+    ]
+  },
+  {
+    "file": "palo_0219_Electric_Pole5_angolo_-020.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.6,
+    "temperatura_luce_K": 7311.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 196177.32977359227,
+    "frazione_applicata": 0.8483248212157553,
+    "bbox_crop": [
+      196,
+      189,
+      927,
+      980
+    ]
+  },
+  {
+    "file": "palo_0220_PolePivot_Base5_angolo_-021.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.2,
+    "temperatura_luce_K": 8256.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 168243.30662424045,
+    "frazione_applicata": 0.6732472638753576,
+    "bbox_crop": [
+      288,
+      255,
+      964,
+      995
+    ]
+  },
+  {
+    "file": "palo_0221_Electric_Pole4_angolo_-021.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -21.7,
+    "temperatura_luce_K": 8858.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 184613.83525640643,
+    "frazione_applicata": 0.19662503679114762,
+    "bbox_crop": [
+      922,
+      159,
+      1698,
+      1004
+    ]
+  },
+  {
+    "file": "palo_0222_PolePivot_Base5_angolo_-020.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.1,
+    "temperatura_luce_K": 8811.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 161088.52797811132,
+    "frazione_applicata": 0.6871428746184955,
+    "bbox_crop": [
+      257,
+      239,
+      964,
+      1011
+    ]
+  },
+  {
+    "file": "palo_0223_Electric_Pole5_angolo_-016.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -16.8,
+    "temperatura_luce_K": 5121.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 179943.63720250447,
+    "frazione_applicata": 0.8608759565884809,
+    "bbox_crop": [
+      125,
+      150,
+      924,
+      1011
+    ]
+  },
+  {
+    "file": "palo_0224_PolePivot_Base6_angolo_-016.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.7,
+    "temperatura_luce_K": 6596.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 150978.57367476175,
+    "frazione_applicata": 0.8450322835115378,
+    "bbox_crop": [
+      1101,
+      209,
+      1873,
+      1037
+    ]
+  },
+  {
+    "file": "palo_0225_PolePivot_Base5_angolo_-015.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -15.6,
+    "temperatura_luce_K": 7400.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 142257.72379533507,
+    "frazione_applicata": 0.7237150088305973,
+    "bbox_crop": [
+      160,
+      187,
+      964,
+      1060
+    ]
+  },
+  {
+    "file": "palo_0226_PolePivot_Base5_angolo_-021.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.7,
+    "temperatura_luce_K": 3955.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 129433.80702402449,
+    "frazione_applicata": 0.7486209024256338,
+    "bbox_crop": [
+      77,
+      144,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0227_Electric_Pole4_angolo_+018.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.5,
+    "temperatura_luce_K": 6286.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 189189.65493678508,
+    "frazione_applicata": 0.17671266693940335,
+    "bbox_crop": [
+      923,
+      171,
+      1680,
+      995
+    ]
+  },
+  {
+    "file": "palo_0228_PolePivot_Base6_angolo_-016.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.5,
+    "temperatura_luce_K": 6621.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 134896.29396703097,
+    "frazione_applicata": 0.8615394878225584,
+    "bbox_crop": [
+      1116,
+      158,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0229_PolePivot_Base5_angolo_-021.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.1,
+    "temperatura_luce_K": 4040.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 163235.64539361748,
+    "frazione_applicata": 0.6829728633153748,
+    "bbox_crop": [
+      266,
+      244,
+      964,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0230_PolePivot_Base6_angolo_+015.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.5,
+    "temperatura_luce_K": 7001.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 156780.34241286077,
+    "frazione_applicata": 0.8390772209417048,
+    "bbox_crop": [
+      1097,
+      224,
+      1839,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0231_Electric_Pole5_angolo_+021.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 21.9,
+    "temperatura_luce_K": 4251.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 180472.82206376188,
+    "frazione_applicata": 0.860466815488774,
+    "bbox_crop": [
+      128,
+      151,
+      924,
+      1010
+    ]
+  },
+  {
+    "file": "palo_0232_Electric_Pole4_angolo_+021.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 7349.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 182439.89165152604,
+    "frazione_applicata": 0.20608528044603536,
+    "bbox_crop": [
+      921,
+      154,
+      1707,
+      1008
+    ]
+  },
+  {
+    "file": "palo_0233_PolePivot_Base6_angolo_-021.6.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.6,
+    "temperatura_luce_K": 8867.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 170463.75760780208,
+    "frazione_applicata": 0.8250322637341242,
+    "bbox_crop": [
+      1087,
+      257,
+      1767,
+      991
+    ]
+  },
+  {
+    "file": "palo_0234_Electric_Pole4_angolo_-016.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.6,
+    "temperatura_luce_K": 3578.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 203185.1005451284,
+    "frazione_applicata": 0.1158093733965424,
+    "bbox_crop": [
+      926,
+      202,
+      1629,
+      970
+    ]
+  },
+  {
+    "file": "palo_0235_Electric_Pole5_angolo_-019.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 4833.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 169567.95328045744,
+    "frazione_applicata": 0.8688979523802554,
+    "bbox_crop": [
+      72,
+      121,
+      922,
+      1034
+    ]
+  },
+  {
+    "file": "palo_0236_PolePivot_Base6_angolo_-022.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -22.0,
+    "temperatura_luce_K": 8997.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 163792.2441256708,
+    "frazione_applicata": 0.8318800513683817,
+    "bbox_crop": [
+      1091,
+      242,
+      1800,
+      1005
+    ]
+  },
+  {
+    "file": "palo_0237_Electric_Pole5_angolo_-016.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -16.0,
+    "temperatura_luce_K": 5997.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 205256.16992709084,
+    "frazione_applicata": 0.8413054846541622,
+    "bbox_crop": [
+      231,
+      209,
+      929,
+      965
+    ]
+  },
+  {
+    "file": "palo_0238_PolePivot_Base6_angolo_+018.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 4132.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 160781.69849079297,
+    "frazione_applicata": 0.8349701413796063,
+    "bbox_crop": [
+      1094,
+      234,
+      1816,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0239_Electric_Pole4_angolo_+016.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 16.6,
+    "temperatura_luce_K": 8070.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 184129.27205143363,
+    "frazione_applicata": 0.19873368670043923,
+    "bbox_crop": [
+      921,
+      158,
+      1700,
+      1005
+    ]
+  },
+  {
+    "file": "palo_0240_PolePivot_Base5_angolo_-018.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -18.6,
+    "temperatura_luce_K": 7043.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 166605.2956826659,
+    "frazione_applicata": 0.6764285170717002,
+    "bbox_crop": [
+      281,
+      252,
+      964,
+      998
+    ]
+  },
+  {
+    "file": "palo_0241_PolePivot_Base6_angolo_+018.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.2,
+    "temperatura_luce_K": 6166.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 157917.06313713858,
+    "frazione_applicata": 0.8379104658807786,
+    "bbox_crop": [
+      1096,
+      227,
+      1832,
+      1019
+    ]
+  },
+  {
+    "file": "palo_0242_PolePivot_Base5_angolo_+019.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.5,
+    "temperatura_luce_K": 4343.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 155074.1460870172,
+    "frazione_applicata": 0.6988236705945441,
+    "bbox_crop": [
+      228,
+      224,
+      964,
+      1025
+    ]
+  },
+  {
+    "file": "palo_0243_Electric_Pole4_angolo_+019.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.7,
+    "temperatura_luce_K": 6106.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 215154.02821533522,
+    "frazione_applicata": 0.0637247784725109,
+    "bbox_crop": [
+      928,
+      226,
+      1592,
+      952
+    ]
+  },
+  {
+    "file": "palo_0244_PolePivot_Base5_angolo_-015.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -15.4,
+    "temperatura_luce_K": 5348.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 151067.05629218885,
+    "frazione_applicata": 0.7066060161786187,
+    "bbox_crop": [
+      208,
+      213,
+      964,
+      1036
+    ]
+  },
+  {
+    "file": "palo_0245_Electric_Pole4_angolo_-019.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -19.8,
+    "temperatura_luce_K": 4452.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 165361.32226461484,
+    "frazione_applicata": 0.28040525236912284,
+    "bbox_crop": [
+      916,
+      105,
+      1786,
+      1047
+    ]
+  },
+  {
+    "file": "palo_0246_PolePivot_Base6_angolo_+021.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 21.3,
+    "temperatura_luce_K": 6427.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 163995.8347856708,
+    "frazione_applicata": 0.8316710814535742,
+    "bbox_crop": [
+      1091,
+      242,
+      1799,
+      1005
+    ]
+  },
+  {
+    "file": "palo_0247_Electric_Pole5_angolo_+016.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.5,
+    "temperatura_luce_K": 7324.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 194431.38003585543,
+    "frazione_applicata": 0.8496747082741894,
+    "bbox_crop": [
+      189,
+      185,
+      927,
+      983
+    ]
+  },
+  {
+    "file": "palo_0248_Electric_Pole5_angolo_+018.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 4046.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 178257.33051567888,
+    "frazione_applicata": 0.8621797304164993,
+    "bbox_crop": [
+      117,
+      146,
+      924,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0249_PolePivot_Base5_angolo_+015.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.2,
+    "temperatura_luce_K": 4545.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 169417.81434619398,
+    "frazione_applicata": 0.6709662006969872,
+    "bbox_crop": [
+      292,
+      258,
+      964,
+      992
+    ]
+  },
+  {
+    "file": "palo_0250_PolePivot_Base6_angolo_-021.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.9,
+    "temperatura_luce_K": 4486.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 169730.7026935867,
+    "frazione_applicata": 0.8257846873618723,
+    "bbox_crop": [
+      1087,
+      256,
+      1770,
+      992
+    ]
+  },
+  {
+    "file": "palo_0251_PolePivot_Base5_angolo_-019.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.9,
+    "temperatura_luce_K": 5109.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 156720.21426607826,
+    "frazione_applicata": 0.6956267690823954,
+    "bbox_crop": [
+      236,
+      228,
+      964,
+      1021
+    ]
+  },
+  {
+    "file": "palo_0252_Electric_Pole4_angolo_+017.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.6,
+    "temperatura_luce_K": 7348.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 198116.73670622194,
+    "frazione_applicata": 0.13786512348133595,
+    "bbox_crop": [
+      925,
+      191,
+      1647,
+      979
+    ]
+  },
+  {
+    "file": "palo_0253_PolePivot_Base6_angolo_-016.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.2,
+    "temperatura_luce_K": 7529.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 166170.24296304004,
+    "frazione_applicata": 0.829439221251433,
+    "bbox_crop": [
+      1090,
+      247,
+      1788,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0254_Electric_Pole5_angolo_-017.7.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -17.7,
+    "temperatura_luce_K": 4738.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 186063.04333590576,
+    "frazione_applicata": 0.8561447166413971,
+    "bbox_crop": [
+      153,
+      166,
+      925,
+      999
+    ]
+  },
+  {
+    "file": "palo_0255_Electric_Pole5_angolo_-015.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.9,
+    "temperatura_luce_K": 5037.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 207538.08047826786,
+    "frazione_applicata": 0.8395412176452327,
+    "bbox_crop": [
+      239,
+      213,
+      929,
+      962
+    ]
+  },
+  {
+    "file": "palo_0256_PolePivot_Base5_angolo_-017.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.2,
+    "temperatura_luce_K": 3911.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 153467.60796275325,
+    "frazione_applicata": 0.7019437990461573,
+    "bbox_crop": [
+      220,
+      219,
+      964,
+      1029
+    ]
+  },
+  {
+    "file": "palo_0257_Electric_Pole4_angolo_+015.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.7,
+    "temperatura_luce_K": 6676.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 196017.3985520455,
+    "frazione_applicata": 0.14700071025917427,
+    "bbox_crop": [
+      924,
+      187,
+      1654,
+      982
+    ]
+  },
+  {
+    "file": "palo_0258_Electric_Pole5_angolo_-019.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.6,
+    "temperatura_luce_K": 5564.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 183305.96016097025,
+    "frazione_applicata": 0.8582763650024183,
+    "bbox_crop": [
+      141,
+      159,
+      925,
+      1004
+    ]
+  },
+  {
+    "file": "palo_0259_PolePivot_Base5_angolo_+015.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.9,
+    "temperatura_luce_K": 4372.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 164682.3428401612,
+    "frazione_applicata": 0.6801631684841951,
+    "bbox_crop": [
+      273,
+      247,
+      964,
+      1003
+    ]
+  },
+  {
+    "file": "palo_0260_Electric_Pole4_angolo_-019.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -19.9,
+    "temperatura_luce_K": 4406.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 170798.66812707702,
+    "frazione_applicata": 0.25674382132771456,
+    "bbox_crop": [
+      918,
+      122,
+      1759,
+      1034
+    ]
+  },
+  {
+    "file": "palo_0261_PolePivot_Base5_angolo_-016.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -16.5,
+    "temperatura_luce_K": 6381.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 131559.98334448153,
+    "frazione_applicata": 0.744491561745565,
+    "bbox_crop": [
+      92,
+      151,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0262_Electric_Pole4_angolo_-015.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.7,
+    "temperatura_luce_K": 4928.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 212795.2377102949,
+    "frazione_applicata": 0.07398941130770564,
+    "bbox_crop": [
+      928,
+      222,
+      1599,
+      955
+    ]
+  },
+  {
+    "file": "palo_0263_Electric_Pole4_angolo_+015.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.9,
+    "temperatura_luce_K": 6937.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 192219.7126974604,
+    "frazione_applicata": 0.16352691334394653,
+    "bbox_crop": [
+      923,
+      178,
+      1668,
+      989
+    ]
+  },
+  {
+    "file": "palo_0264_PolePivot_Base6_angolo_-016.4.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.4,
+    "temperatura_luce_K": 4885.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 162111.25952803768,
+    "frazione_applicata": 0.8336054507956452,
+    "bbox_crop": [
+      1093,
+      238,
+      1809,
+      1009
+    ]
+  },
+  {
+    "file": "palo_0265_PolePivot_Base5_angolo_-021.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.2,
+    "temperatura_luce_K": 8679.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 165830.59216910152,
+    "frazione_applicata": 0.6779331028874549,
+    "bbox_crop": [
+      277,
+      250,
+      964,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0266_Electric_Pole4_angolo_+018.7.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.7,
+    "temperatura_luce_K": 8272.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 168102.22327275673,
+    "frazione_applicata": 0.2684778080174206,
+    "bbox_crop": [
+      917,
+      114,
+      1772,
+      1040
+    ]
+  },
+  {
+    "file": "palo_0267_Electric_Pole4_angolo_-017.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.1,
+    "temperatura_luce_K": 8071.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 162361.70629561503,
+    "frazione_applicata": 0.293458533914295,
+    "bbox_crop": [
+      915,
+      96,
+      1802,
+      1054
+    ]
+  },
+  {
+    "file": "palo_0268_Electric_Pole4_angolo_+017.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.6,
+    "temperatura_luce_K": 5543.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 205140.02231180915,
+    "frazione_applicata": 0.10730223632199942,
+    "bbox_crop": [
+      926,
+      206,
+      1623,
+      967
+    ]
+  },
+  {
+    "file": "palo_0269_PolePivot_Base5_angolo_-021.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.4,
+    "temperatura_luce_K": 7841.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 132582.20148441815,
+    "frazione_applicata": 0.7425062668720724,
+    "bbox_crop": [
+      99,
+      155,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0270_PolePivot_Base6_angolo_+018.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 6334.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 140716.34204260347,
+    "frazione_applicata": 0.8555656629401784,
+    "bbox_crop": [
+      1110,
+      178,
+      1920,
+      1066
+    ]
+  },
+  {
+    "file": "palo_0271_PolePivot_Base5_angolo_+016.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 16.2,
+    "temperatura_luce_K": 6654.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 135429.3922250477,
+    "frazione_applicata": 0.7369766123292782,
+    "bbox_crop": [
+      118,
+      165,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0272_Electric_Pole5_angolo_+021.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 21.6,
+    "temperatura_luce_K": 4704.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 166748.8976983494,
+    "frazione_applicata": 0.8710775149215155,
+    "bbox_crop": [
+      57,
+      113,
+      921,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0273_PolePivot_Base6_angolo_-018.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -18.3,
+    "temperatura_luce_K": 5244.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 137964.5072551181,
+    "frazione_applicata": 0.8583902064683797,
+    "bbox_crop": [
+      1113,
+      169,
+      1920,
+      1075
+    ]
+  },
+  {
+    "file": "palo_0274_PolePivot_Base5_angolo_-015.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -15.5,
+    "temperatura_luce_K": 7731.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 144084.801413174,
+    "frazione_applicata": 0.7201665609147803,
+    "bbox_crop": [
+      170,
+      193,
+      964,
+      1055
+    ]
+  },
+  {
+    "file": "palo_0275_Electric_Pole4_angolo_+020.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 20.4,
+    "temperatura_luce_K": 4835.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 167013.1455542493,
+    "frazione_applicata": 0.2732170940564237,
+    "bbox_crop": [
+      917,
+      110,
+      1778,
+      1043
+    ]
+  },
+  {
+    "file": "palo_0276_Electric_Pole4_angolo_+018.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.0,
+    "temperatura_luce_K": 7385.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 178547.11340939227,
+    "frazione_applicata": 0.22302529240511149,
+    "bbox_crop": [
+      920,
+      144,
+      1724,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0277_PolePivot_Base6_angolo_-021.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.0,
+    "temperatura_luce_K": 8262.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 168865.87573217344,
+    "frazione_applicata": 0.8266723647064509,
+    "bbox_crop": [
+      1088,
+      254,
+      1774,
+      994
+    ]
+  },
+  {
+    "file": "palo_0278_PolePivot_Base6_angolo_-017.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -17.3,
+    "temperatura_luce_K": 8460.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 162443.37355742283,
+    "frazione_applicata": 0.833264561678104,
+    "bbox_crop": [
+      1092,
+      239,
+      1807,
+      1008
+    ]
+  },
+  {
+    "file": "palo_0279_Electric_Pole5_angolo_-016.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -16.5,
+    "temperatura_luce_K": 5041.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 205496.20108336088,
+    "frazione_applicata": 0.8411199037382477,
+    "bbox_crop": [
+      232,
+      209,
+      929,
+      965
+    ]
+  },
+  {
+    "file": "palo_0280_PolePivot_Base5_angolo_-019.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.3,
+    "temperatura_luce_K": 8052.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 135658.5543167785,
+    "frazione_applicata": 0.7365315465374109,
+    "bbox_crop": [
+      119,
+      166,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0281_Electric_Pole5_angolo_-019.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.8,
+    "temperatura_luce_K": 6402.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 187727.79984399793,
+    "frazione_applicata": 0.8548576044083551,
+    "bbox_crop": [
+      161,
+      170,
+      925,
+      996
+    ]
+  },
+  {
+    "file": "palo_0282_PolePivot_Base6_angolo_-019.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -19.1,
+    "temperatura_luce_K": 6638.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 159208.6509612643,
+    "frazione_applicata": 0.8365847518348886,
+    "bbox_crop": [
+      1095,
+      231,
+      1825,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0283_Electric_Pole4_angolo_+019.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.3,
+    "temperatura_luce_K": 8243.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 169774.02781436258,
+    "frazione_applicata": 0.26120269827150366,
+    "bbox_crop": [
+      918,
+      119,
+      1764,
+      1036
+    ]
+  },
+  {
+    "file": "palo_0284_Electric_Pole4_angolo_-017.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.4,
+    "temperatura_luce_K": 7265.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 193132.6491996507,
+    "frazione_applicata": 0.1595541323882803,
+    "bbox_crop": [
+      924,
+      180,
+      1665,
+      988
+    ]
+  },
+  {
+    "file": "palo_0285_PolePivot_Base6_angolo_+015.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.0,
+    "temperatura_luce_K": 5068.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 169007.11550778258,
+    "frazione_applicata": 0.8265273931057081,
+    "bbox_crop": [
+      1088,
+      254,
+      1774,
+      994
+    ]
+  },
+  {
+    "file": "palo_0286_Electric_Pole5_angolo_-019.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.0,
+    "temperatura_luce_K": 4603.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 174577.33544371402,
+    "frazione_applicata": 0.8650249312922049,
+    "bbox_crop": [
+      99,
+      135,
+      923,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0287_PolePivot_Base5_angolo_-021.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -21.2,
+    "temperatura_luce_K": 3850.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 130002.88024337687,
+    "frazione_applicata": 0.7475156802613194,
+    "bbox_crop": [
+      81,
+      146,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0288_PolePivot_Base5_angolo_+020.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 20.8,
+    "temperatura_luce_K": 5427.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 152346.55305713433,
+    "frazione_applicata": 0.704121049155578,
+    "bbox_crop": [
+      215,
+      216,
+      964,
+      1032
+    ]
+  },
+  {
+    "file": "palo_0289_PolePivot_Base6_angolo_+018.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.9,
+    "temperatura_luce_K": 6433.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 170353.21382423825,
+    "frazione_applicata": 0.8251457282959751,
+    "bbox_crop": [
+      1087,
+      257,
+      1767,
+      991
+    ]
+  },
+  {
+    "file": "palo_0290_PolePivot_Base5_angolo_+019.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.1,
+    "temperatura_luce_K": 3908.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 132110.73447444942,
+    "frazione_applicata": 0.7434219237180464,
+    "bbox_crop": [
+      96,
+      153,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0291_PolePivot_Base6_angolo_-015.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -15.9,
+    "temperatura_luce_K": 5588.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 166036.7160478072,
+    "frazione_applicata": 0.8295762762032697,
+    "bbox_crop": [
+      1090,
+      247,
+      1789,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0292_Electric_Pole5_angolo_-015.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.8,
+    "temperatura_luce_K": 8768.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 200482.74957208833,
+    "frazione_applicata": 0.8449960710567447,
+    "bbox_crop": [
+      213,
+      199,
+      928,
+      973
+    ]
+  },
+  {
+    "file": "palo_0293_PolePivot_Base6_angolo_+017.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 17.8,
+    "temperatura_luce_K": 7597.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 160758.5383922376,
+    "frazione_applicata": 0.8349939134122824,
+    "bbox_crop": [
+      1094,
+      234,
+      1816,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0294_PolePivot_Base6_angolo_-019.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -19.1,
+    "temperatura_luce_K": 5973.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 135993.17738098247,
+    "frazione_applicata": 0.8604136226499259,
+    "bbox_crop": [
+      1115,
+      162,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0295_PolePivot_Base5_angolo_+020.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 20.6,
+    "temperatura_luce_K": 8391.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 148537.09467693366,
+    "frazione_applicata": 0.7115195660645662,
+    "bbox_crop": [
+      195,
+      206,
+      964,
+      1042
+    ]
+  },
+  {
+    "file": "palo_0296_PolePivot_Base5_angolo_-019.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.8,
+    "temperatura_luce_K": 8098.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 133211.903747632,
+    "frazione_applicata": 0.7412832943712493,
+    "bbox_crop": [
+      103,
+      157,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0297_Electric_Pole5_angolo_-015.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.1,
+    "temperatura_luce_K": 5733.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 206223.27907677394,
+    "frazione_applicata": 0.84055776088123,
+    "bbox_crop": [
+      235,
+      211,
+      929,
+      964
+    ]
+  },
+  {
+    "file": "palo_0298_Electric_Pole4_angolo_-017.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -17.4,
+    "temperatura_luce_K": 6140.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 178718.05249586763,
+    "frazione_applicata": 0.22228142517480687,
+    "bbox_crop": [
+      920,
+      144,
+      1723,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0299_Electric_Pole5_angolo_-017.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -17.9,
+    "temperatura_luce_K": 7542.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 199302.34849140255,
+    "frazione_applicata": 0.8459087022213995,
+    "bbox_crop": [
+      209,
+      196,
+      928,
+      975
+    ]
+  },
+  {
+    "file": "palo_0300_PolePivot_Base5_angolo_-020.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.4,
+    "temperatura_luce_K": 5598.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 146965.49161997382,
+    "frazione_applicata": 0.7145718455832422,
+    "bbox_crop": [
+      186,
+      201,
+      964,
+      1047
+    ]
+  },
+  {
+    "file": "palo_0301_PolePivot_Base5_angolo_-018.0.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -18.0,
+    "temperatura_luce_K": 3822.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 145577.59354977505,
+    "frazione_applicata": 0.717267343555785,
+    "bbox_crop": [
+      179,
+      197,
+      964,
+      1051
+    ]
+  },
+  {
+    "file": "palo_0302_Electric_Pole5_angolo_+019.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.9,
+    "temperatura_luce_K": 6463.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 198425.8687817344,
+    "frazione_applicata": 0.8465863555303628,
+    "bbox_crop": [
+      205,
+      194,
+      927,
+      976
+    ]
+  },
+  {
+    "file": "palo_0303_Electric_Pole4_angolo_-021.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -21.8,
+    "temperatura_luce_K": 4069.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 175176.98566529137,
+    "frazione_applicata": 0.23769091185159463,
+    "bbox_crop": [
+      919,
+      134,
+      1739,
+      1024
+    ]
+  },
+  {
+    "file": "palo_0304_Electric_Pole4_angolo_-015.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.6,
+    "temperatura_luce_K": 8644.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 211303.56597658602,
+    "frazione_applicata": 0.0804806459571763,
+    "bbox_crop": [
+      927,
+      219,
+      1603,
+      957
+    ]
+  },
+  {
+    "file": "palo_0305_PolePivot_Base6_angolo_-019.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 8990.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 154744.941245151,
+    "frazione_applicata": 0.8411664013030017,
+    "bbox_crop": [
+      1098,
+      219,
+      1851,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0306_PolePivot_Base6_angolo_+019.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 19.9,
+    "temperatura_luce_K": 4977.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 167777.43685934,
+    "frazione_applicata": 0.8277895622170303,
+    "bbox_crop": [
+      1088,
+      251,
+      1780,
+      996
+    ]
+  },
+  {
+    "file": "palo_0307_Electric_Pole4_angolo_-016.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.4,
+    "temperatura_luce_K": 4598.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 204180.63066259024,
+    "frazione_applicata": 0.11147717386025946,
+    "bbox_crop": [
+      926,
+      204,
+      1626,
+      969
+    ]
+  },
+  {
+    "file": "palo_0308_Electric_Pole5_angolo_+016.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.2,
+    "temperatura_luce_K": 3808.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 173287.9372842034,
+    "frazione_applicata": 0.8660218339240919,
+    "bbox_crop": [
+      92,
+      132,
+      922,
+      1026
+    ]
+  },
+  {
+    "file": "palo_0309_PolePivot_Base6_angolo_+020.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 20.5,
+    "temperatura_luce_K": 7522.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 145403.5974768006,
+    "frazione_applicata": 0.8507545612483554,
+    "bbox_crop": [
+      1106,
+      192,
+      1909,
+      1052
+    ]
+  },
+  {
+    "file": "palo_0310_PolePivot_Base5_angolo_-016.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -16.9,
+    "temperatura_luce_K": 5739.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 161078.81562184473,
+    "frazione_applicata": 0.6871617374133847,
+    "bbox_crop": [
+      257,
+      239,
+      964,
+      1011
+    ]
+  },
+  {
+    "file": "palo_0311_Electric_Pole4_angolo_-015.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.5,
+    "temperatura_luce_K": 8972.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 174753.60008367136,
+    "frazione_applicata": 0.23953333810087718,
+    "bbox_crop": [
+      919,
+      133,
+      1741,
+      1025
+    ]
+  },
+  {
+    "file": "palo_0312_Electric_Pole4_angolo_-020.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.8,
+    "temperatura_luce_K": 8776.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 162223.37540264102,
+    "frazione_applicata": 0.29406050166984965,
+    "bbox_crop": [
+      915,
+      95,
+      1802,
+      1055
+    ]
+  },
+  {
+    "file": "palo_0313_Electric_Pole4_angolo_+015.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.9,
+    "temperatura_luce_K": 6068.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 186531.95429360677,
+    "frazione_applicata": 0.1882780523476426,
+    "bbox_crop": [
+      922,
+      164,
+      1690,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0314_Electric_Pole5_angolo_-020.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.2,
+    "temperatura_luce_K": 4594.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 176304.3251846099,
+    "frazione_applicata": 0.8636897032206879,
+    "bbox_crop": [
+      107,
+      140,
+      923,
+      1019
+    ]
+  },
+  {
+    "file": "palo_0315_PolePivot_Base5_angolo_-020.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.7,
+    "temperatura_luce_K": 5822.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 157136.79180542674,
+    "frazione_applicata": 0.6948177154949372,
+    "bbox_crop": [
+      238,
+      229,
+      964,
+      1020
+    ]
+  },
+  {
+    "file": "palo_0316_PolePivot_Base5_angolo_+021.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.2,
+    "temperatura_luce_K": 3681.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 135658.2964371654,
+    "frazione_applicata": 0.736532047376766,
+    "bbox_crop": [
+      119,
+      166,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0317_PolePivot_Base6_angolo_+020.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 20.8,
+    "temperatura_luce_K": 5235.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 130130.31972820818,
+    "frazione_applicata": 0.8664313882204535,
+    "bbox_crop": [
+      1121,
+      141,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0318_PolePivot_Base5_angolo_+017.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 17.6,
+    "temperatura_luce_K": 7636.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 135550.7597203516,
+    "frazione_applicata": 0.7367408991709787,
+    "bbox_crop": [
+      119,
+      165,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0319_Electric_Pole5_angolo_+016.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 16.0,
+    "temperatura_luce_K": 5665.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 165467.0880526319,
+    "frazione_applicata": 0.8720685504678038,
+    "bbox_crop": [
+      50,
+      109,
+      921,
+      1044
+    ]
+  },
+  {
+    "file": "palo_0320_PolePivot_Base5_angolo_-017.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -17.9,
+    "temperatura_luce_K": 6911.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 167082.06646103432,
+    "frazione_applicata": 0.6755025595435109,
+    "bbox_crop": [
+      283,
+      253,
+      964,
+      997
+    ]
+  },
+  {
+    "file": "palo_0321_Electric_Pole4_angolo_+019.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 19.6,
+    "temperatura_luce_K": 5042.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 208387.984296645,
+    "frazione_applicata": 0.09316823961234222,
+    "bbox_crop": [
+      927,
+      213,
+      1613,
+      962
+    ]
+  },
+  {
+    "file": "palo_0322_Electric_Pole4_angolo_+018.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 3972.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 166526.2535360644,
+    "frazione_applicata": 0.27533587814783633,
+    "bbox_crop": [
+      917,
+      109,
+      1780,
+      1044
+    ]
+  },
+  {
+    "file": "palo_0323_Electric_Pole5_angolo_+019.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.2,
+    "temperatura_luce_K": 7400.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 188626.18543005016,
+    "frazione_applicata": 0.8541630144955507,
+    "bbox_crop": [
+      165,
+      172,
+      926,
+      994
+    ]
+  },
+  {
+    "file": "palo_0324_PolePivot_Base6_angolo_-016.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.2,
+    "temperatura_luce_K": 6172.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 128803.00024556147,
+    "frazione_applicata": 0.8677937780236551,
+    "bbox_crop": [
+      1123,
+      136,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0325_Electric_Pole5_angolo_-021.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.8,
+    "temperatura_luce_K": 7343.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 209862.22171507697,
+    "frazione_applicata": 0.8377442998361275,
+    "bbox_crop": [
+      248,
+      218,
+      929,
+      958
+    ]
+  },
+  {
+    "file": "palo_0326_Electric_Pole4_angolo_+015.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.2,
+    "temperatura_luce_K": 4076.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 187897.6251406817,
+    "frazione_applicata": 0.18233512957048226,
+    "bbox_crop": [
+      922,
+      168,
+      1685,
+      997
+    ]
+  },
+  {
+    "file": "palo_0327_Electric_Pole5_angolo_-018.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -18.2,
+    "temperatura_luce_K": 7348.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 169047.91518309584,
+    "frazione_applicata": 0.8693000216279252,
+    "bbox_crop": [
+      69,
+      120,
+      922,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0328_Electric_Pole5_angolo_+018.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 18.2,
+    "temperatura_luce_K": 8471.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 192356.18439568218,
+    "frazione_applicata": 0.851279152937081,
+    "bbox_crop": [
+      181,
+      181,
+      926,
+      987
+    ]
+  },
+  {
+    "file": "palo_0329_PolePivot_Base6_angolo_+018.4.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.4,
+    "temperatura_luce_K": 5249.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 158404.45466546924,
+    "frazione_applicata": 0.8374101965356466,
+    "bbox_crop": [
+      1095,
+      228,
+      1830,
+      1018
+    ]
+  },
+  {
+    "file": "palo_0330_PolePivot_Base5_angolo_+015.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.3,
+    "temperatura_luce_K": 5531.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 160322.3110640265,
+    "frazione_applicata": 0.6886309782356064,
+    "bbox_crop": [
+      253,
+      237,
+      964,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0331_PolePivot_Base5_angolo_+021.0.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.0,
+    "temperatura_luce_K": 5726.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 144508.41430099,
+    "frazione_applicata": 0.7193438436671891,
+    "bbox_crop": [
+      173,
+      194,
+      964,
+      1054
+    ]
+  },
+  {
+    "file": "palo_0332_PolePivot_Base6_angolo_-018.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -18.0,
+    "temperatura_luce_K": 8581.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 162671.91315120884,
+    "frazione_applicata": 0.8330299836309402,
+    "bbox_crop": [
+      1092,
+      239,
+      1806,
+      1008
+    ]
+  },
+  {
+    "file": "palo_0333_Electric_Pole4_angolo_-015.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -15.4,
+    "temperatura_luce_K": 8036.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 172350.35940711404,
+    "frazione_applicata": 0.24999140256516694,
+    "bbox_crop": [
+      918,
+      126,
+      1752,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0334_Electric_Pole4_angolo_+017.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.2,
+    "temperatura_luce_K": 4041.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 182773.10778207873,
+    "frazione_applicata": 0.20463524017006374,
+    "bbox_crop": [
+      921,
+      155,
+      1706,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0335_Electric_Pole5_angolo_-019.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 6413.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 165605.2177649829,
+    "frazione_applicata": 0.8719617550045339,
+    "bbox_crop": [
+      50,
+      109,
+      921,
+      1044
+    ]
+  },
+  {
+    "file": "palo_0336_Electric_Pole4_angolo_-021.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -21.1,
+    "temperatura_luce_K": 6885.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 187901.87171258533,
+    "frazione_applicata": 0.18231664997201602,
+    "bbox_crop": [
+      922,
+      168,
+      1685,
+      997
+    ]
+  },
+  {
+    "file": "palo_0337_Electric_Pole5_angolo_-016.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -16.8,
+    "temperatura_luce_K": 6365.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 163729.61575957344,
+    "frazione_applicata": 0.8734118831606612,
+    "bbox_crop": [
+      40,
+      103,
+      920,
+      1048
+    ]
+  },
+  {
+    "file": "palo_0338_Electric_Pole4_angolo_+015.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.3,
+    "temperatura_luce_K": 7689.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 206872.35308922786,
+    "frazione_applicata": 0.09976373752725087,
+    "bbox_crop": [
+      927,
+      210,
+      1617,
+      964
+    ]
+  },
+  {
+    "file": "palo_0339_PolePivot_Base6_angolo_-019.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -19.1,
+    "temperatura_luce_K": 6952.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 131364.75535088673,
+    "frazione_applicata": 0.8651643364465336,
+    "bbox_crop": [
+      1120,
+      146,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0340_Electric_Pole4_angolo_-016.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.9,
+    "temperatura_luce_K": 3827.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 211641.56858762543,
+    "frazione_applicata": 0.0790097765890646,
+    "bbox_crop": [
+      927,
+      219,
+      1602,
+      957
+    ]
+  },
+  {
+    "file": "palo_0341_Electric_Pole4_angolo_-020.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.9,
+    "temperatura_luce_K": 4480.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 202371.8612624816,
+    "frazione_applicata": 0.11934830685658859,
+    "bbox_crop": [
+      926,
+      201,
+      1632,
+      971
+    ]
+  },
+  {
+    "file": "palo_0342_PolePivot_Base5_angolo_+019.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.2,
+    "temperatura_luce_K": 5920.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 148129.21875759866,
+    "frazione_applicata": 0.7123117198525307,
+    "bbox_crop": [
+      193,
+      205,
+      964,
+      1044
+    ]
+  },
+  {
+    "file": "palo_0343_Electric_Pole5_angolo_+017.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.4,
+    "temperatura_luce_K": 8023.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 191525.60276215326,
+    "frazione_applicata": 0.8519213199902558,
+    "bbox_crop": [
+      177,
+      179,
+      926,
+      989
+    ]
+  },
+  {
+    "file": "palo_0344_PolePivot_Base6_angolo_-015.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -15.1,
+    "temperatura_luce_K": 7244.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 133651.4086130398,
+    "frazione_applicata": 0.8628172654296877,
+    "bbox_crop": [
+      1118,
+      154,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0345_Electric_Pole4_angolo_-016.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.0,
+    "temperatura_luce_K": 4237.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 214182.39048693972,
+    "frazione_applicata": 0.06795300667229831,
+    "bbox_crop": [
+      928,
+      224,
+      1595,
+      953
+    ]
+  },
+  {
+    "file": "palo_0346_PolePivot_Base5_angolo_+020.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 20.2,
+    "temperatura_luce_K": 7108.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 164941.56630270436,
+    "frazione_applicata": 0.6796597191800107,
+    "bbox_crop": [
+      274,
+      248,
+      964,
+      1002
+    ]
+  },
+  {
+    "file": "palo_0347_PolePivot_Base5_angolo_-018.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -18.3,
+    "temperatura_luce_K": 8050.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 163374.35815886053,
+    "frazione_applicata": 0.6827034631443486,
+    "bbox_crop": [
+      267,
+      244,
+      964,
+      1005
+    ]
+  },
+  {
+    "file": "palo_0348_Electric_Pole5_angolo_-017.9.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -17.9,
+    "temperatura_luce_K": 7755.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 174301.44941298637,
+    "frazione_applicata": 0.8652382335279066,
+    "bbox_crop": [
+      97,
+      135,
+      923,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0349_Electric_Pole4_angolo_-020.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.3,
+    "temperatura_luce_K": 7628.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 169464.08004487708,
+    "frazione_applicata": 0.2625514827629869,
+    "bbox_crop": [
+      917,
+      118,
+      1766,
+      1037
+    ]
+  },
+  {
+    "file": "palo_0350_PolePivot_Base5_angolo_-019.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.8,
+    "temperatura_luce_K": 4984.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 136385.2227049985,
+    "frazione_applicata": 0.7351202518543096,
+    "bbox_crop": [
+      124,
+      168,
+      964,
+      1079
+    ]
+  },
+  {
+    "file": "palo_0351_Electric_Pole4_angolo_-018.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.5,
+    "temperatura_luce_K": 7082.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 180759.53999699134,
+    "frazione_applicata": 0.2133975842436615,
+    "bbox_crop": [
+      921,
+      149,
+      1714,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0352_Electric_Pole4_angolo_+015.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.0,
+    "temperatura_luce_K": 4386.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 167287.41084894084,
+    "frazione_applicata": 0.2720235872386585,
+    "bbox_crop": [
+      917,
+      111,
+      1776,
+      1042
+    ]
+  },
+  {
+    "file": "palo_0353_PolePivot_Base5_angolo_-020.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.4,
+    "temperatura_luce_K": 5277.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 146300.28885024376,
+    "frazione_applicata": 0.7158637651814015,
+    "bbox_crop": [
+      183,
+      199,
+      964,
+      1049
+    ]
+  },
+  {
+    "file": "palo_0354_PolePivot_Base5_angolo_-020.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.1,
+    "temperatura_luce_K": 5526.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 133071.88168895824,
+    "frazione_applicata": 0.7415552373787155,
+    "bbox_crop": [
+      102,
+      157,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0355_Electric_Pole5_angolo_-021.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.1,
+    "temperatura_luce_K": 6777.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 166651.07814418463,
+    "frazione_applicata": 0.8711531444470252,
+    "bbox_crop": [
+      56,
+      112,
+      921,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0356_PolePivot_Base6_angolo_+018.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.8,
+    "temperatura_luce_K": 5966.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 134753.99719831723,
+    "frazione_applicata": 0.8616855443441862,
+    "bbox_crop": [
+      1116,
+      158,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0357_Electric_Pole5_angolo_-018.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -18.5,
+    "temperatura_luce_K": 8138.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 214836.33577225928,
+    "frazione_applicata": 0.833898546405866,
+    "bbox_crop": [
+      265,
+      227,
+      930,
+      951
+    ]
+  },
+  {
+    "file": "palo_0358_Electric_Pole4_angolo_+017.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.2,
+    "temperatura_luce_K": 8154.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 176509.97681915248,
+    "frazione_applicata": 0.2318901996909727,
+    "bbox_crop": [
+      919,
+      138,
+      1733,
+      1021
+    ]
+  },
+  {
+    "file": "palo_0359_Electric_Pole4_angolo_+015.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.5,
+    "temperatura_luce_K": 5406.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 205262.16243525385,
+    "frazione_applicata": 0.10677072514331432,
+    "bbox_crop": [
+      926,
+      207,
+      1623,
+      967
+    ]
+  },
+  {
+    "file": "palo_0360_Electric_Pole5_angolo_+017.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.3,
+    "temperatura_luce_K": 4092.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 166628.27458057465,
+    "frazione_applicata": 0.8711707751008395,
+    "bbox_crop": [
+      56,
+      112,
+      921,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0361_Electric_Pole5_angolo_+019.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.8,
+    "temperatura_luce_K": 5497.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 171298.48837924522,
+    "frazione_applicata": 0.8675599832030626,
+    "bbox_crop": [
+      82,
+      126,
+      922,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0362_Electric_Pole4_angolo_-018.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.9,
+    "temperatura_luce_K": 6875.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 212964.44283437083,
+    "frazione_applicata": 0.07325308967644517,
+    "bbox_crop": [
+      928,
+      222,
+      1598,
+      955
+    ]
+  },
+  {
+    "file": "palo_0363_Electric_Pole4_angolo_+017.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 17.8,
+    "temperatura_luce_K": 5629.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 193718.78285387982,
+    "frazione_applicata": 0.15700348334159442,
+    "bbox_crop": [
+      924,
+      181,
+      1663,
+      986
+    ]
+  },
+  {
+    "file": "palo_0364_PolePivot_Base5_angolo_-016.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -16.7,
+    "temperatura_luce_K": 7136.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 158087.99690551352,
+    "frazione_applicata": 0.692970338173929,
+    "bbox_crop": [
+      243,
+      231,
+      964,
+      1018
+    ]
+  },
+  {
+    "file": "palo_0365_Electric_Pole4_angolo_+020.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 20.5,
+    "temperatura_luce_K": 4325.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 189185.07978029613,
+    "frazione_applicata": 0.17673257642327755,
+    "bbox_crop": [
+      923,
+      171,
+      1680,
+      995
+    ]
+  },
+  {
+    "file": "palo_0366_PolePivot_Base5_angolo_+021.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.6,
+    "temperatura_luce_K": 6535.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 162260.89245705816,
+    "frazione_applicata": 0.6848659739267684,
+    "bbox_crop": [
+      262,
+      242,
+      964,
+      1008
+    ]
+  },
+  {
+    "file": "palo_0367_Electric_Pole5_angolo_+018.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 5496.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 177740.53310869265,
+    "frazione_applicata": 0.862579294113234,
+    "bbox_crop": [
+      114,
+      144,
+      923,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0368_Electric_Pole4_angolo_-020.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.5,
+    "temperatura_luce_K": 5474.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 214232.66638376482,
+    "frazione_applicata": 0.06773422352039615,
+    "bbox_crop": [
+      928,
+      224,
+      1594,
+      953
+    ]
+  },
+  {
+    "file": "palo_0369_Electric_Pole5_angolo_-015.7.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -15.7,
+    "temperatura_luce_K": 6498.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 166302.37434147845,
+    "frazione_applicata": 0.8714227459941521,
+    "bbox_crop": [
+      54,
+      111,
+      921,
+      1042
+    ]
+  },
+  {
+    "file": "palo_0370_Electric_Pole4_angolo_-019.8.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -19.8,
+    "temperatura_luce_K": 7539.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 176197.27392504117,
+    "frazione_applicata": 0.23325097352302626,
+    "bbox_crop": [
+      919,
+      137,
+      1734,
+      1021
+    ]
+  },
+  {
+    "file": "palo_0371_Electric_Pole4_angolo_-016.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -16.5,
+    "temperatura_luce_K": 4679.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 188886.3758911797,
+    "frazione_applicata": 0.17803243147258074,
+    "bbox_crop": [
+      923,
+      170,
+      1681,
+      995
+    ]
+  },
+  {
+    "file": "palo_0372_Electric_Pole4_angolo_-018.4.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.4,
+    "temperatura_luce_K": 4457.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 188652.5336466397,
+    "frazione_applicata": 0.17905003128758412,
+    "bbox_crop": [
+      923,
+      169,
+      1682,
+      996
+    ]
+  },
+  {
+    "file": "palo_0373_Electric_Pole5_angolo_-021.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.1,
+    "temperatura_luce_K": 8067.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 161935.97497881405,
+    "frazione_applicata": 0.8747986427134106,
+    "bbox_crop": [
+      29,
+      98,
+      920,
+      1053
+    ]
+  },
+  {
+    "file": "palo_0374_PolePivot_Base6_angolo_-020.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.0,
+    "temperatura_luce_K": 3944.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 126872.65755526387,
+    "frazione_applicata": 0.8697751240615375,
+    "bbox_crop": [
+      1125,
+      129,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0375_PolePivot_Base5_angolo_+017.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 17.5,
+    "temperatura_luce_K": 3541.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 153653.43966813426,
+    "frazione_applicata": 0.7015828871061206,
+    "bbox_crop": [
+      221,
+      220,
+      964,
+      1029
+    ]
+  },
+  {
+    "file": "palo_0376_Electric_Pole5_angolo_+021.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 21.0,
+    "temperatura_luce_K": 3924.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 198304.50852768694,
+    "frazione_applicata": 0.8466801856291373,
+    "bbox_crop": [
+      205,
+      194,
+      927,
+      977
+    ]
+  },
+  {
+    "file": "palo_0377_PolePivot_Base6_angolo_+018.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 18.3,
+    "temperatura_luce_K": 8999.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 145989.67983066064,
+    "frazione_applicata": 0.8501529934772389,
+    "bbox_crop": [
+      1106,
+      194,
+      1906,
+      1051
+    ]
+  },
+  {
+    "file": "palo_0378_PolePivot_Base6_angolo_-021.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.5,
+    "temperatura_luce_K": 4317.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 167062.01785307325,
+    "frazione_applicata": 0.8285238839623955,
+    "bbox_crop": [
+      1089,
+      249,
+      1783,
+      998
+    ]
+  },
+  {
+    "file": "palo_0379_PolePivot_Base6_angolo_+016.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.1,
+    "temperatura_luce_K": 6317.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 168117.86003106585,
+    "frazione_applicata": 0.8274401444137083,
+    "bbox_crop": [
+      1088,
+      252,
+      1778,
+      996
+    ]
+  },
+  {
+    "file": "palo_0380_PolePivot_Base6_angolo_-016.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.2,
+    "temperatura_luce_K": 8796.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 131841.12773568765,
+    "frazione_applicata": 0.8646753773917886,
+    "bbox_crop": [
+      1119,
+      147,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0381_Electric_Pole4_angolo_-019.6.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -19.6,
+    "temperatura_luce_K": 8447.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 165845.49344909136,
+    "frazione_applicata": 0.27829830839617853,
+    "bbox_crop": [
+      916,
+      107,
+      1784,
+      1045
+    ]
+  },
+  {
+    "file": "palo_0382_Electric_Pole4_angolo_-020.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -20.3,
+    "temperatura_luce_K": 5895.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 182442.70650407136,
+    "frazione_applicata": 0.20607303119040998,
+    "bbox_crop": [
+      921,
+      154,
+      1707,
+      1008
+    ]
+  },
+  {
+    "file": "palo_0383_PolePivot_Base5_angolo_-016.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -16.7,
+    "temperatura_luce_K": 4468.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 143116.00299347978,
+    "frazione_applicata": 0.7220481069967015,
+    "bbox_crop": [
+      165,
+      190,
+      964,
+      1058
+    ]
+  },
+  {
+    "file": "palo_0384_PolePivot_Base5_angolo_+020.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 20.6,
+    "temperatura_luce_K": 6595.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 148564.56794473002,
+    "frazione_applicata": 0.7114662090211101,
+    "bbox_crop": [
+      195,
+      206,
+      964,
+      1042
+    ]
+  },
+  {
+    "file": "palo_0385_Electric_Pole5_angolo_-016.2.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -16.2,
+    "temperatura_luce_K": 4079.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 197876.03063193892,
+    "frazione_applicata": 0.8470114647912997,
+    "bbox_crop": [
+      203,
+      193,
+      927,
+      977
+    ]
+  },
+  {
+    "file": "palo_0386_Electric_Pole5_angolo_+017.7.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.7,
+    "temperatura_luce_K": 3885.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 174626.976537914,
+    "frazione_applicata": 0.8649865511090996,
+    "bbox_crop": [
+      99,
+      136,
+      923,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0387_PolePivot_Base6_angolo_+020.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 20.0,
+    "temperatura_luce_K": 5938.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 152035.4014038627,
+    "frazione_applicata": 0.8439475323715961,
+    "bbox_crop": [
+      1100,
+      212,
+      1867,
+      1034
+    ]
+  },
+  {
+    "file": "palo_0388_PolePivot_Base5_angolo_+021.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.9,
+    "temperatura_luce_K": 5831.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 165201.2308272685,
+    "frazione_applicata": 0.6791554132698484,
+    "bbox_crop": [
+      275,
+      249,
+      964,
+      1001
+    ]
+  },
+  {
+    "file": "palo_0389_PolePivot_Base6_angolo_+021.6.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 21.6,
+    "temperatura_luce_K": 8078.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 162855.34888940706,
+    "frazione_applicata": 0.8328417011695348,
+    "bbox_crop": [
+      1092,
+      240,
+      1805,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0390_PolePivot_Base5_angolo_+019.6.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 19.6,
+    "temperatura_luce_K": 4904.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 169118.16448873587,
+    "frazione_applicata": 0.6715481638833294,
+    "bbox_crop": [
+      291,
+      257,
+      964,
+      993
+    ]
+  },
+  {
+    "file": "palo_0391_PolePivot_Base5_angolo_-015.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -15.2,
+    "temperatura_luce_K": 6148.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 158749.97447988842,
+    "frazione_applicata": 0.6916846823697236,
+    "bbox_crop": [
+      246,
+      233,
+      964,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0392_PolePivot_Base6_angolo_-016.4.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.4,
+    "temperatura_luce_K": 7947.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 159710.1555814975,
+    "frazione_applicata": 0.8360699965029608,
+    "bbox_crop": [
+      1094,
+      232,
+      1822,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0393_PolePivot_Base5_angolo_+015.7.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.7,
+    "temperatura_luce_K": 7967.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 133737.92935700543,
+    "frazione_applicata": 0.7402616768663206,
+    "bbox_crop": [
+      107,
+      159,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0394_PolePivot_Base6_angolo_-019.7.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -19.7,
+    "temperatura_luce_K": 8713.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 128199.75964415487,
+    "frazione_applicata": 0.8684129573960506,
+    "bbox_crop": [
+      1124,
+      134,
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0395_PolePivot_Base6_angolo_-016.6.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -16.6,
+    "temperatura_luce_K": 8746.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 150127.70990026678,
+    "frazione_applicata": 0.8459056287350811,
+    "bbox_crop": [
+      1102,
+      206,
+      1879,
+      1039
+    ]
+  },
+  {
+    "file": "palo_0396_Electric_Pole4_angolo_+021.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.0,
+    "temperatura_luce_K": 3981.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 214692.82033534427,
+    "frazione_applicata": 0.06573179416071617,
+    "bbox_crop": [
+      928,
+      225,
+      1593,
+      952
+    ]
+  },
+  {
+    "file": "palo_0397_PolePivot_Base6_angolo_+015.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.3,
+    "temperatura_luce_K": 4300.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 145379.9769416094,
+    "frazione_applicata": 0.8507788058832841,
+    "bbox_crop": [
+      1106,
+      192,
+      1910,
+      1052
+    ]
+  },
+  {
+    "file": "palo_0398_PolePivot_Base6_angolo_+019.1.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 19.1,
+    "temperatura_luce_K": 5451.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 160181.34677976076,
+    "frazione_applicata": 0.8355863555316159,
+    "bbox_crop": [
+      1094,
+      233,
+      1820,
+      1014
+    ]
+  },
+  {
+    "file": "palo_0399_PolePivot_Base6_angolo_+015.4.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.4,
+    "temperatura_luce_K": 5139.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 170968.29919991564,
+    "frazione_applicata": 0.8245143911877076,
+    "bbox_crop": [
+      1086,
+      258,
+      1764,
+      990
+    ]
+  },
+  {
+    "file": "palo_0400_Electric_Pole4_angolo_+018.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 18.2,
+    "temperatura_luce_K": 6958.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 178506.2523896385,
+    "frazione_applicata": 0.2232031052986888,
+    "bbox_crop": [
+      920,
+      143,
+      1724,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0401_PolePivot_Base6_angolo_-020.3.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.3,
+    "temperatura_luce_K": 5308.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 143399.70025224105,
+    "frazione_applicata": 0.8528114052720414,
+    "bbox_crop": [
+      1108,
+      186,
+      1920,
+      1058
+    ]
+  },
+  {
+    "file": "palo_0402_PolePivot_Base5_angolo_+021.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 21.5,
+    "temperatura_luce_K": 5566.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 131441.86884647564,
+    "frazione_applicata": 0.7447209571145327,
+    "bbox_crop": [
+      91,
+      151,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0403_Electric_Pole4_angolo_+022.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 22.0,
+    "temperatura_luce_K": 8124.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 186804.2871390659,
+    "frazione_applicata": 0.18709295487432787,
+    "bbox_crop": [
+      922,
+      165,
+      1689,
+      999
+    ]
+  },
+  {
+    "file": "palo_0404_PolePivot_Base6_angolo_+015.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.8,
+    "temperatura_luce_K": 7976.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 147219.11945546293,
+    "frazione_applicata": 0.8488910697050189,
+    "bbox_crop": [
+      1104,
+      198,
+      1897,
+      1047
+    ]
+  },
+  {
+    "file": "palo_0405_Electric_Pole4_angolo_-018.9.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.9,
+    "temperatura_luce_K": 8260.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 176343.81732052448,
+    "frazione_applicata": 0.23261326782349734,
+    "bbox_crop": [
+      919,
+      138,
+      1733,
+      1021
+    ]
+  },
+  {
+    "file": "palo_0406_Electric_Pole5_angolo_+019.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.1,
+    "temperatura_luce_K": 4235.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 159582.00265919216,
+    "frazione_applicata": 0.8766186245270272,
+    "bbox_crop": [
+      15,
+      90,
+      919,
+      1059
+    ]
+  },
+  {
+    "file": "palo_0407_Electric_Pole5_angolo_-020.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.1,
+    "temperatura_luce_K": 7185.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 202455.58878196822,
+    "frazione_applicata": 0.8434707636207813,
+    "bbox_crop": [
+      221,
+      203,
+      928,
+      970
+    ]
+  },
+  {
+    "file": "palo_0408_PolePivot_Base6_angolo_-020.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.5,
+    "temperatura_luce_K": 6089.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 145357.58327080624,
+    "frazione_applicata": 0.8508017912377203,
+    "bbox_crop": [
+      1106,
+      192,
+      1910,
+      1053
+    ]
+  },
+  {
+    "file": "palo_0409_PolePivot_Base6_angolo_+016.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.9,
+    "temperatura_luce_K": 4387.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 155428.08872094404,
+    "frazione_applicata": 0.8404652037636968,
+    "bbox_crop": [
+      1098,
+      221,
+      1847,
+      1025
+    ]
+  },
+  {
+    "file": "palo_0410_PolePivot_Base5_angolo_-019.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.8,
+    "temperatura_luce_K": 8316.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 129860.65921939706,
+    "frazione_applicata": 0.7477918939761606,
+    "bbox_crop": [
+      80,
+      145,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0411_PolePivot_Base5_angolo_-019.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -19.4,
+    "temperatura_luce_K": 6732.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 126656.96131544713,
+    "frazione_applicata": 0.7540139367833102,
+    "bbox_crop": [
+      57,
+      133,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0412_PolePivot_Base6_angolo_-021.6.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -21.6,
+    "temperatura_luce_K": 8275.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 162723.64476592117,
+    "frazione_applicata": 0.8329768851679787,
+    "bbox_crop": [
+      1092,
+      239,
+      1806,
+      1008
+    ]
+  },
+  {
+    "file": "palo_0413_PolePivot_Base6_angolo_+022.0.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 22.0,
+    "temperatura_luce_K": 3651.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 138076.28903889324,
+    "frazione_applicata": 0.858275471195983,
+    "bbox_crop": [
+      1113,
+      169,
+      1920,
+      1075
+    ]
+  },
+  {
+    "file": "palo_0414_Electric_Pole5_angolo_-020.0.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.0,
+    "temperatura_luce_K": 7305.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 162008.36476256864,
+    "frazione_applicata": 0.8747426743025559,
+    "bbox_crop": [
+      29,
+      98,
+      920,
+      1053
+    ]
+  },
+  {
+    "file": "palo_0415_Electric_Pole5_angolo_-019.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.5,
+    "temperatura_luce_K": 3899.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 204164.6909221556,
+    "frazione_applicata": 0.842149365409415,
+    "bbox_crop": [
+      227,
+      206,
+      928,
+      967
+    ]
+  },
+  {
+    "file": "palo_0416_Electric_Pole5_angolo_-019.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -19.8,
+    "temperatura_luce_K": 6158.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 206311.7221111968,
+    "frazione_applicata": 0.8404893808442819,
+    "bbox_crop": [
+      235,
+      211,
+      929,
+      964
+    ]
+  },
+  {
+    "file": "palo_0417_Electric_Pole5_angolo_+019.5.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.5,
+    "temperatura_luce_K": 6685.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 203709.3195264736,
+    "frazione_applicata": 0.8425014373737597,
+    "bbox_crop": [
+      225,
+      205,
+      928,
+      968
+    ]
+  },
+  {
+    "file": "palo_0418_Electric_Pole5_angolo_+015.1.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 15.1,
+    "temperatura_luce_K": 6870.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 169114.97580158256,
+    "frazione_applicata": 0.8692481734795683,
+    "bbox_crop": [
+      70,
+      120,
+      922,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0419_Electric_Pole4_angolo_+015.0.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 15.0,
+    "temperatura_luce_K": 3572.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 206676.88710300432,
+    "frazione_applicata": 0.10061433726303359,
+    "bbox_crop": [
+      927,
+      210,
+      1618,
+      965
+    ]
+  },
+  {
+    "file": "palo_0420_PolePivot_Base5_angolo_+018.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 18.4,
+    "temperatura_luce_K": 4358.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 149050.13796184398,
+    "frazione_applicata": 0.710523162103788,
+    "bbox_crop": [
+      198,
+      207,
+      964,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0421_Electric_Pole4_angolo_+016.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 16.5,
+    "temperatura_luce_K": 7493.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 176028.24001487394,
+    "frazione_applicata": 0.23398655009112612,
+    "bbox_crop": [
+      919,
+      137,
+      1735,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0422_PolePivot_Base6_angolo_-020.5.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": -20.5,
+    "temperatura_luce_K": 4944.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 170221.09642903035,
+    "frazione_applicata": 0.8252813364855708,
+    "bbox_crop": [
+      1087,
+      257,
+      1768,
+      991
+    ]
+  },
+  {
+    "file": "palo_0423_PolePivot_Base6_angolo_+015.4.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 15.4,
+    "temperatura_luce_K": 5788.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 140206.08918988542,
+    "frazione_applicata": 0.8560893976496331,
+    "bbox_crop": [
+      1111,
+      176,
+      1920,
+      1068
+    ]
+  },
+  {
+    "file": "palo_0424_PolePivot_Base5_angolo_-020.9.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.9,
+    "temperatura_luce_K": 4748.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 151354.4638107969,
+    "frazione_applicata": 0.706047829377775,
+    "bbox_crop": [
+      210,
+      214,
+      964,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0425_Electric_Pole5_angolo_+019.7.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 19.7,
+    "temperatura_luce_K": 8329.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 211307.29932561656,
+    "frazione_applicata": 0.8366270331000136,
+    "bbox_crop": [
+      253,
+      221,
+      930,
+      956
+    ]
+  },
+  {
+    "file": "palo_0426_PolePivot_Base6_angolo_+017.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 17.8,
+    "temperatura_luce_K": 3906.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 161550.76322314632,
+    "frazione_applicata": 0.8341807564854203,
+    "bbox_crop": [
+      1093,
+      236,
+      1812,
+      1010
+    ]
+  },
+  {
+    "file": "palo_0427_Electric_Pole5_angolo_-020.6.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.6,
+    "temperatura_luce_K": 7523.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 215058.64233868817,
+    "frazione_applicata": 0.833726669317688,
+    "bbox_crop": [
+      265,
+      228,
+      930,
+      950
+    ]
+  },
+  {
+    "file": "palo_0428_Electric_Pole4_angolo_-018.5.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.5,
+    "temperatura_luce_K": 6366.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 183427.86555243266,
+    "frazione_applicata": 0.20178596292636086,
+    "bbox_crop": [
+      921,
+      156,
+      1703,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0429_PolePivot_Base6_angolo_+016.8.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.8,
+    "temperatura_luce_K": 3754.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 149607.4594043872,
+    "frazione_applicata": 0.8464396252445602,
+    "bbox_crop": [
+      1102,
+      205,
+      1882,
+      1041
+    ]
+  },
+  {
+    "file": "palo_0430_Electric_Pole4_angolo_+020.3.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 20.3,
+    "temperatura_luce_K": 7747.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 197949.90086776143,
+    "frazione_applicata": 0.13859113480870466,
+    "bbox_crop": [
+      925,
+      191,
+      1647,
+      979
+    ]
+  },
+  {
+    "file": "palo_0431_PolePivot_Base6_angolo_+017.9.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 17.9,
+    "temperatura_luce_K": 7617.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 168320.91412134303,
+    "frazione_applicata": 0.8272317252458224,
+    "bbox_crop": [
+      1088,
+      252,
+      1777,
+      995
+    ]
+  },
+  {
+    "file": "palo_0432_Electric_Pole4_angolo_+021.1.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": 21.1,
+    "temperatura_luce_K": 7776.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 164731.05151960134,
+    "frazione_applicata": 0.28314797062685026,
+    "bbox_crop": [
+      916,
+      103,
+      1789,
+      1048
+    ]
+  },
+  {
+    "file": "palo_0433_PolePivot_Base5_angolo_-018.8.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -18.8,
+    "temperatura_luce_K": 8225.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 140392.77718136442,
+    "frazione_applicata": 0.7273370037917537,
+    "bbox_crop": [
+      149,
+      181,
+      964,
+      1066
+    ]
+  },
+  {
+    "file": "palo_0434_PolePivot_Base5_angolo_+020.4.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 20.4,
+    "temperatura_luce_K": 6688.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 128870.05362804823,
+    "frazione_applicata": 0.749715792726656,
+    "bbox_crop": [
+      73,
+      142,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0435_Electric_Pole5_angolo_-021.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.4,
+    "temperatura_luce_K": 7776.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 207107.60139603756,
+    "frazione_applicata": 0.8398740440316226,
+    "bbox_crop": [
+      238,
+      212,
+      929,
+      962
+    ]
+  },
+  {
+    "file": "palo_0436_PolePivot_Base5_angolo_-020.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.5,
+    "temperatura_luce_K": 8118.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 131787.07181806501,
+    "frazione_applicata": 0.7440505232188348,
+    "bbox_crop": [
+      94,
+      152,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0437_Electric_Pole5_angolo_-021.3.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -21.3,
+    "temperatura_luce_K": 6918.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 182254.22252979694,
+    "frazione_applicata": 0.8590895195775491,
+    "bbox_crop": [
+      136,
+      156,
+      924,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0438_PolePivot_Base5_angolo_-020.2.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.2,
+    "temperatura_luce_K": 3597.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 160816.4688416683,
+    "frazione_applicata": 0.6876712526503124,
+    "bbox_crop": [
+      255,
+      238,
+      964,
+      1011
+    ]
+  },
+  {
+    "file": "palo_0439_PolePivot_Base5_angolo_-016.5.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -16.5,
+    "temperatura_luce_K": 5843.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 147576.35516322887,
+    "frazione_applicata": 0.7133854605902084,
+    "bbox_crop": [
+      190,
+      203,
+      964,
+      1045
+    ]
+  },
+  {
+    "file": "palo_0440_PolePivot_Base5_angolo_+015.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 15.3,
+    "temperatura_luce_K": 8078.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 168858.3446076495,
+    "frazione_applicata": 0.6720527715182363,
+    "bbox_crop": [
+      290,
+      257,
+      964,
+      993
+    ]
+  },
+  {
+    "file": "palo_0441_Electric_Pole5_angolo_+017.7.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 17.7,
+    "temperatura_luce_K": 5641.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 211263.60808565762,
+    "frazione_applicata": 0.8366608131328019,
+    "bbox_crop": [
+      252,
+      221,
+      930,
+      956
+    ]
+  },
+  {
+    "file": "palo_0442_Electric_Pole5_angolo_+015.8.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": 15.8,
+    "temperatura_luce_K": 8776.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 199147.7295771401,
+    "frazione_applicata": 0.8460282463679696,
+    "bbox_crop": [
+      208,
+      196,
+      928,
+      975
+    ]
+  },
+  {
+    "file": "palo_0443_PolePivot_Base5_angolo_-020.3.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": -20.3,
+    "temperatura_luce_K": 5124.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 165333.3552914205,
+    "frazione_applicata": 0.678898808528555,
+    "bbox_crop": [
+      275,
+      249,
+      964,
+      1001
+    ]
+  },
+  {
+    "file": "palo_0444_PolePivot_Base6_angolo_+016.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.2,
+    "temperatura_luce_K": 4004.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 146719.4394457497,
+    "frazione_applicata": 0.8494039522167256,
+    "bbox_crop": [
+      1105,
+      196,
+      1901,
+      1049
+    ]
+  },
+  {
+    "file": "palo_0445_PolePivot_Base6_angolo_+016.4.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 16.4,
+    "temperatura_luce_K": 4935.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 165443.7462193597,
+    "frazione_applicata": 0.8301849134292314,
+    "bbox_crop": [
+      1090,
+      246,
+      1792,
+      1002
+    ]
+  },
+  {
+    "file": "palo_0446_PolePivot_Base5_angolo_+017.1.png",
+    "palo": "PolePivot_Base5",
+    "angolo_gradi": 17.1,
+    "temperatura_luce_K": 6728.0,
+    "distanza_lungo_binario_iniziale": 514894.8670473037,
+    "distanza_target": 132239.79144029564,
+    "frazione_applicata": 0.7431712765003216,
+    "bbox_crop": [
+      97,
+      154,
+      964,
+      1080
+    ]
+  },
+  {
+    "file": "palo_0447_PolePivot_Base6_angolo_+019.2.png",
+    "palo": "PolePivot_Base6",
+    "angolo_gradi": 19.2,
+    "temperatura_luce_K": 4839.0,
+    "distanza_lungo_binario_iniziale": 974258.2332366144,
+    "distanza_target": 138690.0577552984,
+    "frazione_applicata": 0.8576454855356452,
+    "bbox_crop": [
+      1112,
+      171,
+      1920,
+      1073
+    ]
+  },
+  {
+    "file": "palo_0448_Electric_Pole4_angolo_-018.2.png",
+    "palo": "Electric_Pole4",
+    "angolo_gradi": -18.2,
+    "temperatura_luce_K": 4036.0,
+    "distanza_lungo_binario_iniziale": 229797.84498015605,
+    "distanza_target": 177392.26800508302,
+    "frazione_applicata": 0.22805077645353222,
+    "bbox_crop": [
+      920,
+      140,
+      1729,
+      1019
+    ]
+  },
+  {
+    "file": "palo_0449_Electric_Pole5_angolo_-020.4.png",
+    "palo": "Electric_Pole5",
+    "angolo_gradi": -20.4,
+    "temperatura_luce_K": 7486.0,
+    "distanza_lungo_binario_iniziale": 1293404.3087738901,
+    "distanza_target": 202941.4643066939,
+    "frazione_applicata": 0.8430951072839115,
+    "bbox_crop": [
+      223,
+      204,
+      928,
+      969
+    ]
+  }
+]

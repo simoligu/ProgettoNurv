@@ -1,0 +1,4502 @@
+[
+  {
+    "file": "palo_0000_PolePivot_Asset2_1_angolo_-012.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 12.2,
+    "temperatura_luce_K": 4786.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 250766.5138329143,
+    "frazione_applicata": 0.3971978539267953,
+    "bbox_crop": [
+      321,
+      143,
+      1046,
+      955
+    ]
+  },
+  {
+    "file": "palo_0001_PolePivot_Asset2_3_angolo_+012.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -12.8,
+    "temperatura_luce_K": 3607.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 274900.78248750384,
+    "frazione_applicata": 0.7346546643573809,
+    "bbox_crop": [
+      376,
+      180,
+      1036,
+      920
+    ]
+  },
+  {
+    "file": "palo_0002_PolePivot_Asset2_2_angolo_-013.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 13.7,
+    "temperatura_luce_K": 6273.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 242877.0345327634,
+    "frazione_applicata": 0.6740582404365261,
+    "bbox_crop": [
+      849,
+      134,
+      1589,
+      963
+    ]
+  },
+  {
+    "file": "palo_0003_PolePivot_Asset2_2_angolo_+012.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -12.4,
+    "temperatura_luce_K": 5543.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 233576.88440993582,
+    "frazione_applicata": 0.6865390717389601,
+    "bbox_crop": [
+      845,
+      118,
+      1614,
+      979
+    ]
+  },
+  {
+    "file": "palo_0004_PolePivot_Asset2_2_angolo_-015.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 15.9,
+    "temperatura_luce_K": 5402.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 230544.14194154515,
+    "frazione_applicata": 0.6906090218614647,
+    "bbox_crop": [
+      844,
+      112,
+      1623,
+      984
+    ]
+  },
+  {
+    "file": "palo_0005_PolePivot_Asset2_2_angolo_-009.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 9.3,
+    "temperatura_luce_K": 6231.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 276873.7497658821,
+    "frazione_applicata": 0.6284345395222831,
+    "bbox_crop": [
+      860,
+      186,
+      1509,
+      913
+    ]
+  },
+  {
+    "file": "palo_0006_PolePivot_Asset2_1_angolo_+012.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -12.3,
+    "temperatura_luce_K": 8732.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 278800.2576571272,
+    "frazione_applicata": 0.3298092673032972,
+    "bbox_crop": [
+      384,
+      185,
+      1035,
+      915
+    ]
+  },
+  {
+    "file": "palo_0007_PolePivot_Asset2_3_angolo_+011.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -11.4,
+    "temperatura_luce_K": 3635.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 238718.24642877595,
+    "frazione_applicata": 0.7695795091978671,
+    "bbox_crop": [
+      289,
+      122,
+      1051,
+      975
+    ]
+  },
+  {
+    "file": "palo_0008_PolePivot_Asset2_1_angolo_+014.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -14.1,
+    "temperatura_luce_K": 5527.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 239449.52310924878,
+    "frazione_applicata": 0.4244020694779257,
+    "bbox_crop": [
+      291,
+      123,
+      1051,
+      973
+    ]
+  },
+  {
+    "file": "palo_0009_PolePivot_Asset2_1_angolo_-018.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 18.8,
+    "temperatura_luce_K": 4268.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 224190.18890422428,
+    "frazione_applicata": 0.4610830412147099,
+    "bbox_crop": [
+      247,
+      93,
+      1058,
+      1002
+    ]
+  },
+  {
+    "file": "palo_0010_PolePivot_Asset2_2_angolo_-004.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 4.3,
+    "temperatura_luce_K": 5750.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 224736.06741067528,
+    "frazione_applicata": 0.6984034765158924,
+    "bbox_crop": [
+      842,
+      100,
+      1641,
+      995
+    ]
+  },
+  {
+    "file": "palo_0011_PolePivot_Asset2_1_angolo_+004.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -4.9,
+    "temperatura_luce_K": 7357.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 258068.8052381487,
+    "frazione_applicata": 0.379644326292479,
+    "bbox_crop": [
+      339,
+      155,
+      1043,
+      943
+    ]
+  },
+  {
+    "file": "palo_0012_PolePivot_Asset2_2_angolo_-006.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 6.5,
+    "temperatura_luce_K": 4273.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 231716.2579810214,
+    "frazione_applicata": 0.6890360383759967,
+    "bbox_crop": [
+      845,
+      114,
+      1620,
+      982
+    ]
+  },
+  {
+    "file": "palo_0013_PolePivot_Asset2_3_angolo_+009.9.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -9.9,
+    "temperatura_luce_K": 4883.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 243550.67262270238,
+    "frazione_applicata": 0.7649150563040167,
+    "bbox_crop": [
+      302,
+      131,
+      1049,
+      966
+    ]
+  },
+  {
+    "file": "palo_0014_PolePivot_Asset2_1_angolo_-009.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 9.0,
+    "temperatura_luce_K": 6776.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 261207.5375349385,
+    "frazione_applicata": 0.37209932143702673,
+    "bbox_crop": [
+      346,
+      160,
+      1041,
+      939
+    ]
+  },
+  {
+    "file": "palo_0015_PolePivot_Asset2_3_angolo_-007.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 7.1,
+    "temperatura_luce_K": 6762.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 274792.45221761643,
+    "frazione_applicata": 0.73475922910821,
+    "bbox_crop": [
+      376,
+      179,
+      1036,
+      920
+    ]
+  },
+  {
+    "file": "palo_0016_PolePivot_Asset2_2_angolo_-012.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 12.1,
+    "temperatura_luce_K": 4154.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 270971.78343986557,
+    "frazione_applicata": 0.63635499726703,
+    "bbox_crop": [
+      858,
+      178,
+      1521,
+      921
+    ]
+  },
+  {
+    "file": "palo_0017_PolePivot_Asset2_2_angolo_-005.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 5.5,
+    "temperatura_luce_K": 5397.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 262844.49619228736,
+    "frazione_applicata": 0.6472618428279926,
+    "bbox_crop": [
+      856,
+      166,
+      1539,
+      932
+    ]
+  },
+  {
+    "file": "palo_0018_PolePivot_Asset2_1_angolo_-010.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 10.1,
+    "temperatura_luce_K": 4093.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 269689.1256436449,
+    "frazione_applicata": 0.3517109552397609,
+    "bbox_crop": [
+      365,
+      172,
+      1038,
+      927
+    ]
+  },
+  {
+    "file": "palo_0019_PolePivot_Asset2_2_angolo_+011.6.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -11.6,
+    "temperatura_luce_K": 4549.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 218943.1523365836,
+    "frazione_applicata": 0.7061775871306879,
+    "bbox_crop": [
+      839,
+      88,
+      1660,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0020_PolePivot_Asset2_3_angolo_+018.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -18.2,
+    "temperatura_luce_K": 3708.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 268510.4108362084,
+    "frazione_applicata": 0.74082290911591,
+    "bbox_crop": [
+      362,
+      170,
+      1039,
+      928
+    ]
+  },
+  {
+    "file": "palo_0021_PolePivot_Asset2_2_angolo_-008.0.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 8.0,
+    "temperatura_luce_K": 7989.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 209297.58255415966,
+    "frazione_applicata": 0.7191219727245075,
+    "bbox_crop": [
+      834,
+      67,
+      1693,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0022_PolePivot_Asset2_3_angolo_-006.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 6.3,
+    "temperatura_luce_K": 7618.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 246460.84438692406,
+    "frazione_applicata": 0.7621060410055965,
+    "bbox_crop": [
+      310,
+      136,
+      1048,
+      962
+    ]
+  },
+  {
+    "file": "palo_0023_PolePivot_Asset2_2_angolo_-000.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 0.9,
+    "temperatura_luce_K": 8124.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 258756.22983264946,
+    "frazione_applicata": 0.6527483093989799,
+    "bbox_crop": [
+      855,
+      160,
+      1549,
+      938
+    ]
+  },
+  {
+    "file": "palo_0024_PolePivot_Asset2_3_angolo_-016.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 16.4,
+    "temperatura_luce_K": 4558.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 247121.98487997707,
+    "frazione_applicata": 0.7614678815051081,
+    "bbox_crop": [
+      312,
+      137,
+      1047,
+      960
+    ]
+  },
+  {
+    "file": "palo_0025_PolePivot_Asset2_1_angolo_+011.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -11.8,
+    "temperatura_luce_K": 4936.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 228488.62330419073,
+    "frazione_applicata": 0.4507503000466403,
+    "bbox_crop": [
+      260,
+      102,
+      1056,
+      993
+    ]
+  },
+  {
+    "file": "palo_0026_PolePivot_Asset2_3_angolo_-017.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 17.5,
+    "temperatura_luce_K": 4050.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 212230.48968419275,
+    "frazione_applicata": 0.795146561572958,
+    "bbox_crop": [
+      207,
+      67,
+      1065,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0027_PolePivot_Asset2_1_angolo_-002.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 2.9,
+    "temperatura_luce_K": 6168.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 242944.78984445322,
+    "frazione_applicata": 0.4160000134901658,
+    "bbox_crop": [
+      301,
+      129,
+      1049,
+      967
+    ]
+  },
+  {
+    "file": "palo_0028_PolePivot_Asset2_1_angolo_+000.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -0.6,
+    "temperatura_luce_K": 8215.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 259307.23509256393,
+    "frazione_applicata": 0.37666734119749123,
+    "bbox_crop": [
+      342,
+      157,
+      1042,
+      941
+    ]
+  },
+  {
+    "file": "palo_0029_PolePivot_Asset2_3_angolo_-013.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 13.5,
+    "temperatura_luce_K": 6230.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 274035.9805003012,
+    "frazione_applicata": 0.7354894061557937,
+    "bbox_crop": [
+      374,
+      178,
+      1037,
+      921
+    ]
+  },
+  {
+    "file": "palo_0030_PolePivot_Asset2_1_angolo_+015.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -15.9,
+    "temperatura_luce_K": 4104.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 248053.93459225245,
+    "frazione_applicata": 0.4037184557514635,
+    "bbox_crop": [
+      314,
+      138,
+      1047,
+      959
+    ]
+  },
+  {
+    "file": "palo_0031_PolePivot_Asset2_2_angolo_-021.8.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 21.8,
+    "temperatura_luce_K": 6287.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 252485.3914296226,
+    "frazione_applicata": 0.6611637946545241,
+    "bbox_crop": [
+      852,
+      150,
+      1564,
+      947
+    ]
+  },
+  {
+    "file": "palo_0032_PolePivot_Asset2_1_angolo_-005.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 5.3,
+    "temperatura_luce_K": 5630.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 249769.5531129464,
+    "frazione_applicata": 0.39959438627220956,
+    "bbox_crop": [
+      319,
+      141,
+      1046,
+      956
+    ]
+  },
+  {
+    "file": "palo_0033_PolePivot_Asset2_2_angolo_+019.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -19.3,
+    "temperatura_luce_K": 4163.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 210116.2389272295,
+    "frazione_applicata": 0.7180233332453589,
+    "bbox_crop": [
+      835,
+      69,
+      1690,
+      1025
+    ]
+  },
+  {
+    "file": "palo_0034_PolePivot_Asset2_1_angolo_-001.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 1.5,
+    "temperatura_luce_K": 3536.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 236736.86252550362,
+    "frazione_applicata": 0.4309228668382117,
+    "bbox_crop": [
+      284,
+      118,
+      1052,
+      978
+    ]
+  },
+  {
+    "file": "palo_0035_PolePivot_Asset2_2_angolo_-008.0.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 8.0,
+    "temperatura_luce_K": 5823.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 226983.6750420508,
+    "frazione_applicata": 0.6953871798636043,
+    "bbox_crop": [
+      843,
+      105,
+      1634,
+      991
+    ]
+  },
+  {
+    "file": "palo_0036_PolePivot_Asset2_3_angolo_-005.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 5.5,
+    "temperatura_luce_K": 4639.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 241245.1001648233,
+    "frazione_applicata": 0.7671404879384723,
+    "bbox_crop": [
+      296,
+      126,
+      1050,
+      970
+    ]
+  },
+  {
+    "file": "palo_0037_PolePivot_Asset2_2_angolo_-011.8.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 11.8,
+    "temperatura_luce_K": 8975.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 240249.00034063304,
+    "frazione_applicata": 0.6775850707538668,
+    "bbox_crop": [
+      848,
+      130,
+      1596,
+      967
+    ]
+  },
+  {
+    "file": "palo_0038_PolePivot_Asset2_3_angolo_+001.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -1.4,
+    "temperatura_luce_K": 7339.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 239479.64503150104,
+    "frazione_applicata": 0.7688445765215401,
+    "bbox_crop": [
+      291,
+      123,
+      1051,
+      973
+    ]
+  },
+  {
+    "file": "palo_0039_PolePivot_Asset2_1_angolo_+014.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -14.8,
+    "temperatura_luce_K": 6503.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 246752.2661429408,
+    "frazione_applicata": 0.40684745620183327,
+    "bbox_crop": [
+      311,
+      136,
+      1047,
+      961
+    ]
+  },
+  {
+    "file": "palo_0040_PolePivot_Asset2_3_angolo_-016.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 16.8,
+    "temperatura_luce_K": 6442.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 225646.04821475362,
+    "frazione_applicata": 0.7821973227642737,
+    "bbox_crop": [
+      251,
+      96,
+      1058,
+      999
+    ]
+  },
+  {
+    "file": "palo_0041_PolePivot_Asset2_1_angolo_-018.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 18.2,
+    "temperatura_luce_K": 4536.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 217137.18311334605,
+    "frazione_applicata": 0.47803732654580855,
+    "bbox_crop": [
+      224,
+      78,
+      1062,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0042_PolePivot_Asset2_2_angolo_+004.0.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -4.0,
+    "temperatura_luce_K": 4002.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 251755.3588178346,
+    "frazione_applicata": 0.6621435007617016,
+    "bbox_crop": [
+      852,
+      149,
+      1566,
+      949
+    ]
+  },
+  {
+    "file": "palo_0043_PolePivot_Asset2_2_angolo_-001.8.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 1.8,
+    "temperatura_luce_K": 4041.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 276079.6830314193,
+    "frazione_applicata": 0.6295001796275304,
+    "bbox_crop": [
+      860,
+      185,
+      1511,
+      914
+    ]
+  },
+  {
+    "file": "palo_0044_PolePivot_Asset2_2_angolo_+011.8.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -11.8,
+    "temperatura_luce_K": 8397.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 230623.99201425933,
+    "frazione_applicata": 0.6905018628076998,
+    "bbox_crop": [
+      844,
+      112,
+      1623,
+      984
+    ]
+  },
+  {
+    "file": "palo_0045_PolePivot_Asset2_1_angolo_-016.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 16.3,
+    "temperatura_luce_K": 5758.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 261225.14952802434,
+    "frazione_applicata": 0.37205698505380524,
+    "bbox_crop": [
+      346,
+      160,
+      1041,
+      939
+    ]
+  },
+  {
+    "file": "palo_0046_PolePivot_Asset2_2_angolo_-002.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 2.1,
+    "temperatura_luce_K": 5264.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 214175.70503488663,
+    "frazione_applicata": 0.7125755167049295,
+    "bbox_crop": [
+      837,
+      78,
+      1676,
+      1017
+    ]
+  },
+  {
+    "file": "palo_0047_PolePivot_Asset2_3_angolo_+014.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -14.7,
+    "temperatura_luce_K": 5367.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 240833.6117353823,
+    "frazione_applicata": 0.76753767318631,
+    "bbox_crop": [
+      295,
+      126,
+      1050,
+      971
+    ]
+  },
+  {
+    "file": "palo_0048_PolePivot_Asset2_2_angolo_-016.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 16.1,
+    "temperatura_luce_K": 6684.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 213797.71429249516,
+    "frazione_applicata": 0.7130827814939236,
+    "bbox_crop": [
+      837,
+      77,
+      1677,
+      1017
+    ]
+  },
+  {
+    "file": "palo_0049_PolePivot_Asset2_1_angolo_+016.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -16.7,
+    "temperatura_luce_K": 5119.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 252257.9189877991,
+    "frazione_applicata": 0.393612757119858,
+    "bbox_crop": [
+      325,
+      145,
+      1045,
+      952
+    ]
+  },
+  {
+    "file": "palo_0050_PolePivot_Asset2_1_angolo_+021.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -21.9,
+    "temperatura_luce_K": 6703.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 255905.03550157166,
+    "frazione_applicata": 0.38484567882109444,
+    "bbox_crop": [
+      334,
+      151,
+      1044,
+      947
+    ]
+  },
+  {
+    "file": "palo_0051_PolePivot_Asset2_3_angolo_-019.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 19.8,
+    "temperatura_luce_K": 7983.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 228045.80081486277,
+    "frazione_applicata": 0.7798809846535804,
+    "bbox_crop": [
+      259,
+      101,
+      1056,
+      994
+    ]
+  },
+  {
+    "file": "palo_0052_PolePivot_Asset2_3_angolo_-005.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 5.2,
+    "temperatura_luce_K": 8599.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 212852.02145612618,
+    "frazione_applicata": 0.7945466340094789,
+    "bbox_crop": [
+      209,
+      69,
+      1065,
+      1026
+    ]
+  },
+  {
+    "file": "palo_0053_PolePivot_Asset2_1_angolo_-010.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 10.4,
+    "temperatura_luce_K": 8280.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 225603.97230400762,
+    "frazione_applicata": 0.4576845345542875,
+    "bbox_crop": [
+      251,
+      96,
+      1058,
+      999
+    ]
+  },
+  {
+    "file": "palo_0054_PolePivot_Asset2_2_angolo_-005.0.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 5.0,
+    "temperatura_luce_K": 7366.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 257187.4630587723,
+    "frazione_applicata": 0.6548535994425854,
+    "bbox_crop": [
+      854,
+      158,
+      1552,
+      940
+    ]
+  },
+  {
+    "file": "palo_0055_PolePivot_Asset2_2_angolo_-002.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 2.1,
+    "temperatura_luce_K": 7410.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 232804.76867059464,
+    "frazione_applicata": 0.687575253538329,
+    "bbox_crop": [
+      845,
+      116,
+      1617,
+      980
+    ]
+  },
+  {
+    "file": "palo_0056_PolePivot_Asset2_1_angolo_-009.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 9.1,
+    "temperatura_luce_K": 8131.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 213309.7771600365,
+    "frazione_applicata": 0.48723779150137125,
+    "bbox_crop": [
+      211,
+      70,
+      1065,
+      1025
+    ]
+  },
+  {
+    "file": "palo_0057_PolePivot_Asset2_3_angolo_+021.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -21.8,
+    "temperatura_luce_K": 7017.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 262159.4564260186,
+    "frazione_applicata": 0.746953106761671,
+    "bbox_crop": [
+      348,
+      161,
+      1041,
+      937
+    ]
+  },
+  {
+    "file": "palo_0058_PolePivot_Asset2_2_angolo_+006.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -6.1,
+    "temperatura_luce_K": 4059.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 227816.3318704501,
+    "frazione_applicata": 0.694269751728486,
+    "bbox_crop": [
+      843,
+      107,
+      1631,
+      989
+    ]
+  },
+  {
+    "file": "palo_0059_PolePivot_Asset2_1_angolo_-008.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 8.6,
+    "temperatura_luce_K": 8682.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 211659.91326044654,
+    "frazione_applicata": 0.4912037975051242,
+    "bbox_crop": [
+      205,
+      66,
+      1066,
+      1028
+    ]
+  },
+  {
+    "file": "palo_0060_PolePivot_Asset2_1_angolo_-009.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 9.6,
+    "temperatura_luce_K": 5914.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 265793.09753989096,
+    "frazione_applicata": 0.36107637674763104,
+    "bbox_crop": [
+      356,
+      166,
+      1040,
+      932
+    ]
+  },
+  {
+    "file": "palo_0061_PolePivot_Asset2_1_angolo_+000.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -0.1,
+    "temperatura_luce_K": 4698.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 221925.92918039352,
+    "frazione_applicata": 0.4665259554217549,
+    "bbox_crop": [
+      240,
+      89,
+      1060,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0062_PolePivot_Asset2_3_angolo_+021.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -21.1,
+    "temperatura_luce_K": 6283.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 210989.96315149943,
+    "frazione_applicata": 0.7963439678742881,
+    "bbox_crop": [
+      203,
+      64,
+      1066,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0063_PolePivot_Asset2_3_angolo_-019.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 19.3,
+    "temperatura_luce_K": 8168.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 256473.23133306773,
+    "frazione_applicata": 0.7524416808289243,
+    "bbox_crop": [
+      335,
+      152,
+      1043,
+      946
+    ]
+  },
+  {
+    "file": "palo_0064_PolePivot_Asset2_3_angolo_-021.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 6908.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 271243.9308236454,
+    "frazione_applicata": 0.7381844052455717,
+    "bbox_crop": [
+      368,
+      174,
+      1038,
+      924
+    ]
+  },
+  {
+    "file": "palo_0065_PolePivot_Asset2_3_angolo_-005.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 5.5,
+    "temperatura_luce_K": 6278.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 228720.73932865393,
+    "frazione_applicata": 0.779229506746317,
+    "bbox_crop": [
+      261,
+      103,
+      1056,
+      993
+    ]
+  },
+  {
+    "file": "palo_0066_PolePivot_Asset2_1_angolo_-004.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 4.0,
+    "temperatura_luce_K": 4302.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 264429.27390200185,
+    "frazione_applicata": 0.36435478821979717,
+    "bbox_crop": [
+      353,
+      164,
+      1040,
+      934
+    ]
+  },
+  {
+    "file": "palo_0067_PolePivot_Asset2_2_angolo_-007.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 7.7,
+    "temperatura_luce_K": 5593.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 234996.97863424924,
+    "frazione_applicata": 0.6846333007338543,
+    "bbox_crop": [
+      846,
+      120,
+      1610,
+      976
+    ]
+  },
+  {
+    "file": "palo_0068_PolePivot_Asset2_1_angolo_+017.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -17.6,
+    "temperatura_luce_K": 5038.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 230471.74750479957,
+    "frazione_applicata": 0.4459831901730579,
+    "bbox_crop": [
+      266,
+      106,
+      1055,
+      990
+    ]
+  },
+  {
+    "file": "palo_0069_PolePivot_Asset2_3_angolo_+006.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -6.5,
+    "temperatura_luce_K": 5075.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 265836.2046240832,
+    "frazione_applicata": 0.7434041609352502,
+    "bbox_crop": [
+      356,
+      167,
+      1040,
+      932
+    ]
+  },
+  {
+    "file": "palo_0070_PolePivot_Asset2_3_angolo_-000.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 0.6,
+    "temperatura_luce_K": 7232.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 212755.92192541526,
+    "frazione_applicata": 0.7946393931569824,
+    "bbox_crop": [
+      209,
+      68,
+      1065,
+      1026
+    ]
+  },
+  {
+    "file": "palo_0071_PolePivot_Asset2_2_angolo_+001.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -1.5,
+    "temperatura_luce_K": 5022.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 211980.79459798118,
+    "frazione_applicata": 0.7155210935531707,
+    "bbox_crop": [
+      836,
+      73,
+      1683,
+      1021
+    ]
+  },
+  {
+    "file": "palo_0072_PolePivot_Asset2_1_angolo_+016.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -16.9,
+    "temperatura_luce_K": 8948.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 266908.3195777722,
+    "frazione_applicata": 0.35839556331880584,
+    "bbox_crop": [
+      359,
+      168,
+      1039,
+      930
+    ]
+  },
+  {
+    "file": "palo_0073_PolePivot_Asset2_3_angolo_-014.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 14.6,
+    "temperatura_luce_K": 4723.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 219394.7432289814,
+    "frazione_applicata": 0.7882313347617823,
+    "bbox_crop": [
+      231,
+      83,
+      1061,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0074_PolePivot_Asset2_3_angolo_+005.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -5.3,
+    "temperatura_luce_K": 6385.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 245326.74840230928,
+    "frazione_applicata": 0.7632007162442973,
+    "bbox_crop": [
+      307,
+      134,
+      1048,
+      963
+    ]
+  },
+  {
+    "file": "palo_0075_PolePivot_Asset2_1_angolo_-000.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 0.6,
+    "temperatura_luce_K": 8670.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 219249.04873763738,
+    "frazione_applicata": 0.4729607431093563,
+    "bbox_crop": [
+      231,
+      83,
+      1061,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0076_PolePivot_Asset2_1_angolo_-019.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 19.9,
+    "temperatura_luce_K": 7163.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 210802.9165902998,
+    "frazione_applicata": 0.49326387890931944,
+    "bbox_crop": [
+      202,
+      64,
+      1066,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0077_PolePivot_Asset2_2_angolo_-021.2.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 21.2,
+    "temperatura_luce_K": 5450.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 231788.28565498654,
+    "frazione_applicata": 0.6889393770064496,
+    "bbox_crop": [
+      845,
+      114,
+      1620,
+      982
+    ]
+  },
+  {
+    "file": "palo_0078_PolePivot_Asset2_1_angolo_+005.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -5.1,
+    "temperatura_luce_K": 8468.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 212103.8900519478,
+    "frazione_applicata": 0.49013654909690185,
+    "bbox_crop": [
+      207,
+      67,
+      1065,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0079_PolePivot_Asset2_2_angolo_-007.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 7.9,
+    "temperatura_luce_K": 3955.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 244545.74342232637,
+    "frazione_applicata": 0.6718188277530268,
+    "bbox_crop": [
+      850,
+      137,
+      1584,
+      960
+    ]
+  },
+  {
+    "file": "palo_0080_PolePivot_Asset2_1_angolo_+011.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -11.9,
+    "temperatura_luce_K": 6942.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 275613.4691780576,
+    "frazione_applicata": 0.33746979144945366,
+    "bbox_crop": [
+      377,
+      181,
+      1036,
+      919
+    ]
+  },
+  {
+    "file": "palo_0081_PolePivot_Asset2_3_angolo_-001.0.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 1.0,
+    "temperatura_luce_K": 6634.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 226899.43599167382,
+    "frazione_applicata": 0.7809875022706839,
+    "bbox_crop": [
+      255,
+      99,
+      1057,
+      997
+    ]
+  },
+  {
+    "file": "palo_0082_PolePivot_Asset2_1_angolo_+009.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -9.5,
+    "temperatura_luce_K": 4897.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 211263.64219062674,
+    "frazione_applicata": 0.49215636907324545,
+    "bbox_crop": [
+      204,
+      65,
+      1066,
+      1029
+    ]
+  },
+  {
+    "file": "palo_0083_PolePivot_Asset2_3_angolo_+018.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -18.3,
+    "temperatura_luce_K": 4847.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 228465.72454071723,
+    "frazione_applicata": 0.7794756573170305,
+    "bbox_crop": [
+      260,
+      102,
+      1056,
+      994
+    ]
+  },
+  {
+    "file": "palo_0084_PolePivot_Asset2_3_angolo_-000.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 0.4,
+    "temperatura_luce_K": 8275.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 244127.70246878758,
+    "frazione_applicata": 0.7643580837963366,
+    "bbox_crop": [
+      304,
+      132,
+      1049,
+      965
+    ]
+  },
+  {
+    "file": "palo_0085_PolePivot_Asset2_1_angolo_-001.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 1.6,
+    "temperatura_luce_K": 5406.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 217137.34821599984,
+    "frazione_applicata": 0.47803692966572875,
+    "bbox_crop": [
+      224,
+      78,
+      1062,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0086_PolePivot_Asset2_1_angolo_+004.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -4.4,
+    "temperatura_luce_K": 8905.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 219808.8892384458,
+    "frazione_applicata": 0.47161497708107847,
+    "bbox_crop": [
+      233,
+      84,
+      1061,
+      1011
+    ]
+  },
+  {
+    "file": "palo_0087_PolePivot_Asset2_3_angolo_-009.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 9.3,
+    "temperatura_luce_K": 7508.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 228357.66252279584,
+    "frazione_applicata": 0.77957996314023,
+    "bbox_crop": [
+      259,
+      102,
+      1056,
+      994
+    ]
+  },
+  {
+    "file": "palo_0088_PolePivot_Asset2_3_angolo_-004.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 4.4,
+    "temperatura_luce_K": 6816.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 276479.734055909,
+    "frazione_applicata": 0.7331305965461118,
+    "bbox_crop": [
+      379,
+      182,
+      1036,
+      918
+    ]
+  },
+  {
+    "file": "palo_0089_PolePivot_Asset2_2_angolo_-020.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 20.9,
+    "temperatura_luce_K": 6721.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 238288.421374538,
+    "frazione_applicata": 0.6802161740164765,
+    "bbox_crop": [
+      847,
+      126,
+      1601,
+      970
+    ]
+  },
+  {
+    "file": "palo_0090_PolePivot_Asset2_2_angolo_+008.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -8.7,
+    "temperatura_luce_K": 5232.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 261893.80684996696,
+    "frazione_applicata": 0.6485376709754758,
+    "bbox_crop": [
+      856,
+      165,
+      1541,
+      933
+    ]
+  },
+  {
+    "file": "palo_0091_PolePivot_Asset2_3_angolo_+012.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -12.8,
+    "temperatura_luce_K": 8618.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 265672.63365618204,
+    "frazione_applicata": 0.7435620462383998,
+    "bbox_crop": [
+      356,
+      166,
+      1040,
+      932
+    ]
+  },
+  {
+    "file": "palo_0092_PolePivot_Asset2_2_angolo_-012.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 12.9,
+    "temperatura_luce_K": 5346.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 257853.9866098086,
+    "frazione_applicata": 0.6539591226986923,
+    "bbox_crop": [
+      854,
+      159,
+      1551,
+      939
+    ]
+  },
+  {
+    "file": "palo_0093_PolePivot_Asset2_3_angolo_-021.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 6475.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 257065.78472132023,
+    "frazione_applicata": 0.7518697243715098,
+    "bbox_crop": [
+      336,
+      153,
+      1043,
+      945
+    ]
+  },
+  {
+    "file": "palo_0094_PolePivot_Asset2_3_angolo_+015.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -15.3,
+    "temperatura_luce_K": 5754.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 250985.32353190766,
+    "frazione_applicata": 0.7577388310381666,
+    "bbox_crop": [
+      322,
+      143,
+      1046,
+      954
+    ]
+  },
+  {
+    "file": "palo_0095_PolePivot_Asset2_1_angolo_-002.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 2.0,
+    "temperatura_luce_K": 6196.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 217137.45153001937,
+    "frazione_applicata": 0.47803668131553345,
+    "bbox_crop": [
+      224,
+      78,
+      1062,
+      1016
+    ]
+  },
+  {
+    "file": "palo_0096_PolePivot_Asset2_3_angolo_-018.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 18.4,
+    "temperatura_luce_K": 6575.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 250675.4234203139,
+    "frazione_applicata": 0.7580379591395218,
+    "bbox_crop": [
+      321,
+      143,
+      1046,
+      955
+    ]
+  },
+  {
+    "file": "palo_0097_PolePivot_Asset2_1_angolo_+000.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -0.7,
+    "temperatura_luce_K": 5752.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 230540.1780455478,
+    "frazione_applicata": 0.4458186942194734,
+    "bbox_crop": [
+      266,
+      106,
+      1055,
+      990
+    ]
+  },
+  {
+    "file": "palo_0098_PolePivot_Asset2_3_angolo_-008.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 8.5,
+    "temperatura_luce_K": 6940.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 273214.60674515954,
+    "frazione_applicata": 0.7362822292710062,
+    "bbox_crop": [
+      372,
+      177,
+      1037,
+      922
+    ]
+  },
+  {
+    "file": "palo_0099_PolePivot_Asset2_2_angolo_+021.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -21.5,
+    "temperatura_luce_K": 6206.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 219848.15649595633,
+    "frazione_applicata": 0.7049630686452919,
+    "bbox_crop": [
+      839,
+      90,
+      1657,
+      1005
+    ]
+  },
+  {
+    "file": "palo_0100_PolePivot_Asset2_1_angolo_+002.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -2.3,
+    "temperatura_luce_K": 8995.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 262436.730764223,
+    "frazione_applicata": 0.36914453969513505,
+    "bbox_crop": [
+      349,
+      161,
+      1041,
+      937
+    ]
+  },
+  {
+    "file": "palo_0101_PolePivot_Asset2_1_angolo_-010.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 10.2,
+    "temperatura_luce_K": 7340.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 231125.5946955282,
+    "frazione_applicata": 0.4444114472646814,
+    "bbox_crop": [
+      268,
+      107,
+      1055,
+      988
+    ]
+  },
+  {
+    "file": "palo_0102_PolePivot_Asset2_1_angolo_+000.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -0.2,
+    "temperatura_luce_K": 8902.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 228387.12200897926,
+    "frazione_applicata": 0.4509942927458547,
+    "bbox_crop": [
+      260,
+      102,
+      1056,
+      994
+    ]
+  },
+  {
+    "file": "palo_0103_PolePivot_Asset2_1_angolo_-005.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 5.5,
+    "temperatura_luce_K": 5151.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 268451.1512486848,
+    "frazione_applicata": 0.3546868454838741,
+    "bbox_crop": [
+      362,
+      170,
+      1039,
+      928
+    ]
+  },
+  {
+    "file": "palo_0104_PolePivot_Asset2_2_angolo_+022.0.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -22.0,
+    "temperatura_luce_K": 4776.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 272048.75214087236,
+    "frazione_applicata": 0.6349097018150487,
+    "bbox_crop": [
+      859,
+      180,
+      1519,
+      920
+    ]
+  },
+  {
+    "file": "palo_0105_PolePivot_Asset2_3_angolo_-011.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 11.1,
+    "temperatura_luce_K": 8696.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 234110.1140399163,
+    "frazione_applicata": 0.7740274646541714,
+    "bbox_crop": [
+      276,
+      113,
+      1053,
+      983
+    ]
+  },
+  {
+    "file": "palo_0106_PolePivot_Asset2_2_angolo_+008.6.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -8.6,
+    "temperatura_luce_K": 7973.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 227856.63890094747,
+    "frazione_applicata": 0.6942156595642419,
+    "bbox_crop": [
+      843,
+      107,
+      1631,
+      989
+    ]
+  },
+  {
+    "file": "palo_0107_PolePivot_Asset2_2_angolo_-013.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 13.7,
+    "temperatura_luce_K": 3982.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 220041.01741519597,
+    "frazione_applicata": 0.7047042486729181,
+    "bbox_crop": [
+      839,
+      91,
+      1656,
+      1004
+    ]
+  },
+  {
+    "file": "palo_0108_PolePivot_Asset2_3_angolo_+013.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -13.2,
+    "temperatura_luce_K": 5255.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 212089.733713897,
+    "frazione_applicata": 0.7952824249191583,
+    "bbox_crop": [
+      207,
+      67,
+      1065,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0109_PolePivot_Asset2_3_angolo_+002.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -2.7,
+    "temperatura_luce_K": 7828.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 279299.06717736187,
+    "frazione_applicata": 0.7304092623737208,
+    "bbox_crop": [
+      385,
+      186,
+      1035,
+      914
+    ]
+  },
+  {
+    "file": "palo_0110_PolePivot_Asset2_2_angolo_+000.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -0.1,
+    "temperatura_luce_K": 8418.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 260404.509916589,
+    "frazione_applicata": 0.6505363122381689,
+    "bbox_crop": [
+      855,
+      163,
+      1545,
+      936
+    ]
+  },
+  {
+    "file": "palo_0111_PolePivot_Asset2_3_angolo_-014.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 14.3,
+    "temperatura_luce_K": 5258.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 232463.5532493719,
+    "frazione_applicata": 0.7756167916166832,
+    "bbox_crop": [
+      272,
+      110,
+      1054,
+      986
+    ]
+  },
+  {
+    "file": "palo_0112_PolePivot_Asset2_3_angolo_+011.9.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -11.9,
+    "temperatura_luce_K": 7702.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 257055.6004399219,
+    "frazione_applicata": 0.7518795546511527,
+    "bbox_crop": [
+      336,
+      153,
+      1043,
+      945
+    ]
+  },
+  {
+    "file": "palo_0113_PolePivot_Asset2_3_angolo_-018.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 18.6,
+    "temperatura_luce_K": 6712.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 262702.4446535977,
+    "frazione_applicata": 0.7464289925987602,
+    "bbox_crop": [
+      349,
+      162,
+      1041,
+      936
+    ]
+  },
+  {
+    "file": "palo_0114_PolePivot_Asset2_2_angolo_+003.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -3.1,
+    "temperatura_luce_K": 5020.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 214818.5280059972,
+    "frazione_applicata": 0.711712846215335,
+    "bbox_crop": [
+      837,
+      80,
+      1673,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0115_PolePivot_Asset2_3_angolo_+016.9.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -16.9,
+    "temperatura_luce_K": 4688.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 220998.023355472,
+    "frazione_applicata": 0.7866837840438714,
+    "bbox_crop": [
+      237,
+      87,
+      1060,
+      1008
+    ]
+  },
+  {
+    "file": "palo_0116_PolePivot_Asset2_2_angolo_+011.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -11.9,
+    "temperatura_luce_K": 7545.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 251948.3998906438,
+    "frazione_applicata": 0.6618844390226595,
+    "bbox_crop": [
+      852,
+      150,
+      1565,
+      948
+    ]
+  },
+  {
+    "file": "palo_0117_PolePivot_Asset2_3_angolo_+015.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -15.7,
+    "temperatura_luce_K": 5454.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 231975.54283438757,
+    "frazione_applicata": 0.776087838974895,
+    "bbox_crop": [
+      270,
+      109,
+      1054,
+      987
+    ]
+  },
+  {
+    "file": "palo_0118_PolePivot_Asset2_2_angolo_-021.2.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 21.2,
+    "temperatura_luce_K": 7397.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 255824.1010998482,
+    "frazione_applicata": 0.6566832355655251,
+    "bbox_crop": [
+      854,
+      156,
+      1556,
+      942
+    ]
+  },
+  {
+    "file": "palo_0119_PolePivot_Asset2_2_angolo_-016.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 16.1,
+    "temperatura_luce_K": 7786.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 268777.85141896014,
+    "frazione_applicata": 0.6392992610778603,
+    "bbox_crop": [
+      858,
+      175,
+      1526,
+      924
+    ]
+  },
+  {
+    "file": "palo_0120_PolePivot_Asset2_3_angolo_-018.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 18.2,
+    "temperatura_luce_K": 5078.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 237804.781977821,
+    "frazione_applicata": 0.7704612219712648,
+    "bbox_crop": [
+      287,
+      120,
+      1051,
+      976
+    ]
+  },
+  {
+    "file": "palo_0121_PolePivot_Asset2_1_angolo_-004.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 4.4,
+    "temperatura_luce_K": 6263.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 223586.7058346332,
+    "frazione_applicata": 0.46253371692060075,
+    "bbox_crop": [
+      245,
+      92,
+      1059,
+      1003
+    ]
+  },
+  {
+    "file": "palo_0122_PolePivot_Asset2_2_angolo_-013.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 13.7,
+    "temperatura_luce_K": 7088.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 237327.2100984244,
+    "frazione_applicata": 0.6815061226328677,
+    "bbox_crop": [
+      847,
+      125,
+      1604,
+      972
+    ]
+  },
+  {
+    "file": "palo_0123_PolePivot_Asset2_3_angolo_-007.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 7.1,
+    "temperatura_luce_K": 7855.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 274549.22392396955,
+    "frazione_applicata": 0.734994002878701,
+    "bbox_crop": [
+      375,
+      179,
+      1036,
+      920
+    ]
+  },
+  {
+    "file": "palo_0124_PolePivot_Asset2_3_angolo_-006.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 6.6,
+    "temperatura_luce_K": 5543.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 253084.33151744207,
+    "frazione_applicata": 0.7557127837734103,
+    "bbox_crop": [
+      327,
+      147,
+      1045,
+      951
+    ]
+  },
+  {
+    "file": "palo_0125_PolePivot_Asset2_2_angolo_+001.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -1.7,
+    "temperatura_luce_K": 7490.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 226011.03736803873,
+    "frazione_applicata": 0.6966924627426345,
+    "bbox_crop": [
+      842,
+      103,
+      1637,
+      993
+    ]
+  },
+  {
+    "file": "palo_0126_PolePivot_Asset2_1_angolo_-013.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 13.4,
+    "temperatura_luce_K": 3873.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 211122.7605886226,
+    "frazione_applicata": 0.4924950256615286,
+    "bbox_crop": [
+      203,
+      65,
+      1066,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0127_PolePivot_Asset2_2_angolo_-004.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 4.9,
+    "temperatura_luce_K": 5852.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 240443.25860269342,
+    "frazione_applicata": 0.6773243755429444,
+    "bbox_crop": [
+      848,
+      130,
+      1595,
+      967
+    ]
+  },
+  {
+    "file": "palo_0128_PolePivot_Asset2_2_angolo_+020.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -20.4,
+    "temperatura_luce_K": 4484.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 229266.78369951103,
+    "frazione_applicata": 0.692323240720413,
+    "bbox_crop": [
+      844,
+      109,
+      1627,
+      987
+    ]
+  },
+  {
+    "file": "palo_0129_PolePivot_Asset2_2_angolo_-015.8.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 15.8,
+    "temperatura_luce_K": 6126.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 244684.62582427988,
+    "frazione_applicata": 0.6716324471240298,
+    "bbox_crop": [
+      850,
+      137,
+      1584,
+      960
+    ]
+  },
+  {
+    "file": "palo_0130_PolePivot_Asset2_1_angolo_+006.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -6.3,
+    "temperatura_luce_K": 4844.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 222014.94610364444,
+    "frazione_applicata": 0.4663119731337998,
+    "bbox_crop": [
+      240,
+      89,
+      1060,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0131_PolePivot_Asset2_3_angolo_+001.0.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -1.0,
+    "temperatura_luce_K": 7543.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 255586.25633667386,
+    "frazione_applicata": 0.7532978249111457,
+    "bbox_crop": [
+      333,
+      151,
+      1044,
+      947
+    ]
+  },
+  {
+    "file": "palo_0132_PolePivot_Asset2_3_angolo_+011.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -11.3,
+    "temperatura_luce_K": 3977.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 218420.0947970621,
+    "frazione_applicata": 0.7891721047841919,
+    "bbox_crop": [
+      228,
+      81,
+      1062,
+      1014
+    ]
+  },
+  {
+    "file": "palo_0133_PolePivot_Asset2_1_angolo_-017.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 17.7,
+    "temperatura_luce_K": 5812.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 262649.8667211775,
+    "frazione_applicata": 0.36863219532230085,
+    "bbox_crop": [
+      349,
+      162,
+      1041,
+      937
+    ]
+  },
+  {
+    "file": "palo_0134_PolePivot_Asset2_3_angolo_-008.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 8.1,
+    "temperatura_luce_K": 7777.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 217820.6409428975,
+    "frazione_applicata": 0.7897507218499429,
+    "bbox_crop": [
+      226,
+      80,
+      1062,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0135_PolePivot_Asset2_3_angolo_+004.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -4.1,
+    "temperatura_luce_K": 7930.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 268173.118018954,
+    "frazione_applicata": 0.7411484777628754,
+    "bbox_crop": [
+      362,
+      170,
+      1039,
+      929
+    ]
+  },
+  {
+    "file": "palo_0136_PolePivot_Asset2_3_angolo_+018.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -18.1,
+    "temperatura_luce_K": 4737.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 277433.47143797437,
+    "frazione_applicata": 0.7322100107134012,
+    "bbox_crop": [
+      381,
+      183,
+      1035,
+      916
+    ]
+  },
+  {
+    "file": "palo_0137_PolePivot_Asset2_1_angolo_+019.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -19.1,
+    "temperatura_luce_K": 7891.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 219241.0084958244,
+    "frazione_applicata": 0.4729800705504318,
+    "bbox_crop": [
+      231,
+      83,
+      1061,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0138_PolePivot_Asset2_3_angolo_+003.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -3.8,
+    "temperatura_luce_K": 7244.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 233359.74573376478,
+    "frazione_applicata": 0.7747517504428464,
+    "bbox_crop": [
+      274,
+      112,
+      1054,
+      984
+    ]
+  },
+  {
+    "file": "palo_0139_PolePivot_Asset2_1_angolo_-019.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 19.4,
+    "temperatura_luce_K": 5292.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 255143.3547707352,
+    "frazione_applicata": 0.38667663612138514,
+    "bbox_crop": [
+      332,
+      150,
+      1044,
+      948
+    ]
+  },
+  {
+    "file": "palo_0140_PolePivot_Asset2_3_angolo_+000.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -0.3,
+    "temperatura_luce_K": 8080.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 212390.9996715512,
+    "frazione_applicata": 0.7949916308518293,
+    "bbox_crop": [
+      208,
+      68,
+      1065,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0141_PolePivot_Asset2_2_angolo_-012.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 12.4,
+    "temperatura_luce_K": 3975.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 223095.44703624284,
+    "frazione_applicata": 0.7006051943219704,
+    "bbox_crop": [
+      841,
+      97,
+      1646,
+      998
+    ]
+  },
+  {
+    "file": "palo_0142_PolePivot_Asset2_2_angolo_+018.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -18.7,
+    "temperatura_luce_K": 6684.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 208443.38939463295,
+    "frazione_applicata": 0.7202683026850937,
+    "bbox_crop": [
+      834,
+      65,
+      1696,
+      1029
+    ]
+  },
+  {
+    "file": "palo_0143_PolePivot_Asset2_1_angolo_+017.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -17.6,
+    "temperatura_luce_K": 4133.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 241109.77249011846,
+    "frazione_applicata": 0.4204110984566841,
+    "bbox_crop": [
+      296,
+      126,
+      1050,
+      971
+    ]
+  },
+  {
+    "file": "palo_0144_PolePivot_Asset2_1_angolo_+005.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -5.7,
+    "temperatura_luce_K": 7090.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 214542.87683909366,
+    "frazione_applicata": 0.4842736192859649,
+    "bbox_crop": [
+      215,
+      73,
+      1064,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0145_PolePivot_Asset2_3_angolo_-000.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 0.8,
+    "temperatura_luce_K": 6858.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 216580.22411816125,
+    "frazione_applicata": 0.7909480222567227,
+    "bbox_crop": [
+      222,
+      77,
+      1063,
+      1018
+    ]
+  },
+  {
+    "file": "palo_0146_PolePivot_Asset2_3_angolo_+007.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -7.7,
+    "temperatura_luce_K": 3509.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 214332.0396197391,
+    "frazione_applicata": 0.7931180607154072,
+    "bbox_crop": [
+      214,
+      72,
+      1064,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0147_PolePivot_Asset2_1_angolo_-012.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 12.3,
+    "temperatura_luce_K": 6589.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 264523.2756526753,
+    "frazione_applicata": 0.3641288232128491,
+    "bbox_crop": [
+      354,
+      165,
+      1040,
+      934
+    ]
+  },
+  {
+    "file": "palo_0148_PolePivot_Asset2_1_angolo_-005.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 5.5,
+    "temperatura_luce_K": 4721.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 221989.57953811847,
+    "frazione_applicata": 0.46637295025512204,
+    "bbox_crop": [
+      240,
+      89,
+      1060,
+      1006
+    ]
+  },
+  {
+    "file": "palo_0149_PolePivot_Asset2_3_angolo_+021.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -21.6,
+    "temperatura_luce_K": 3792.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 212183.59968418753,
+    "frazione_applicata": 0.7951918216943629,
+    "bbox_crop": [
+      207,
+      67,
+      1065,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0150_PolePivot_Asset2_3_angolo_+002.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -2.2,
+    "temperatura_luce_K": 7834.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 239460.23385416312,
+    "frazione_applicata": 0.7688633129737225,
+    "bbox_crop": [
+      291,
+      123,
+      1051,
+      973
+    ]
+  },
+  {
+    "file": "palo_0151_PolePivot_Asset2_3_angolo_-014.0.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 14.0,
+    "temperatura_luce_K": 4186.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 268998.46255875105,
+    "frazione_applicata": 0.7403518218859748,
+    "bbox_crop": [
+      363,
+      171,
+      1038,
+      928
+    ]
+  },
+  {
+    "file": "palo_0152_PolePivot_Asset2_1_angolo_-020.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 20.1,
+    "temperatura_luce_K": 8506.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 214007.58217282928,
+    "frazione_applicata": 0.485560381097475,
+    "bbox_crop": [
+      213,
+      71,
+      1064,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0153_PolePivot_Asset2_3_angolo_+002.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -2.3,
+    "temperatura_luce_K": 7829.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 260571.91349715076,
+    "frazione_applicata": 0.7484854673009745,
+    "bbox_crop": [
+      345,
+      159,
+      1042,
+      940
+    ]
+  },
+  {
+    "file": "palo_0154_PolePivot_Asset2_2_angolo_-005.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 5.3,
+    "temperatura_luce_K": 4985.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 278635.5425497519,
+    "frazione_applicata": 0.6260702079539837,
+    "bbox_crop": [
+      861,
+      188,
+      1505,
+      911
+    ]
+  },
+  {
+    "file": "palo_0155_PolePivot_Asset2_1_angolo_-007.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 7.7,
+    "temperatura_luce_K": 6680.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 206680.4519810266,
+    "frazione_applicata": 0.50317361715785,
+    "bbox_crop": [
+      187,
+      54,
+      1069,
+      1040
+    ]
+  },
+  {
+    "file": "palo_0156_PolePivot_Asset2_2_angolo_+015.2.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -15.2,
+    "temperatura_luce_K": 5080.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 263500.1575297589,
+    "frazione_applicata": 0.6463819432095527,
+    "bbox_crop": [
+      856,
+      167,
+      1538,
+      931
+    ]
+  },
+  {
+    "file": "palo_0157_PolePivot_Asset2_2_angolo_-021.0.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 21.0,
+    "temperatura_luce_K": 5894.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 209500.3147523417,
+    "frazione_applicata": 0.7188499054641231,
+    "bbox_crop": [
+      834,
+      68,
+      1692,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0158_PolePivot_Asset2_1_angolo_+013.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -13.8,
+    "temperatura_luce_K": 8297.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 244467.73810007813,
+    "frazione_applicata": 0.41233909217010145,
+    "bbox_crop": [
+      305,
+      132,
+      1048,
+      965
+    ]
+  },
+  {
+    "file": "palo_0159_PolePivot_Asset2_1_angolo_-010.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 10.4,
+    "temperatura_luce_K": 7717.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 231867.71558679276,
+    "frazione_applicata": 0.4426275086555651,
+    "bbox_crop": [
+      270,
+      109,
+      1054,
+      987
+    ]
+  },
+  {
+    "file": "palo_0160_PolePivot_Asset2_2_angolo_-001.6.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 1.6,
+    "temperatura_luce_K": 8127.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 262958.24999289104,
+    "frazione_applicata": 0.647109184862627,
+    "bbox_crop": [
+      856,
+      167,
+      1539,
+      932
+    ]
+  },
+  {
+    "file": "palo_0161_PolePivot_Asset2_1_angolo_+019.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -19.3,
+    "temperatura_luce_K": 6467.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 208624.75357482332,
+    "frazione_applicata": 0.4984998305527728,
+    "bbox_crop": [
+      194,
+      59,
+      1067,
+      1035
+    ]
+  },
+  {
+    "file": "palo_0162_PolePivot_Asset2_1_angolo_-010.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 10.3,
+    "temperatura_luce_K": 5116.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 262582.24636633863,
+    "frazione_applicata": 0.3687947437199799,
+    "bbox_crop": [
+      349,
+      162,
+      1041,
+      937
+    ]
+  },
+  {
+    "file": "palo_0163_PolePivot_Asset2_2_angolo_-018.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 18.4,
+    "temperatura_luce_K": 7892.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 254270.52798478273,
+    "frazione_applicata": 0.6587681356702595,
+    "bbox_crop": [
+      853,
+      153,
+      1560,
+      945
+    ]
+  },
+  {
+    "file": "palo_0164_PolePivot_Asset2_2_angolo_-014.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 14.1,
+    "temperatura_luce_K": 7575.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 222900.6195040791,
+    "frazione_applicata": 0.7008666534951977,
+    "bbox_crop": [
+      841,
+      97,
+      1647,
+      999
+    ]
+  },
+  {
+    "file": "palo_0165_PolePivot_Asset2_2_angolo_-007.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 7.5,
+    "temperatura_luce_K": 3567.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 241562.59692409652,
+    "frazione_applicata": 0.675822219924457,
+    "bbox_crop": [
+      848,
+      132,
+      1592,
+      965
+    ]
+  },
+  {
+    "file": "palo_0166_PolePivot_Asset2_2_angolo_-005.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 5.7,
+    "temperatura_luce_K": 6965.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 208502.07845429692,
+    "frazione_applicata": 0.720189541778733,
+    "bbox_crop": [
+      834,
+      65,
+      1696,
+      1029
+    ]
+  },
+  {
+    "file": "palo_0167_PolePivot_Asset2_3_angolo_+015.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -15.7,
+    "temperatura_luce_K": 8518.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 235963.76964236982,
+    "frazione_applicata": 0.7722382414167976,
+    "bbox_crop": [
+      282,
+      117,
+      1052,
+      980
+    ]
+  },
+  {
+    "file": "palo_0168_PolePivot_Asset2_1_angolo_-019.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 19.9,
+    "temperatura_luce_K": 7367.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 272481.4189249373,
+    "frazione_applicata": 0.34499873375252377,
+    "bbox_crop": [
+      371,
+      176,
+      1037,
+      923
+    ]
+  },
+  {
+    "file": "palo_0169_PolePivot_Asset2_2_angolo_-003.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 3.5,
+    "temperatura_luce_K": 5738.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 225694.40893803307,
+    "frazione_applicata": 0.6971173791115386,
+    "bbox_crop": [
+      842,
+      102,
+      1638,
+      993
+    ]
+  },
+  {
+    "file": "palo_0170_PolePivot_Asset2_3_angolo_+008.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -8.6,
+    "temperatura_luce_K": 6803.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 274644.9733470823,
+    "frazione_applicata": 0.7349015816691884,
+    "bbox_crop": [
+      375,
+      179,
+      1036,
+      920
+    ]
+  },
+  {
+    "file": "palo_0171_PolePivot_Asset2_1_angolo_-000.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 0.8,
+    "temperatura_luce_K": 4642.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 266013.8076549377,
+    "frazione_applicata": 0.36054582532361257,
+    "bbox_crop": [
+      357,
+      167,
+      1040,
+      932
+    ]
+  },
+  {
+    "file": "palo_0172_PolePivot_Asset2_2_angolo_-019.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 19.4,
+    "temperatura_luce_K": 7176.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 220520.4248884766,
+    "frazione_applicata": 0.7040608823056962,
+    "bbox_crop": [
+      840,
+      92,
+      1654,
+      1004
+    ]
+  },
+  {
+    "file": "palo_0173_PolePivot_Asset2_3_angolo_+009.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -9.8,
+    "temperatura_luce_K": 8847.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 267425.2855737927,
+    "frazione_applicata": 0.7418703158361257,
+    "bbox_crop": [
+      360,
+      169,
+      1039,
+      930
+    ]
+  },
+  {
+    "file": "palo_0174_PolePivot_Asset2_1_angolo_-011.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 11.5,
+    "temperatura_luce_K": 5558.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 215978.60455857174,
+    "frazione_applicata": 0.4808223620297636,
+    "bbox_crop": [
+      220,
+      76,
+      1063,
+      1019
+    ]
+  },
+  {
+    "file": "palo_0175_PolePivot_Asset2_3_angolo_+007.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -7.5,
+    "temperatura_luce_K": 3706.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 245808.73528244084,
+    "frazione_applicata": 0.7627354830451534,
+    "bbox_crop": [
+      308,
+      134,
+      1048,
+      963
+    ]
+  },
+  {
+    "file": "palo_0176_PolePivot_Asset2_3_angolo_+005.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -5.6,
+    "temperatura_luce_K": 6580.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 216838.29452402084,
+    "frazione_applicata": 0.7906989222802054,
+    "bbox_crop": [
+      223,
+      78,
+      1062,
+      1017
+    ]
+  },
+  {
+    "file": "palo_0177_PolePivot_Asset2_2_angolo_-020.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 20.5,
+    "temperatura_luce_K": 7196.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 226425.54661878862,
+    "frazione_applicata": 0.6961361899982612,
+    "bbox_crop": [
+      842,
+      104,
+      1636,
+      992
+    ]
+  },
+  {
+    "file": "palo_0178_PolePivot_Asset2_3_angolo_-009.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 9.3,
+    "temperatura_luce_K": 7837.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 229835.77183758354,
+    "frazione_applicata": 0.7781532323441231,
+    "bbox_crop": [
+      264,
+      105,
+      1055,
+      991
+    ]
+  },
+  {
+    "file": "palo_0179_PolePivot_Asset2_2_angolo_-005.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 5.3,
+    "temperatura_luce_K": 8310.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 252255.83427695624,
+    "frazione_applicata": 0.6614718610898889,
+    "bbox_crop": [
+      852,
+      150,
+      1564,
+      948
+    ]
+  },
+  {
+    "file": "palo_0180_PolePivot_Asset2_2_angolo_+014.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -14.3,
+    "temperatura_luce_K": 7434.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 238145.55922467457,
+    "frazione_applicata": 0.6804078954799369,
+    "bbox_crop": [
+      847,
+      126,
+      1601,
+      971
+    ]
+  },
+  {
+    "file": "palo_0181_PolePivot_Asset2_1_angolo_+000.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -0.5,
+    "temperatura_luce_K": 5427.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 262748.5814470035,
+    "frazione_applicata": 0.36839490108525363,
+    "bbox_crop": [
+      350,
+      162,
+      1041,
+      936
+    ]
+  },
+  {
+    "file": "palo_0182_PolePivot_Asset2_3_angolo_+009.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -9.3,
+    "temperatura_luce_K": 3676.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 240364.16146036034,
+    "frazione_applicata": 0.767990805547979,
+    "bbox_crop": [
+      294,
+      125,
+      1050,
+      972
+    ]
+  },
+  {
+    "file": "palo_0183_PolePivot_Asset2_1_angolo_-020.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 20.2,
+    "temperatura_luce_K": 4827.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 258205.95483761115,
+    "frazione_applicata": 0.37931464083477817,
+    "bbox_crop": [
+      339,
+      155,
+      1043,
+      943
+    ]
+  },
+  {
+    "file": "palo_0184_PolePivot_Asset2_1_angolo_+008.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -8.8,
+    "temperatura_luce_K": 4864.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 275855.0447690849,
+    "frazione_applicata": 0.3368890827954777,
+    "bbox_crop": [
+      378,
+      181,
+      1036,
+      918
+    ]
+  },
+  {
+    "file": "palo_0185_PolePivot_Asset2_2_angolo_-018.1.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 18.1,
+    "temperatura_luce_K": 8270.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 223417.77037812915,
+    "frazione_applicata": 0.7001726353630515,
+    "bbox_crop": [
+      841,
+      98,
+      1645,
+      998
+    ]
+  },
+  {
+    "file": "palo_0186_PolePivot_Asset2_3_angolo_-007.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 7.4,
+    "temperatura_luce_K": 8612.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 227357.1008690789,
+    "frazione_applicata": 0.7805457456506845,
+    "bbox_crop": [
+      256,
+      100,
+      1057,
+      996
+    ]
+  },
+  {
+    "file": "palo_0187_PolePivot_Asset2_1_angolo_+008.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -8.4,
+    "temperatura_luce_K": 4544.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 237859.63448979115,
+    "frazione_applicata": 0.42822390460725646,
+    "bbox_crop": [
+      287,
+      120,
+      1052,
+      976
+    ]
+  },
+  {
+    "file": "palo_0188_PolePivot_Asset2_1_angolo_-007.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 7.8,
+    "temperatura_luce_K": 5257.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 225346.29305270402,
+    "frazione_applicata": 0.4583039538033338,
+    "bbox_crop": [
+      250,
+      96,
+      1058,
+      1000
+    ]
+  },
+  {
+    "file": "palo_0189_PolePivot_Asset2_2_angolo_-009.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 9.4,
+    "temperatura_luce_K": 7956.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 277753.25963254366,
+    "frazione_applicata": 0.6272542344594987,
+    "bbox_crop": [
+      860,
+      187,
+      1507,
+      912
+    ]
+  },
+  {
+    "file": "palo_0190_PolePivot_Asset2_1_angolo_+014.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -14.3,
+    "temperatura_luce_K": 4431.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 232075.09129610192,
+    "frazione_applicata": 0.442129010986541,
+    "bbox_crop": [
+      271,
+      109,
+      1054,
+      987
+    ]
+  },
+  {
+    "file": "palo_0191_PolePivot_Asset2_3_angolo_-013.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 13.5,
+    "temperatura_luce_K": 6490.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 249443.9347472751,
+    "frazione_applicata": 0.759226641733768,
+    "bbox_crop": [
+      318,
+      141,
+      1046,
+      957
+    ]
+  },
+  {
+    "file": "palo_0192_PolePivot_Asset2_3_angolo_-002.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 2.1,
+    "temperatura_luce_K": 7124.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 228431.8484744679,
+    "frazione_applicata": 0.7795083558640765,
+    "bbox_crop": [
+      260,
+      102,
+      1056,
+      994
+    ]
+  },
+  {
+    "file": "palo_0193_PolePivot_Asset2_2_angolo_-012.2.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 12.2,
+    "temperatura_luce_K": 7457.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 235652.40513947353,
+    "frazione_applicata": 0.6837537162610435,
+    "bbox_crop": [
+      846,
+      121,
+      1608,
+      975
+    ]
+  },
+  {
+    "file": "palo_0194_PolePivot_Asset2_1_angolo_-009.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 9.8,
+    "temperatura_luce_K": 8150.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 246399.5201242483,
+    "frazione_applicata": 0.40769540058578047,
+    "bbox_crop": [
+      310,
+      136,
+      1048,
+      962
+    ]
+  },
+  {
+    "file": "palo_0195_PolePivot_Asset2_1_angolo_+021.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -21.8,
+    "temperatura_luce_K": 4327.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 226672.07209690614,
+    "frazione_applicata": 0.45511699538193784,
+    "bbox_crop": [
+      254,
+      99,
+      1057,
+      997
+    ]
+  },
+  {
+    "file": "palo_0196_PolePivot_Asset2_3_angolo_+007.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -7.3,
+    "temperatura_luce_K": 6580.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 260479.4117141088,
+    "frazione_applicata": 0.7485747537571523,
+    "bbox_crop": [
+      344,
+      158,
+      1042,
+      940
+    ]
+  },
+  {
+    "file": "palo_0197_PolePivot_Asset2_3_angolo_+009.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -9.8,
+    "temperatura_luce_K": 8879.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 241630.9923852075,
+    "frazione_applicata": 0.7667680091851812,
+    "bbox_crop": [
+      297,
+      127,
+      1050,
+      970
+    ]
+  },
+  {
+    "file": "palo_0198_PolePivot_Asset2_3_angolo_+018.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -18.1,
+    "temperatura_luce_K": 4144.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 250500.29436795093,
+    "frazione_applicata": 0.7582070007725049,
+    "bbox_crop": [
+      320,
+      142,
+      1046,
+      955
+    ]
+  },
+  {
+    "file": "palo_0199_PolePivot_Asset2_1_angolo_-002.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 2.3,
+    "temperatura_luce_K": 5575.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 214638.04459538416,
+    "frazione_applicata": 0.48404485139007636,
+    "bbox_crop": [
+      216,
+      73,
+      1064,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0200_PolePivot_Asset2_1_angolo_-017.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 17.8,
+    "temperatura_luce_K": 6791.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 209620.0186784049,
+    "frazione_applicata": 0.49610737419494144,
+    "bbox_crop": [
+      198,
+      61,
+      1067,
+      1033
+    ]
+  },
+  {
+    "file": "palo_0201_PolePivot_Asset2_1_angolo_-004.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 4.6,
+    "temperatura_luce_K": 4489.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 223406.51540532315,
+    "frazione_applicata": 0.46296686557282596,
+    "bbox_crop": [
+      244,
+      92,
+      1059,
+      1003
+    ]
+  },
+  {
+    "file": "palo_0202_PolePivot_Asset2_3_angolo_-008.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 8.4,
+    "temperatura_luce_K": 5618.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 232119.93661983736,
+    "frazione_applicata": 0.7759484642626144,
+    "bbox_crop": [
+      271,
+      109,
+      1054,
+      987
+    ]
+  },
+  {
+    "file": "palo_0203_PolePivot_Asset2_2_angolo_+013.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -13.7,
+    "temperatura_luce_K": 3565.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 219040.19214683928,
+    "frazione_applicata": 0.7060473593939928,
+    "bbox_crop": [
+      839,
+      89,
+      1659,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0204_PolePivot_Asset2_3_angolo_+007.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -7.2,
+    "temperatura_luce_K": 7219.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 210066.81512076806,
+    "frazione_applicata": 0.797235027629905,
+    "bbox_crop": [
+      199,
+      62,
+      1066,
+      1032
+    ]
+  },
+  {
+    "file": "palo_0205_PolePivot_Asset2_3_angolo_-021.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 21.8,
+    "temperatura_luce_K": 8910.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 211413.02007007477,
+    "frazione_applicata": 0.7959356162536068,
+    "bbox_crop": [
+      204,
+      65,
+      1066,
+      1029
+    ]
+  },
+  {
+    "file": "palo_0206_PolePivot_Asset2_2_angolo_+010.6.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -10.6,
+    "temperatura_luce_K": 8002.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 276345.1784974657,
+    "frazione_applicata": 0.6291438838603091,
+    "bbox_crop": [
+      860,
+      185,
+      1510,
+      914
+    ]
+  },
+  {
+    "file": "palo_0207_PolePivot_Asset2_2_angolo_-013.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 13.5,
+    "temperatura_luce_K": 3670.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 271939.8103836276,
+    "frazione_applicata": 0.6350559020027882,
+    "bbox_crop": [
+      859,
+      179,
+      1519,
+      920
+    ]
+  },
+  {
+    "file": "palo_0208_PolePivot_Asset2_1_angolo_-013.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 13.4,
+    "temperatura_luce_K": 3954.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 273361.40802142664,
+    "frazione_applicata": 0.34288338227366466,
+    "bbox_crop": [
+      373,
+      177,
+      1037,
+      922
+    ]
+  },
+  {
+    "file": "palo_0209_PolePivot_Asset2_1_angolo_+017.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -17.5,
+    "temperatura_luce_K": 5949.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 261862.3694229517,
+    "frazione_applicata": 0.37052521147562045,
+    "bbox_crop": [
+      348,
+      161,
+      1041,
+      938
+    ]
+  },
+  {
+    "file": "palo_0210_PolePivot_Asset2_3_angolo_-012.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 12.8,
+    "temperatura_luce_K": 7438.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 214690.1550920561,
+    "frazione_applicata": 0.7927723932009647,
+    "bbox_crop": [
+      216,
+      73,
+      1064,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0211_PolePivot_Asset2_2_angolo_-012.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 12.7,
+    "temperatura_luce_K": 5828.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 212613.46060292562,
+    "frazione_applicata": 0.7146720537447578,
+    "bbox_crop": [
+      836,
+      75,
+      1681,
+      1020
+    ]
+  },
+  {
+    "file": "palo_0212_PolePivot_Asset2_1_angolo_-005.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 5.0,
+    "temperatura_luce_K": 7291.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 207815.10411916923,
+    "frazione_applicata": 0.500446096910172,
+    "bbox_crop": [
+      191,
+      57,
+      1068,
+      1037
+    ]
+  },
+  {
+    "file": "palo_0213_PolePivot_Asset2_1_angolo_-008.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 8.7,
+    "temperatura_luce_K": 4688.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 245246.8885221846,
+    "frazione_applicata": 0.4104661405571418,
+    "bbox_crop": [
+      307,
+      134,
+      1048,
+      964
+    ]
+  },
+  {
+    "file": "palo_0214_PolePivot_Asset2_3_angolo_+021.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -21.8,
+    "temperatura_luce_K": 6688.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 230979.73741799584,
+    "frazione_applicata": 0.7770490305730281,
+    "bbox_crop": [
+      267,
+      107,
+      1055,
+      989
+    ]
+  },
+  {
+    "file": "palo_0215_PolePivot_Asset2_2_angolo_-007.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 7.9,
+    "temperatura_luce_K": 7020.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 209577.76705235985,
+    "frazione_applicata": 0.7187459642290092,
+    "bbox_crop": [
+      834,
+      68,
+      1692,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0216_PolePivot_Asset2_2_angolo_-003.6.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 3.6,
+    "temperatura_luce_K": 8763.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 228495.0588770223,
+    "frazione_applicata": 0.6933588979081116,
+    "bbox_crop": [
+      843,
+      108,
+      1629,
+      988
+    ]
+  },
+  {
+    "file": "palo_0217_PolePivot_Asset2_3_angolo_-015.9.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 15.9,
+    "temperatura_luce_K": 6867.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 220317.13356332332,
+    "frazione_applicata": 0.7873410063653159,
+    "bbox_crop": [
+      234,
+      85,
+      1060,
+      1010
+    ]
+  },
+  {
+    "file": "palo_0218_PolePivot_Asset2_1_angolo_+009.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -9.0,
+    "temperatura_luce_K": 6039.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 242750.6535535756,
+    "frazione_applicata": 0.41646668573831813,
+    "bbox_crop": [
+      300,
+      129,
+      1049,
+      968
+    ]
+  },
+  {
+    "file": "palo_0219_PolePivot_Asset2_1_angolo_-018.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 18.3,
+    "temperatura_luce_K": 7333.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 226422.39309218136,
+    "frazione_applicata": 0.45571718333198363,
+    "bbox_crop": [
+      254,
+      98,
+      1057,
+      997
+    ]
+  },
+  {
+    "file": "palo_0220_PolePivot_Asset2_1_angolo_-010.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 10.2,
+    "temperatura_luce_K": 8070.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 250511.11066798895,
+    "frazione_applicata": 0.39781180183226994,
+    "bbox_crop": [
+      320,
+      142,
+      1046,
+      955
+    ]
+  },
+  {
+    "file": "palo_0221_PolePivot_Asset2_3_angolo_-020.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 20.6,
+    "temperatura_luce_K": 8331.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 227023.00964141957,
+    "frazione_applicata": 0.7808682239940938,
+    "bbox_crop": [
+      255,
+      99,
+      1057,
+      996
+    ]
+  },
+  {
+    "file": "palo_0222_PolePivot_Asset2_2_angolo_-021.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 21.4,
+    "temperatura_luce_K": 7860.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 231603.18271999876,
+    "frazione_applicata": 0.6891877857390676,
+    "bbox_crop": [
+      845,
+      114,
+      1620,
+      982
+    ]
+  },
+  {
+    "file": "palo_0223_PolePivot_Asset2_2_angolo_-008.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 8.7,
+    "temperatura_luce_K": 5638.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 238155.35866446927,
+    "frazione_applicata": 0.6803947446002929,
+    "bbox_crop": [
+      847,
+      126,
+      1601,
+      971
+    ]
+  },
+  {
+    "file": "palo_0224_PolePivot_Asset2_3_angolo_+011.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -11.2,
+    "temperatura_luce_K": 4643.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 262420.7160868939,
+    "frazione_applicata": 0.7467009283874316,
+    "bbox_crop": [
+      349,
+      161,
+      1041,
+      937
+    ]
+  },
+  {
+    "file": "palo_0225_PolePivot_Asset2_1_angolo_+001.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -1.5,
+    "temperatura_luce_K": 8749.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 240012.16740607494,
+    "frazione_applicata": 0.4230495635774424,
+    "bbox_crop": [
+      293,
+      124,
+      1051,
+      972
+    ]
+  },
+  {
+    "file": "palo_0226_PolePivot_Asset2_3_angolo_+006.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -6.1,
+    "temperatura_luce_K": 5691.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 217867.16443688195,
+    "frazione_applicata": 0.7897058154949487,
+    "bbox_crop": [
+      226,
+      80,
+      1062,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0227_PolePivot_Asset2_3_angolo_-006.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 6.5,
+    "temperatura_luce_K": 4501.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 210843.56240230275,
+    "frazione_applicata": 0.7964852797890174,
+    "bbox_crop": [
+      202,
+      64,
+      1066,
+      1030
+    ]
+  },
+  {
+    "file": "palo_0228_PolePivot_Asset2_3_angolo_-016.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 16.7,
+    "temperatura_luce_K": 3946.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 251653.32769599278,
+    "frazione_applicata": 0.7570940464452458,
+    "bbox_crop": [
+      323,
+      144,
+      1045,
+      953
+    ]
+  },
+  {
+    "file": "palo_0229_PolePivot_Asset2_3_angolo_-003.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 3.7,
+    "temperatura_luce_K": 7858.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 228320.8681321595,
+    "frazione_applicata": 0.7796154785718153,
+    "bbox_crop": [
+      259,
+      102,
+      1056,
+      994
+    ]
+  },
+  {
+    "file": "palo_0230_PolePivot_Asset2_3_angolo_+012.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -12.5,
+    "temperatura_luce_K": 3976.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 242090.59886415597,
+    "frazione_applicata": 0.7663243784529709,
+    "bbox_crop": [
+      299,
+      128,
+      1049,
+      969
+    ]
+  },
+  {
+    "file": "palo_0231_PolePivot_Asset2_3_angolo_-009.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 9.5,
+    "temperatura_luce_K": 5831.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 211754.500425178,
+    "frazione_applicata": 0.7956060056260185,
+    "bbox_crop": [
+      205,
+      66,
+      1065,
+      1028
+    ]
+  },
+  {
+    "file": "palo_0232_PolePivot_Asset2_2_angolo_-020.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 20.4,
+    "temperatura_luce_K": 7388.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 228788.8953491467,
+    "frazione_applicata": 0.6929645684198074,
+    "bbox_crop": [
+      843,
+      108,
+      1629,
+      987
+    ]
+  },
+  {
+    "file": "palo_0233_PolePivot_Asset2_1_angolo_-003.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 3.0,
+    "temperatura_luce_K": 3779.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 223479.24738820753,
+    "frazione_applicata": 0.4627920296479622,
+    "bbox_crop": [
+      245,
+      92,
+      1059,
+      1003
+    ]
+  },
+  {
+    "file": "palo_0234_PolePivot_Asset2_1_angolo_+008.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -8.8,
+    "temperatura_luce_K": 7835.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 212411.66982548518,
+    "frazione_applicata": 0.4893966962945062,
+    "bbox_crop": [
+      208,
+      68,
+      1065,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0235_PolePivot_Asset2_2_angolo_-007.6.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 7.6,
+    "temperatura_luce_K": 8466.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 233421.1666312513,
+    "frazione_applicata": 0.686748045497543,
+    "bbox_crop": [
+      845,
+      117,
+      1615,
+      979
+    ]
+  },
+  {
+    "file": "palo_0236_PolePivot_Asset2_2_angolo_+002.0.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -2.0,
+    "temperatura_luce_K": 3569.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 253259.06881720136,
+    "frazione_applicata": 0.6601255171182103,
+    "bbox_crop": [
+      853,
+      152,
+      1562,
+      946
+    ]
+  },
+  {
+    "file": "palo_0237_PolePivot_Asset2_2_angolo_-013.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 13.9,
+    "temperatura_luce_K": 5262.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 247239.10540017113,
+    "frazione_applicata": 0.6682043273376668,
+    "bbox_crop": [
+      851,
+      142,
+      1577,
+      956
+    ]
+  },
+  {
+    "file": "palo_0238_PolePivot_Asset2_1_angolo_-015.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 15.6,
+    "temperatura_luce_K": 6914.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 231993.89628988632,
+    "frazione_applicata": 0.44232419065087925,
+    "bbox_crop": [
+      270,
+      109,
+      1054,
+      987
+    ]
+  },
+  {
+    "file": "palo_0239_PolePivot_Asset2_1_angolo_+011.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -11.8,
+    "temperatura_luce_K": 6825.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 273049.4504804984,
+    "frazione_applicata": 0.34363327775325236,
+    "bbox_crop": [
+      372,
+      177,
+      1037,
+      922
+    ]
+  },
+  {
+    "file": "palo_0240_PolePivot_Asset2_3_angolo_+005.4.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -5.4,
+    "temperatura_luce_K": 7088.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 242032.22182130674,
+    "frazione_applicata": 0.7663807263319711,
+    "bbox_crop": [
+      298,
+      128,
+      1050,
+      969
+    ]
+  },
+  {
+    "file": "palo_0241_PolePivot_Asset2_1_angolo_-005.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 5.3,
+    "temperatura_luce_K": 6210.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 273811.09853690385,
+    "frazione_applicata": 0.3418023989970098,
+    "bbox_crop": [
+      374,
+      178,
+      1037,
+      921
+    ]
+  },
+  {
+    "file": "palo_0242_PolePivot_Asset2_1_angolo_+010.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -10.8,
+    "temperatura_luce_K": 3967.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 227582.8634845544,
+    "frazione_applicata": 0.45292760017638345,
+    "bbox_crop": [
+      257,
+      100,
+      1057,
+      995
+    ]
+  },
+  {
+    "file": "palo_0243_PolePivot_Asset2_2_angolo_+000.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -0.5,
+    "temperatura_luce_K": 5020.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 232699.2377818757,
+    "frazione_applicata": 0.6877168763295638,
+    "bbox_crop": [
+      845,
+      116,
+      1617,
+      980
+    ]
+  },
+  {
+    "file": "palo_0244_PolePivot_Asset2_1_angolo_+005.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -5.1,
+    "temperatura_luce_K": 8988.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 268403.28151753085,
+    "frazione_applicata": 0.35480191657622406,
+    "bbox_crop": [
+      362,
+      170,
+      1039,
+      928
+    ]
+  },
+  {
+    "file": "palo_0245_PolePivot_Asset2_2_angolo_-007.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 7.3,
+    "temperatura_luce_K": 4547.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 211702.5421406616,
+    "frazione_applicata": 0.7158945092436089,
+    "bbox_crop": [
+      836,
+      73,
+      1684,
+      1022
+    ]
+  },
+  {
+    "file": "palo_0246_PolePivot_Asset2_1_angolo_+002.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -2.4,
+    "temperatura_luce_K": 8996.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 264810.1041128121,
+    "frazione_applicata": 0.3634393339796873,
+    "bbox_crop": [
+      354,
+      165,
+      1040,
+      933
+    ]
+  },
+  {
+    "file": "palo_0247_PolePivot_Asset2_2_angolo_-020.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 20.5,
+    "temperatura_luce_K": 7531.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 223891.58984483726,
+    "frazione_applicata": 0.6995367681185778,
+    "bbox_crop": [
+      841,
+      99,
+      1644,
+      997
+    ]
+  },
+  {
+    "file": "palo_0248_PolePivot_Asset2_3_angolo_-020.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 20.1,
+    "temperatura_luce_K": 7235.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 217638.1473544317,
+    "frazione_applicata": 0.7899268720305495,
+    "bbox_crop": [
+      226,
+      79,
+      1062,
+      1015
+    ]
+  },
+  {
+    "file": "palo_0249_PolePivot_Asset2_3_angolo_+007.0.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -7.0,
+    "temperatura_luce_K": 6449.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 231184.1362395388,
+    "frazione_applicata": 0.7768517365769306,
+    "bbox_crop": [
+      268,
+      108,
+      1055,
+      988
+    ]
+  },
+  {
+    "file": "palo_0250_PolePivot_Asset2_2_angolo_+000.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -0.4,
+    "temperatura_luce_K": 5229.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 213356.08268475314,
+    "frazione_applicata": 0.7136754525283966,
+    "bbox_crop": [
+      836,
+      76,
+      1678,
+      1018
+    ]
+  },
+  {
+    "file": "palo_0251_PolePivot_Asset2_2_angolo_+008.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -8.4,
+    "temperatura_luce_K": 5081.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 253474.3516637233,
+    "frazione_applicata": 0.6598366068474876,
+    "bbox_crop": [
+      853,
+      152,
+      1561,
+      946
+    ]
+  },
+  {
+    "file": "palo_0252_PolePivot_Asset2_3_angolo_-014.1.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 14.1,
+    "temperatura_luce_K": 5814.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 228197.4800043396,
+    "frazione_applicata": 0.7797345777751512,
+    "bbox_crop": [
+      259,
+      102,
+      1056,
+      994
+    ]
+  },
+  {
+    "file": "palo_0253_PolePivot_Asset2_2_angolo_-012.3.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 12.3,
+    "temperatura_luce_K": 3927.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 215815.38261511314,
+    "frazione_applicata": 0.7103750641317006,
+    "bbox_crop": [
+      838,
+      82,
+      1670,
+      1013
+    ]
+  },
+  {
+    "file": "palo_0254_PolePivot_Asset2_1_angolo_+006.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -6.8,
+    "temperatura_luce_K": 7545.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 258283.3444780256,
+    "frazione_applicata": 0.379128608654434,
+    "bbox_crop": [
+      339,
+      155,
+      1043,
+      943
+    ]
+  },
+  {
+    "file": "palo_0255_PolePivot_Asset2_1_angolo_-016.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 16.7,
+    "temperatura_luce_K": 6635.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 231454.34359703862,
+    "frazione_applicata": 0.44362118806970086,
+    "bbox_crop": [
+      269,
+      108,
+      1055,
+      988
+    ]
+  },
+  {
+    "file": "palo_0256_PolePivot_Asset2_1_angolo_-019.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 19.4,
+    "temperatura_luce_K": 4168.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 249220.86472084394,
+    "frazione_applicata": 0.40091334443464266,
+    "bbox_crop": [
+      317,
+      140,
+      1046,
+      957
+    ]
+  },
+  {
+    "file": "palo_0257_PolePivot_Asset2_3_angolo_+003.3.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -3.3,
+    "temperatura_luce_K": 6706.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 229105.48347851346,
+    "frazione_applicata": 0.7788581361570548,
+    "bbox_crop": [
+      262,
+      103,
+      1056,
+      992
+    ]
+  },
+  {
+    "file": "palo_0258_PolePivot_Asset2_2_angolo_+015.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -15.5,
+    "temperatura_luce_K": 8528.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 216431.81831287962,
+    "frazione_applicata": 0.7095478054475921,
+    "bbox_crop": [
+      838,
+      83,
+      1668,
+      1012
+    ]
+  },
+  {
+    "file": "palo_0259_PolePivot_Asset2_2_angolo_-018.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 18.4,
+    "temperatura_luce_K": 4131.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 222685.37184080642,
+    "frazione_applicata": 0.7011555165498871,
+    "bbox_crop": [
+      841,
+      96,
+      1647,
+      999
+    ]
+  },
+  {
+    "file": "palo_0260_PolePivot_Asset2_1_angolo_-020.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 20.8,
+    "temperatura_luce_K": 6994.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 258006.3900592746,
+    "frazione_applicata": 0.37979436228890373,
+    "bbox_crop": [
+      339,
+      155,
+      1043,
+      943
+    ]
+  },
+  {
+    "file": "palo_0261_PolePivot_Asset2_3_angolo_-014.0.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 14.0,
+    "temperatura_luce_K": 6281.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 233437.394641071,
+    "frazione_applicata": 0.7746768005820821,
+    "bbox_crop": [
+      274,
+      112,
+      1054,
+      984
+    ]
+  },
+  {
+    "file": "palo_0262_PolePivot_Asset2_2_angolo_+000.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -0.4,
+    "temperatura_luce_K": 5832.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 213556.0621461687,
+    "frazione_applicata": 0.7134070794495844,
+    "bbox_crop": [
+      836,
+      77,
+      1678,
+      1018
+    ]
+  },
+  {
+    "file": "palo_0263_PolePivot_Asset2_1_angolo_+001.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -1.0,
+    "temperatura_luce_K": 4300.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 265214.7102816526,
+    "frazione_applicata": 0.3624667261814467,
+    "bbox_crop": [
+      355,
+      166,
+      1040,
+      933
+    ]
+  },
+  {
+    "file": "palo_0264_PolePivot_Asset2_1_angolo_+003.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -3.2,
+    "temperatura_luce_K": 8062.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 276508.5111676485,
+    "frazione_applicata": 0.33531825524988557,
+    "bbox_crop": [
+      379,
+      182,
+      1036,
+      917
+    ]
+  },
+  {
+    "file": "palo_0265_PolePivot_Asset2_2_angolo_-012.8.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 12.8,
+    "temperatura_luce_K": 4709.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 232949.98204243518,
+    "frazione_applicata": 0.687380376727432,
+    "bbox_crop": [
+      845,
+      116,
+      1616,
+      980
+    ]
+  },
+  {
+    "file": "palo_0266_PolePivot_Asset2_3_angolo_-011.0.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 11.0,
+    "temperatura_luce_K": 7455.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 275632.5392930708,
+    "frazione_applicata": 0.7339483431405951,
+    "bbox_crop": [
+      377,
+      181,
+      1036,
+      919
+    ]
+  },
+  {
+    "file": "palo_0267_PolePivot_Asset2_2_angolo_-017.6.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 17.6,
+    "temperatura_luce_K": 7568.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 230890.70314317773,
+    "frazione_applicata": 0.690143935617004,
+    "bbox_crop": [
+      844,
+      113,
+      1622,
+      984
+    ]
+  },
+  {
+    "file": "palo_0268_PolePivot_Asset2_1_angolo_-010.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 10.5,
+    "temperatura_luce_K": 6994.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 263523.6758840425,
+    "frazione_applicata": 0.36653169940447494,
+    "bbox_crop": [
+      351,
+      163,
+      1041,
+      935
+    ]
+  },
+  {
+    "file": "palo_0269_PolePivot_Asset2_1_angolo_+020.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -20.7,
+    "temperatura_luce_K": 8394.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 247971.3609877051,
+    "frazione_applicata": 0.40391694934324873,
+    "bbox_crop": [
+      314,
+      138,
+      1047,
+      959
+    ]
+  },
+  {
+    "file": "palo_0270_PolePivot_Asset2_1_angolo_-006.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 6.9,
+    "temperatura_luce_K": 7989.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 234072.19578731788,
+    "frazione_applicata": 0.4373282947551883,
+    "bbox_crop": [
+      276,
+      113,
+      1053,
+      983
+    ]
+  },
+  {
+    "file": "palo_0271_PolePivot_Asset2_1_angolo_+002.0.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -2.0,
+    "temperatura_luce_K": 6183.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 224726.81076521627,
+    "frazione_applicata": 0.45979308904170446,
+    "bbox_crop": [
+      248,
+      95,
+      1058,
+      1001
+    ]
+  },
+  {
+    "file": "palo_0272_PolePivot_Asset2_1_angolo_+011.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -11.6,
+    "temperatura_luce_K": 4175.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 219572.45911495088,
+    "frazione_applicata": 0.4721833168632157,
+    "bbox_crop": [
+      232,
+      84,
+      1061,
+      1011
+    ]
+  },
+  {
+    "file": "palo_0273_PolePivot_Asset2_2_angolo_-001.4.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 1.4,
+    "temperatura_luce_K": 5716.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 238989.35597518692,
+    "frazione_applicata": 0.6792755175336027,
+    "bbox_crop": [
+      847,
+      128,
+      1599,
+      969
+    ]
+  },
+  {
+    "file": "palo_0274_PolePivot_Asset2_2_angolo_+003.5.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -3.5,
+    "temperatura_luce_K": 6474.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 266634.36845976394,
+    "frazione_applicata": 0.6421758220860212,
+    "bbox_crop": [
+      857,
+      172,
+      1531,
+      927
+    ]
+  },
+  {
+    "file": "palo_0275_PolePivot_Asset2_1_angolo_-012.5.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 12.5,
+    "temperatura_luce_K": 7805.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 213923.88649379968,
+    "frazione_applicata": 0.48576157197485714,
+    "bbox_crop": [
+      213,
+      71,
+      1064,
+      1023
+    ]
+  },
+  {
+    "file": "palo_0276_PolePivot_Asset2_3_angolo_-014.0.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 14.0,
+    "temperatura_luce_K": 7114.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 271303.652403107,
+    "frazione_applicata": 0.7381267595655414,
+    "bbox_crop": [
+      368,
+      174,
+      1038,
+      924
+    ]
+  },
+  {
+    "file": "palo_0277_PolePivot_Asset2_3_angolo_-018.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 18.5,
+    "temperatura_luce_K": 6004.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 216692.33518675546,
+    "frazione_applicata": 0.7908398081263146,
+    "bbox_crop": [
+      222,
+      77,
+      1062,
+      1017
+    ]
+  },
+  {
+    "file": "palo_0278_PolePivot_Asset2_1_angolo_-003.4.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 3.4,
+    "temperatura_luce_K": 8969.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 277777.1602513838,
+    "frazione_applicata": 0.33226862801457213,
+    "bbox_crop": [
+      382,
+      183,
+      1035,
+      916
+    ]
+  },
+  {
+    "file": "palo_0279_PolePivot_Asset2_1_angolo_+013.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -13.1,
+    "temperatura_luce_K": 6421.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 238645.01383151562,
+    "frazione_applicata": 0.4263359796788566,
+    "bbox_crop": [
+      289,
+      122,
+      1051,
+      975
+    ]
+  },
+  {
+    "file": "palo_0280_PolePivot_Asset2_3_angolo_-002.7.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 2.7,
+    "temperatura_luce_K": 4821.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 260421.12435690392,
+    "frazione_applicata": 0.748631015067947,
+    "bbox_crop": [
+      344,
+      158,
+      1042,
+      940
+    ]
+  },
+  {
+    "file": "palo_0281_PolePivot_Asset2_2_angolo_-004.8.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 4.8,
+    "temperatura_luce_K": 5790.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 223104.96328334205,
+    "frazione_applicata": 0.7005924234878323,
+    "bbox_crop": [
+      841,
+      97,
+      1646,
+      998
+    ]
+  },
+  {
+    "file": "palo_0282_PolePivot_Asset2_3_angolo_+007.5.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -7.5,
+    "temperatura_luce_K": 8316.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 257076.5700560707,
+    "frazione_applicata": 0.751859313930901,
+    "bbox_crop": [
+      336,
+      153,
+      1043,
+      945
+    ]
+  },
+  {
+    "file": "palo_0283_PolePivot_Asset2_2_angolo_-002.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 2.9,
+    "temperatura_luce_K": 7382.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 244995.05414180685,
+    "frazione_applicata": 0.6712158513259638,
+    "bbox_crop": [
+      850,
+      138,
+      1583,
+      959
+    ]
+  },
+  {
+    "file": "palo_0284_PolePivot_Asset2_2_angolo_+019.7.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -19.7,
+    "temperatura_luce_K": 8460.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 269114.54102882766,
+    "frazione_applicata": 0.6388474225412193,
+    "bbox_crop": [
+      858,
+      175,
+      1525,
+      923
+    ]
+  },
+  {
+    "file": "palo_0285_PolePivot_Asset2_1_angolo_-007.6.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 7.6,
+    "temperatura_luce_K": 7660.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 221777.37993244483,
+    "frazione_applicata": 0.46688304379090084,
+    "bbox_crop": [
+      239,
+      88,
+      1060,
+      1007
+    ]
+  },
+  {
+    "file": "palo_0286_PolePivot_Asset2_2_angolo_-000.9.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": 0.9,
+    "temperatura_luce_K": 6324.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 250447.35301591727,
+    "frazione_applicata": 0.6638988487443396,
+    "bbox_crop": [
+      852,
+      147,
+      1569,
+      951
+    ]
+  },
+  {
+    "file": "palo_0287_PolePivot_Asset2_3_angolo_-010.6.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 10.6,
+    "temperatura_luce_K": 4740.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 265734.456765356,
+    "frazione_applicata": 0.7435023720770323,
+    "bbox_crop": [
+      356,
+      166,
+      1040,
+      932
+    ]
+  },
+  {
+    "file": "palo_0288_PolePivot_Asset2_1_angolo_+011.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -11.8,
+    "temperatura_luce_K": 6329.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 278966.45126543095,
+    "frazione_applicata": 0.32940976474524875,
+    "bbox_crop": [
+      384,
+      185,
+      1035,
+      914
+    ]
+  },
+  {
+    "file": "palo_0289_PolePivot_Asset2_1_angolo_+007.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -7.8,
+    "temperatura_luce_K": 6255.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 272288.2206625288,
+    "frazione_applicata": 0.34546315113193127,
+    "bbox_crop": [
+      371,
+      176,
+      1037,
+      923
+    ]
+  },
+  {
+    "file": "palo_0290_PolePivot_Asset2_3_angolo_+018.2.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": -18.2,
+    "temperatura_luce_K": 4964.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 239959.22364169272,
+    "frazione_applicata": 0.7683816678817872,
+    "bbox_crop": [
+      293,
+      124,
+      1050,
+      973
+    ]
+  },
+  {
+    "file": "palo_0291_PolePivot_Asset2_1_angolo_-001.8.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 1.8,
+    "temperatura_luce_K": 7669.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 226847.43347716716,
+    "frazione_applicata": 0.4546954549826876,
+    "bbox_crop": [
+      255,
+      99,
+      1057,
+      997
+    ]
+  },
+  {
+    "file": "palo_0292_PolePivot_Asset2_2_angolo_+000.2.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -0.2,
+    "temperatura_luce_K": 3751.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 250131.82313406013,
+    "frazione_applicata": 0.6643222908581039,
+    "bbox_crop": [
+      852,
+      147,
+      1570,
+      951
+    ]
+  },
+  {
+    "file": "palo_0293_PolePivot_Asset2_1_angolo_-016.1.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 16.1,
+    "temperatura_luce_K": 7380.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 228572.82278865474,
+    "frazione_applicata": 0.45054789810246765,
+    "bbox_crop": [
+      260,
+      102,
+      1056,
+      993
+    ]
+  },
+  {
+    "file": "palo_0294_PolePivot_Asset2_1_angolo_-020.3.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 20.3,
+    "temperatura_luce_K": 7066.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 212341.6904940853,
+    "frazione_applicata": 0.4895649152903516,
+    "bbox_crop": [
+      208,
+      67,
+      1065,
+      1027
+    ]
+  },
+  {
+    "file": "palo_0295_PolePivot_Asset2_3_angolo_-005.8.png",
+    "palo": "PolePivot_Asset2_3",
+    "angolo_gradi": 5.8,
+    "temperatura_luce_K": 5959.0,
+    "distanza_lungo_binario_iniziale": 1036011.3616534588,
+    "distanza_target": 232465.32613355474,
+    "frazione_applicata": 0.7756150803572814,
+    "bbox_crop": [
+      272,
+      110,
+      1054,
+      986
+    ]
+  },
+  {
+    "file": "palo_0296_PolePivot_Asset2_1_angolo_+019.7.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": -19.7,
+    "temperatura_luce_K": 6387.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 226592.7587941524,
+    "frazione_applicata": 0.45530765173545695,
+    "bbox_crop": [
+      254,
+      98,
+      1057,
+      997
+    ]
+  },
+  {
+    "file": "palo_0297_PolePivot_Asset2_2_angolo_+009.2.png",
+    "palo": "PolePivot_Asset2_2",
+    "angolo_gradi": -9.2,
+    "temperatura_luce_K": 7783.0,
+    "distanza_lungo_binario_iniziale": 745154.7014351364,
+    "distanza_target": 261161.6039795948,
+    "frazione_applicata": 0.6495202895766361,
+    "bbox_crop": [
+      855,
+      164,
+      1543,
+      935
+    ]
+  },
+  {
+    "file": "palo_0298_PolePivot_Asset2_1_angolo_-002.9.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 2.9,
+    "temperatura_luce_K": 8754.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 269515.2431444855,
+    "frazione_applicata": 0.3521289406480028,
+    "bbox_crop": [
+      365,
+      172,
+      1038,
+      927
+    ]
+  },
+  {
+    "file": "palo_0299_PolePivot_Asset2_1_angolo_-011.2.png",
+    "palo": "PolePivot_Asset2_1",
+    "angolo_gradi": 11.2,
+    "temperatura_luce_K": 6674.0,
+    "distanza_lungo_binario_iniziale": 416001.36208284344,
+    "distanza_target": 242040.0647163404,
+    "frazione_applicata": 0.41817482638881365,
+    "bbox_crop": [
+      299,
+      128,
+      1050,
+      969
+    ]
+  }
+]
