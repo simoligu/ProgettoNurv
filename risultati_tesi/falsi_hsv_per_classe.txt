@@ -1,0 +1,22 @@
+Pixel classificati verdi dalla soglia HSV ma non 'vegetation' nel ground truth
+(1700 immagini di validazione RailSem19), ripartiti per classe vera
+
+intera: 559421520 pixel
+   terrain         26.3%
+   construction    15.3%
+   trackbed        12.9%
+   sky              8.5%
+   rail-track       6.6%
+   road             5.7%
+   valore 255       5.1%
+   pole             4.3%
+
+roi33: 273465054 pixel
+   terrain         31.6%
+   trackbed        19.5%
+   rail-track      10.8%
+   road             9.0%
+   valore 255       6.2%
+   sidewalk         5.7%
+   construction     4.2%
+   fence            3.9%

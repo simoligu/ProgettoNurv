@@ -1,0 +1,22 @@
+Classe prevalente lungo i segmenti candidati 'palo' della diagnostica ereditata
+(1700 immagini di validazione RailSem19)
+
+candidati: 35874
+   vegetation      17175   47.9%
+   trackbed         5899   16.4%
+   pole             3074    8.6%
+   construction     2640    7.4%
+   terrain          2066    5.8%
+   rail-track       1979    5.5%
+   valore 255       1149    3.2%
+   fence             667    1.9%
+
+segnalazioni (theta >= 3): 15926
+   vegetation       8333   52.3%
+   trackbed         2579   16.2%
+   pole             1107    7.0%
+   terrain           983    6.2%
+   construction      880    5.5%
+   rail-track        800    5.0%
+   valore 255        446    2.8%
+   fence             260    1.6%

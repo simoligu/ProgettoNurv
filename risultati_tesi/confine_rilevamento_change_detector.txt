@@ -1,0 +1,14 @@
+Confine di rilevamento di mask_to_boxes con anomalie quadrate sintetiche
+(fotogramma 1920x1080, area 2073600 pixel)
+
+ereditata (90 / 8000):
+   lato minimo rilevato (intensita' 255): 91 px  = 0.40% del fotogramma
+   intensita' minima rilevata (quadrato di 400 px): 91
+
+calibrata (150 / 60000):
+   lato minimo rilevato (intensita' 255): 246 px  = 2.92% del fotogramma
+   intensita' minima rilevata (quadrato di 400 px): 151
+
+con compattezza (150 / 15000 / 0,5):
+   lato minimo rilevato (intensita' 255): 124 px  = 0.74% del fotogramma
+   intensita' minima rilevata (quadrato di 400 px): 151

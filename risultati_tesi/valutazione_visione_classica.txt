@@ -1,0 +1,51 @@
+Diagnostica a visione classica contro DeepLabV3+ su RailSem19, 1700 immagini di validazione
+
+A. METODO ESEGUITO DAL CODICE CONSEGNATO (a3f700e, corpo di run)
+
+A1. Vegetazione, maschera HSV [20,30,20]-[95,255,255] contro vegetation (8)
+   HSV, immagine intera               IoU 0.329   precision 0.452   recall 0.547
+   HSV, terzo inferiore               IoU 0.181   precision 0.208   recall 0.583
+   DeepLab, immagine intera           IoU 0.852   precision 0.909   recall 0.932
+   DeepLab, terzo inferiore           IoU 0.680   precision 0.795   recall 0.824
+
+A2. Regola 'vegetazione > 20% del fotogramma' (quella del codice ereditato)
+   immagini in cui la regola scatta sul ground truth: 858
+   HSV        segnala  914   giuste  585   in piu'  329   mancate  273   precision 0.640   recall 0.682
+   DeepLab    segnala  872   giuste  837   in piu'   35   mancate   21   precision 0.960   recall 0.976
+   immagini con HSV oltre il 40% (severita' CRITICA): 472
+
+A3. Pali: segmenti candidati (bande laterali 30%, 80-100 gradi, alti > h/4)
+   candidati: 35874; di cui su pali veri: 3381 (9.4%)
+   segnalazioni (theta >= 3): 15926  (ALTA 12632, CRITICA 3294); su pali veri: 1202
+   immagini con almeno una segnalazione: 1024
+   immagini con pali veri nelle bande: 1526; con almeno un candidato su un palo vero: 687
+
+B. LOGICA DI StructuralDetector.process_frame (presente, mai invocata)
+
+B1. Classificazione per angolo dei segmenti di Hough
+   segmenti su rotaie vere: 38106
+      classificati 'rotaia': 24533 (64.4%)
+      classificati 'palo': 2818 (7.4%)
+      classificati 'scartato': 10755 (28.2%)
+   segmenti su pali veri: 14232
+      classificati 'rotaia': 7182 (50.5%)
+      classificati 'palo': 6337 (44.5%)
+      classificati 'scartato': 713 (5.0%)
+
+B2. Rotaie: skeleton dei segmenti 'rotaia' contro skeleton del ground truth
+   tol 2 px: completezza 0.221   correttezza 0.086   F1 0.123
+   tol 3 px: completezza 0.265   correttezza 0.117   F1 0.162
+   tol 4 px: completezza 0.288   correttezza 0.131   F1 0.180
+   tol 5 px: completezza 0.306   correttezza 0.140   F1 0.192
+   tol 6 px: completezza 0.320   correttezza 0.149   F1 0.203
+   tol 8 px: completezza 0.342   correttezza 0.161   F1 0.219
+   stessa misura per DeepLab (classe rotaie):
+   tol 2 px: completezza 0.645   correttezza 0.644   F1 0.645
+   tol 3 px: completezza 0.774   correttezza 0.773   F1 0.774
+   tol 4 px: completezza 0.831   correttezza 0.830   F1 0.830
+   tol 5 px: completezza 0.866   correttezza 0.865   F1 0.866
+   tol 6 px: completezza 0.893   correttezza 0.892   F1 0.893
+   tol 8 px: completezza 0.927   correttezza 0.923   F1 0.925
+
+B3. Larghezza fra rotaia piu' a sinistra e piu' a destra, a meta' altezza
+   immagini con misura: 1678; con entrambi gli estremi entro 4 px da una rotaia vera: 23
