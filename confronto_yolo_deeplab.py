@@ -89,6 +89,8 @@ def main():
     for stem in stems:
         img = cv2.imread(str(IMG_DIR / f"{stem}.jpg"))
         densa = cv2.imread(str(MASK_DIR / f"{stem}.png"), cv2.IMREAD_GRAYSCALE)
+        if densa is not None and densa.ndim == 3:
+            densa = densa[...,0]
         if img is None or densa is None:
             print(f"  [SALTATA] {stem}: immagine o maschera non trovata")
             continue
