@@ -1,0 +1,64 @@
+====================================================================================================
+ VALIDAZIONE SINTETICA — filtro di compattezza (forma) per ANOMALIA_STRUTTURALE
+====================================================================================================
+
+--- SOLO area (min_area=60000, come calibrazione precedente) ---
+QUADRATI (anomalia-tipo, atteso: rilevati anche piccoli):
+      area  lato(px)  rilevato
+     15000       122        --
+     30000       173        --
+     45000       212        --
+     60000       245        --
+     90000       300        SI
+
+LINEE SOTTILI (rumore-tipo, stessa area nominale, atteso: MAI rilevate):
+      area    rapp.3    rapp.6   rapp.10   rapp.20
+     15000        --        --        --        --
+     30000        --        --        --        --
+     45000        --        --        --        --
+     60000        SI        SI        SI        SI
+     90000        SI        SI        SI        SI
+
+--- area PIU' BASSA + compattezza (min_area=15000, min_compattezza=0.5) ---
+QUADRATI (anomalia-tipo, atteso: rilevati anche piccoli):
+      area  lato(px)  rilevato
+     15000       122        --
+     30000       173        SI
+     45000       212        SI
+     60000       245        SI
+     90000       300        SI
+
+LINEE SOTTILI (rumore-tipo, stessa area nominale, atteso: MAI rilevate):
+      area    rapp.3    rapp.6   rapp.10   rapp.20
+     15000        SI        --        --        --
+     30000        SI        --        --        --
+     45000        SI        --        --        --
+     60000        SI        --        --        --
+     90000        SI        --        --        --
+
+--- area PIU' BASSA + compattezza piu' permissiva (min_area=15000, min_compattezza=0.3) ---
+QUADRATI (anomalia-tipo, atteso: rilevati anche piccoli):
+      area  lato(px)  rilevato
+     15000       122        --
+     30000       173        SI
+     45000       212        SI
+     60000       245        SI
+     90000       300        SI
+
+LINEE SOTTILI (rumore-tipo, stessa area nominale, atteso: MAI rilevate):
+      area    rapp.3    rapp.6   rapp.10   rapp.20
+     15000        SI        SI        --        --
+     30000        SI        SI        --        --
+     45000        SI        SI        --        --
+     60000        SI        SI        --        --
+     90000        SI        SI        --        --
+
+====================================================================================================
+Come leggere: nella tabella QUADRATI, 'SI' e' un successo (anomalia compatta
+rilevata). Nella tabella LINEE SOTTILI, 'SI' e' un FALLIMENTO (rumore allungato
+rilevato per errore, esattamente cio' che il filtro di compattezza dovrebbe evitare).
+
+Confronta le tre configurazioni: se 'area piu' bassa + compattezza' rileva piu'
+quadrati piccoli della configurazione storica, MA continua a scartare tutti i
+rettangoli allungati, il filtro di forma funziona come sperato — permette di
+riguadagnare sensibilita' senza riaprire la porta al rumore.

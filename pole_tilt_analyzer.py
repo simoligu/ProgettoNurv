@@ -49,7 +49,8 @@ class PoleTiltAnalyzer:
                  weights_path: str,
                  angolo_max: float = 22.0,
                  dimensione_input: int = 224,
-                 margine_bbox_frazione: float = 0.25,
+                 margine_bbox_frazione: Optional[float] = None,
+                 margine_orizzontale_frazione_altezza: float = 0.55,
                  device: Optional[str] = None):
         """
         Args:
@@ -62,16 +63,20 @@ class PoleTiltAnalyzer:
             dimensione_input: lato del quadrato di input della rete (deve
                           coincidere con DIMENSIONE_OUTPUT di
                           crop_dataset.py, default 224).
-            margine_bbox_frazione: il bbox prodotto da DeepLab e' stretto
-                          attorno alla sola maschera di segmentazione del
-                          palo, mentre i crop usati in training avevano un
-                          margine di sicurezza generoso attorno al palo
-                          (~0.55x l'altezza in orizzontale, vedi
-                          crop_dataset.py). Per ridurre il mismatch tra
-                          training e inferenza, il bbox viene espanso di
-                          questa frazione (in pixel, sui 4 lati) prima del
-                          crop. 0.25 e' un punto di partenza ragionevole,
-                          da validare/aggiustare su frame video reali.
+            margine_bbox_frazione: None (default) = convenzione di training:
+                          il bbox prodotto da DeepLab e' stretto attorno alla
+                          sola maschera del palo, e viene espanso in
+                          ORIZZONTALE di margine_orizzontale_frazione_altezza
+                          volte la sua ALTEZZA, senza margine verticale, come
+                          i crop di crop_dataset.py. E' la formula validata
+                          su foto reali (valida_pole_tilt_foto_reali.csv).
+                          Un valore numerico ripristina il vecchio margine
+                          simmetrico (quella frazione di larghezza/altezza sui
+                          4 lati): lo usano gli script di validazione che
+                          passano crop gia' pronti (margine 0).
+            margine_orizzontale_frazione_altezza: margine orizzontale della
+                          convenzione di training, come frazione dell'altezza
+                          del bbox (default 0.55, come crop_dataset.py).
             device: "cuda", "cpu", o None per auto-detect.
         """
         if device is None:
@@ -82,6 +87,7 @@ class PoleTiltAnalyzer:
         self.angolo_max = angolo_max
         self.dimensione_input = dimensione_input
         self.margine_bbox_frazione = margine_bbox_frazione
+        self.margine_orizzontale_frazione_altezza = margine_orizzontale_frazione_altezza
 
         self.model = self._load_model(weights_path)
         print(f"[PoleTiltAnalyzer] Modello caricato da {weights_path} | device={self.device}")
@@ -120,8 +126,14 @@ class PoleTiltAnalyzer:
         """Espande il bbox del margine configurato, clampato ai bordi del
         frame. Ritorna (x_min, y_min, x_max, y_max)."""
         x, y, w, h = bbox
-        margine_x = int(w * self.margine_bbox_frazione)
-        margine_y = int(h * self.margine_bbox_frazione)
+        if self.margine_bbox_frazione is None:
+            # convenzione di training (crop_dataset.py): margine orizzontale
+            # proporzionale all'ALTEZZA del bbox, nessun margine verticale
+            margine_x = int(h * self.margine_orizzontale_frazione_altezza)
+            margine_y = 0
+        else:
+            margine_x = int(w * self.margine_bbox_frazione)
+            margine_y = int(h * self.margine_bbox_frazione)
 
         x_min = max(0, x - margine_x)
         y_min = max(0, y - margine_y)
