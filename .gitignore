@@ -14,3 +14,6 @@ data/
 #Cassaforte
 .env
 .bat
+#Immagini derivate da RailSem19: la licenza ne vieta la ridistribuzione
+risultati_tesi/confronto_yolo_deeplab/
+runs_seg/*/predizioni*/
