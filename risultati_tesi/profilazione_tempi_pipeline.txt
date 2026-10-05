@@ -1,0 +1,13 @@
+Profilazione della pipeline — query: data/videos/query.mp4, reference: data/videos/reference.mp4
+Dispositivo per le reti: cuda; sample_step=8, seg_step=30, sync_map attiva
+Tempo totale di run(): 378.9 s (6 min 19 s)
+
+blocco                         secondi  % totale  chiamate  ms/chiamata
+allineamento omografico           80.8     21.3%       607        133.0
+sottrazione dello sfondo           7.7      2.0%      1202          6.4
+lettura del riferimento           59.3     15.6%       601         98.6
+YOLO (ostacoli)                   49.3     13.0%      4803         10.3
+DeepLab                           23.2      6.1%       161        143.8
+invio degli allarmi                0.5      0.1%        46         10.9
+di cui regressore pali             2.4      0.6%       318          7.5
+altro                            158.1     41.7%         0          nan
